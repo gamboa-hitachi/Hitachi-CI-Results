@@ -1,0 +1,191 @@
+[[local|localrc]]
+FORCE=yes
+HOST_IP=172.25.93.57
+USE_PYTHON3=True
+PYTHON3_VERSION=3.10
+PIP_UPGRADE=True
+CINDER_ENABLED_BACKENDS=400010_iSCSI
+CINDER_REPO=https://review.opendev.org/openstack/cinder
+CINDER_BRANCH=refs/changes/11/958611/5
+Q_USE_DEBUG_COMMAND=True
+NETWORK_GATEWAY=10.1.0.1
+USE_SCREEN=False
+DATA_DIR=/opt/stack/data
+ACTIVE_TIMEOUT=180
+BOOT_TIMEOUT=180
+ASSOCIATE_TIMEOUT=120
+TERMINATE_TIMEOUT=120
+MYSQL_PASSWORD=Hitachino1
+DATABASE_PASSWORD=Hitachino1
+RABBIT_PASSWORD=Hitachino1
+ADMIN_PASSWORD=Hitachino1
+SERVICE_PASSWORD=Hitachino1
+SERVICE_TOKEN=111222333444
+SWIFT_HASH=1234123412341234
+ROOTSLEEP=0
+INSTALL_TEMPEST=True
+NOVNC_FROM_PACKAGE=True
+#ENABLED_SERVICES=c-api,c-bak,c-sch,c-vol,ceilometer-acentral,ceilometer-acompute,ceilometer-alarm-evaluator,ceilometer-alarm-notifier,ceilometer-anotification,ceilometer-api,ceilometer-collector,cinder,dstat,etcd3,g-api,g-reg,key,mysql,n-api,n-api-meta,n-cauth,n-cond,n-cpu,n-novnc,n-obj,n-sch,peakmem_tracker,placement-api,q-agt,q-dhcp,q-l3,q-meta,q-metering,q-svc,rabbit,s-account,s-container,s-object,s-proxy,tempest
+ENABLED_SERVICES=c-api,c-bak,c-sch,c-vol,cinder,etcd3,g-api,g-reg,key,mysql,n-api,n-api-meta,n-cauth,n-cond,n-cpu,n-novnc,n-obj,n-sch,placement-api,q-agt,q-dhcp,q-l3,q-meta,q-metering,q-svc,rabbit,s-account,s-container,s-object,s-proxy,tempest,horizon
+#ENABLED_SERVICES=c-api,c-bak,c-sch,c-vol,ceilometer-acentral,ceilometer-acompute,ceilometer-alarm-evaluator,ceilometer-alarm-notifier,ceilometer-anotification,ceilometer-api,ceilometer-collector,cinder,dstat,etcd3,g-api,g-reg,key,mysql,n-api,n-api-meta,n-cauth,n-cond,n-cpu,n-novnc,n-obj,n-sch,memory_tracker,placement-api,q-dhcp,q-meta,q-metering,q-svc,rabbit,s-account,s-container,s-object,s-proxy,tempest
+SKIP_EXERCISES=boot_from_volume,bundle,client-env,euca
+SYSLOG=False
+SCREEN_LOGDIR=/opt/stack/logs
+LOGFILE=/opt/stack/logs/stack.sh.log
+VERBOSE=True
+IP_VERSION=4
+FIXED_RANGE=10.1.0.0/20
+IPV4_ADDRS_SAFE_TO_USE=10.1.0.0/20
+FLOATING_RANGE=172.24.5.0/24
+PUBLIC_NETWORK_GATEWAY=172.24.5.1
+FIXED_NETWORK_SIZE=4096
+VIRT_DRIVER=libvirt
+SWIFT_REPLICAS=1
+SWIFT_START_ALL_SERVICES=False
+LOG_COLOR=False
+UNDO_REQUIREMENTS=False
+CINDER_PERIODIC_INTERVAL=10
+EBTABLES_RACE_FIX=True
+DEBUG_LIBVIRT_COREDUMPS=True
+CINDER_VOLUME_CLEAR=none
+LIBVIRT_TYPE=qemu
+VOLUME_BACKING_FILE_SIZE=24G
+TEMPEST_HTTP_IMAGE=http://git.openstack.org/static/openstack.png
+FORCE_CONFIG_DRIVE=False
+TEMPEST_PLUGINS="git+https://opendev.org/openstack/cinder-tempest-plugin.git"
+GLANCE_STANDALONE=False
+Q_AGENT=openvswitch
+Q_ML2_TENANT_NETWORK_TYPE=vxlan
+Q_ML2_PLUGIN_MECHANISM_DRIVERS=openvswitch
+IMAGE_URLS=file:///root/devstack_tool/images/cirros/cirros-0.6.1-x86_64-disk.raw
+DOWNLOAD_DEFAULT_IMAGES=False
+TEMPEST_RUN_VALIDATION=False
+ENABLE_VOLUME_MULTIATTACH=False
+
+[[post-config|$GLANCE_API_CONF]]
+[DEFAULT]
+log_dir = /var/log/glance
+logging_context_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [%(request_id)s %(user_identity)s] %(instance)s%(message)s
+logging_default_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s
+debug = False
+[glance_store]
+# /var/log/glance/glance-wsgi-api.log
+# 2023-05-29 14:30:25.741 1244176 ERROR glance_store._drivers.swift.store [req-d456c70d-80c8-46a2-9ae5-ebf98866bfe4 8fc18c2bcfce4024bef02b3a782b0914 64b8a4e1dbb04112acfe7b32e67ba49d - - default default] Error during chunked upload to backend, deleting stale chunks.: swiftclient.exceptions.ClientException: put_object('glance', 'f2cb4186-19aa-4dfd-b452-4bf722d5e8ed-00006', ...) failure and no ability to reset contents for reupload.
+swift_store_expire_soon_interval = 600
+
+[[post-config|$NEUTRON_CONF]]
+[DEFAULT]
+log_dir = /var/log/neutron
+logging_context_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [%(request_id)s %(user_identity)s] %(instance)s%(message)s
+logging_default_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s
+debug = False
+
+[[post-config|$NOVA_CONF]]
+[DEFAULT]
+block_device_allocate_retries = 240
+block_device_allocate_retries_interval = 20
+rpc_response_timeout = 3600
+log_dir = /var/log/nova
+logging_context_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [%(request_id)s %(user_identity)s] %(instance)s%(message)s
+logging_default_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s
+debug = False
+cpu_allocation_ratio = 100
+ram_allocation_ratio = 100
+disk_allocation_ratio = 100
+
+[libvirt]
+num_volume_scan_tries = 100
+# disable multipath to avoid the following error
+# /var/log/nova/nova-compute.log
+# ERROR nova.compute.manager [instance: 0581eb18-249e-4fa8-8e93-7de81ff21a9a] libvirt.libvirtError: Unable to get minor number of device '/dev/dm-1': Invalid argument
+volume_use_multipath = False
+
+[[post-config|$CINDER_CONF]]
+[DEFAULT]
+rpc_response_timeout = 3600
+default_volume_type = 400010_iSCSI
+enabled_backends = 400010_iSCSI
+log_dir = /var/log/cinder
+logging_context_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [%(request_id)s %(user_identity)s] %(instance)s%(message)s
+logging_default_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s
+debug = True
+num_volume_device_scan_tries = 100
+periodic_interval = 3600
+
+[COORDINATION]
+backend_url = file:///tmp/cinderlock
+
+[400010_iSCSI]
+volume_driver = cinder.volume.drivers.hitachi.hbsd_iscsi.HBSDISCSIDriver
+volume_backend_name = 400010_iSCSI
+hitachi_storage_id = 900000030078
+hitachi_pools = HiStor-DP-Pool
+hitachi_ldev_range = 22000-22099
+hitachi_target_ports = CL1-C
+hitachi_group_create = True
+san_ip = 172.25.47.120
+san_api_port = 443
+san_login = ucpa
+san_password = Hitachi1
+suppress_requests_ssl_warnings = True
+max_over_subscription_ratio = 2147483647
+use_multipath_for_image_xfer = False
+enforce_multipath_for_image_xfer = False
+image_volume_cache_enabled = True
+hitachi_enable_extend_volume_having_snapshots = True
+# disable multipath to avoid the following error
+# /var/log/cinder/cinder-volume.log
+# Command: multipath -f /dev/disk/by-id/dm-uuid-mpath-360060e8012000a005040000a000055f0
+# Exit code: 1
+# Stderr: "420655.218883 | '/dev/disk/by-id/dm-uuid-mpath-360060e8012000a005040000a000055f0' is not a valid argument\n\n"
+use_multipath_for_image_xfer = False
+enforce_multipath_for_image_xfer = False
+
+[[test-config|$TEMPEST_CONFIG]]
+[compute-feature-enabled]
+attach_encrypted_volume = False
+interface_attach = False
+volume_multiattach = False
+
+[volume-feature-enabled]
+backup = False
+api_v1 = False
+snapshot_manage = False
+manage_snapshot = False
+volume_manage = True
+manage_volume = True
+consistency_group = True
+volume_revert = True
+extend_attached_volume = True
+
+[volume]
+storage_protocol = iSCSI
+vendor_name = Hitachi
+build_timeout = 900
+build_interval = 1
+manage_volume_ref = source-name,%s
+
+[compute]
+build_timeout = 2100
+build_interval = 1
+
+[image]
+build_timeout = 1500
+
+[validation]
+image_ssh_user = cirros
+image_ssh_password = gocubsgo
+image_alt_ssh_user = cirros
+image_alt_ssh_password = gocubsgo
+ping_timeout = 600
+ssh_timeout = 600
+run_validation = True
+
+[scenario]
+img_file = /root/devstack_tool/images/cirros/cirros-0.6.1-x86_64-disk.raw
+img_container_format = bare
+img_disk_format = raw
+
+[[post-extra|$TEMPEST_CONFIG]]
+[DEFAULT]
+log_file = tempest.txt

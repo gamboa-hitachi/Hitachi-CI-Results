@@ -1,0 +1,7 @@
+Sep 04 09:00:50.527134 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@n-sch.service.
+Sep 04 10:58:24.361088 devstack-u2204-93-57 systemd[1]: Stopping Devstack devstack@n-sch.service...
+Sep 04 10:58:25.485763 devstack-u2204-93-57 systemd[1]: devstack@n-sch.service: Deactivated successfully.
+Sep 04 10:58:25.486235 devstack-u2204-93-57 systemd[1]: Stopped Devstack devstack@n-sch.service.
+Sep 04 10:58:25.486976 devstack-u2204-93-57 systemd[1]: devstack@n-sch.service: Consumed 2min 12.925s CPU time.
+-- Boot 52ed5d2249b549e58c6370190f23783e --
+Sep 04 10:58:55.760091 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@n-sch.service.

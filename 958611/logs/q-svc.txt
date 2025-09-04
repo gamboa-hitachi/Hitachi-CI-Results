@@ -1,0 +1,9 @@
+Sep 04 09:00:50.543968 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@q-svc.service.
+Sep 04 09:00:53.517946 devstack-u2204-93-57 neutron-server[1038]: This program is using eventlet and has been monkey_patched
+Sep 04 10:58:24.362583 devstack-u2204-93-57 systemd[1]: Stopping Devstack devstack@q-svc.service...
+Sep 04 10:58:39.471024 devstack-u2204-93-57 systemd[1]: devstack@q-svc.service: Deactivated successfully.
+Sep 04 10:58:39.472004 devstack-u2204-93-57 systemd[1]: Stopped Devstack devstack@q-svc.service.
+Sep 04 10:58:39.472257 devstack-u2204-93-57 systemd[1]: devstack@q-svc.service: Consumed 21min 24.364s CPU time.
+-- Boot 52ed5d2249b549e58c6370190f23783e --
+Sep 04 10:58:55.778814 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@q-svc.service.
+Sep 04 10:58:59.090754 devstack-u2204-93-57 neutron-server[1028]: This program is using eventlet and has been monkey_patched

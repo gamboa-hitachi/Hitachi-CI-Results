@@ -1,0 +1,9 @@
+Sep 04 09:00:50.542129 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@q-metering.service.
+Sep 04 09:00:53.578262 devstack-u2204-93-57 neutron-metering-agent[1037]: This program is using eventlet and has been monkey_patched
+Sep 04 10:58:24.362415 devstack-u2204-93-57 systemd[1]: Stopping Devstack devstack@q-metering.service...
+Sep 04 10:58:29.409764 devstack-u2204-93-57 systemd[1]: devstack@q-metering.service: Deactivated successfully.
+Sep 04 10:58:29.410401 devstack-u2204-93-57 systemd[1]: Stopped Devstack devstack@q-metering.service.
+Sep 04 10:58:29.410645 devstack-u2204-93-57 systemd[1]: devstack@q-metering.service: Consumed 10.117s CPU time.
+-- Boot 52ed5d2249b549e58c6370190f23783e --
+Sep 04 10:58:55.776683 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@q-metering.service.
+Sep 04 10:58:58.820856 devstack-u2204-93-57 neutron-metering-agent[1027]: This program is using eventlet and has been monkey_patched

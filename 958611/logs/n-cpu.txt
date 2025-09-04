@@ -1,0 +1,39 @@
+Sep 04 06:50:52.040936 devstack-u2204-93-57 sudo[130649]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context nova.privsep.sys_admin_pctxt --privsep_sock_path /tmp/tmpyxkh3mkk/privsep.sock
+Sep 04 06:50:52.042686 devstack-u2204-93-57 sudo[130649]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Sep 04 06:50:53.270309 devstack-u2204-93-57 sudo[130649]: pam_unix(sudo:session): session closed for user root
+Sep 04 06:50:55.174156 devstack-u2204-93-57 sudo[130957]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context vif_plug_ovs.privsep.vif_plug --privsep_sock_path /tmp/tmp818e4q94/privsep.sock
+Sep 04 06:50:55.175132 devstack-u2204-93-57 sudo[130957]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Sep 04 06:50:56.484435 devstack-u2204-93-57 sudo[130957]: pam_unix(sudo:session): session closed for user root
+Sep 04 06:51:14.069976 devstack-u2204-93-57 sudo[132968]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmps3tj8knp/privsep.sock
+Sep 04 06:51:14.071465 devstack-u2204-93-57 sudo[132968]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Sep 04 06:51:16.368295 devstack-u2204-93-57 sudo[132968]: pam_unix(sudo:session): session closed for user root
+-- Boot fece37cdf67940a68633be69e2e185d1 --
+Sep 04 09:00:50.522974 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@n-cpu.service.
+Sep 04 09:18:55.217353 devstack-u2204-93-57 sudo[5681]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context nova.privsep.sys_admin_pctxt --privsep_sock_path /tmp/tmph1d1iccm/privsep.sock
+Sep 04 09:18:55.218962 devstack-u2204-93-57 sudo[5681]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Sep 04 09:18:56.533670 devstack-u2204-93-57 sudo[5681]: pam_unix(sudo:session): session closed for user root
+Sep 04 09:18:59.236843 devstack-u2204-93-57 sudo[5885]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context vif_plug_ovs.privsep.vif_plug --privsep_sock_path /tmp/tmp93j5v47d/privsep.sock
+Sep 04 09:18:59.239374 devstack-u2204-93-57 sudo[5885]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Sep 04 09:19:00.552741 devstack-u2204-93-57 sudo[5885]: pam_unix(sudo:session): session closed for user root
+Sep 04 09:19:39.583479 devstack-u2204-93-57 sudo[8911]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmpn92sk0_b/privsep.sock
+Sep 04 09:19:39.584933 devstack-u2204-93-57 sudo[8911]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Sep 04 09:19:40.816247 devstack-u2204-93-57 sudo[8911]: pam_unix(sudo:session): session closed for user root
+Sep 04 10:58:24.360617 devstack-u2204-93-57 systemd[1]: Stopping Devstack devstack@n-cpu.service...
+Sep 04 10:58:29.392153 devstack-u2204-93-57 systemd[1]: devstack@n-cpu.service: Main process exited, code=killed, status=14/ALRM
+Sep 04 10:58:29.392170 devstack-u2204-93-57 systemd[1]: devstack@n-cpu.service: Failed with result 'signal'.
+Sep 04 10:58:29.392220 devstack-u2204-93-57 systemd[1]: devstack@n-cpu.service: Unit process 5738 (privsep-helper) remains running after unit stopped.
+Sep 04 10:58:29.392248 devstack-u2204-93-57 systemd[1]: devstack@n-cpu.service: Unit process 5989 (privsep-helper) remains running after unit stopped.
+Sep 04 10:58:29.392273 devstack-u2204-93-57 systemd[1]: devstack@n-cpu.service: Unit process 8929 (privsep-helper) remains running after unit stopped.
+Sep 04 10:58:29.392592 devstack-u2204-93-57 systemd[1]: Stopped Devstack devstack@n-cpu.service.
+Sep 04 10:58:29.394270 devstack-u2204-93-57 systemd[1]: devstack@n-cpu.service: Consumed 4min 38.180s CPU time.
+-- Boot 52ed5d2249b549e58c6370190f23783e --
+Sep 04 10:58:55.755261 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@n-cpu.service.
+Sep 04 11:00:26.621193 devstack-u2204-93-57 sudo[3232]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context nova.privsep.sys_admin_pctxt --privsep_sock_path /tmp/tmp9jx6jtom/privsep.sock
+Sep 04 11:00:26.622630 devstack-u2204-93-57 sudo[3232]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Sep 04 11:00:27.942678 devstack-u2204-93-57 sudo[3232]: pam_unix(sudo:session): session closed for user root
+Sep 04 11:00:32.983254 devstack-u2204-93-57 sudo[3346]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context vif_plug_ovs.privsep.vif_plug --privsep_sock_path /tmp/tmpn133wh3f/privsep.sock
+Sep 04 11:00:32.984293 devstack-u2204-93-57 sudo[3346]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Sep 04 11:00:34.181500 devstack-u2204-93-57 sudo[3346]: pam_unix(sudo:session): session closed for user root
+Sep 04 11:00:54.735235 devstack-u2204-93-57 sudo[5104]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmp4gio9gsk/privsep.sock
+Sep 04 11:00:54.736067 devstack-u2204-93-57 sudo[5104]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Sep 04 11:00:56.421229 devstack-u2204-93-57 sudo[5104]: pam_unix(sudo:session): session closed for user root

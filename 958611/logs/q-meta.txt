@@ -1,0 +1,7 @@
+Sep 04 09:00:50.540337 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@q-meta.service.
+Sep 04 10:58:24.362229 devstack-u2204-93-57 systemd[1]: Stopping Devstack devstack@q-meta.service...
+Sep 04 10:58:24.528783 devstack-u2204-93-57 systemd[1]: devstack@q-meta.service: Deactivated successfully.
+Sep 04 10:58:24.535497 devstack-u2204-93-57 systemd[1]: Stopped Devstack devstack@q-meta.service.
+Sep 04 10:58:24.535726 devstack-u2204-93-57 systemd[1]: devstack@q-meta.service: Consumed 29.090s CPU time.
+-- Boot 52ed5d2249b549e58c6370190f23783e --
+Sep 04 10:58:55.774077 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@q-meta.service.
