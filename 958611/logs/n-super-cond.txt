@@ -1,7 +1,0 @@
-Sep 04 09:00:50.529557 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@n-super-cond.service.
-Sep 04 10:58:24.361266 devstack-u2204-93-57 systemd[1]: Stopping Devstack devstack@n-super-cond.service...
-Sep 04 10:58:27.689665 devstack-u2204-93-57 systemd[1]: devstack@n-super-cond.service: Deactivated successfully.
-Sep 04 10:58:27.690483 devstack-u2204-93-57 systemd[1]: Stopped Devstack devstack@n-super-cond.service.
-Sep 04 10:58:27.690660 devstack-u2204-93-57 systemd[1]: devstack@n-super-cond.service: Consumed 2min 26.152s CPU time.
--- Boot 52ed5d2249b549e58c6370190f23783e --
-Sep 04 10:58:55.762785 devstack-u2204-93-57 systemd[1]: Started Devstack devstack@n-super-cond.service.
