@@ -1,4 +1,4 @@
-³+@\hè$äà#È@IsetUpClass (tempest.api.volume.test_volumes_negative.VolumesNegativeTest)G|¿î³+pI hè$äà#È@IsetUpClass (tempest.api.volume.test_volumes_negative.VolumesNegativeTest)-text/x-traceback;charset=utf8,language=python	tracebackHŠTraceback (most recent call last):
+³+@\hè.ÒÝ=R0@IsetUpClass (tempest.api.volume.test_volumes_negative.VolumesNegativeTest)õÎ÷*³+pI hè.ÒÝ=R0@IsetUpClass (tempest.api.volume.test_volumes_negative.VolumesNegativeTest)-text/x-traceback;charset=utf8,language=python	tracebackHŠTraceback (most recent call last):
   File "/opt/stack/tempest/tempest/test.py", line 185, in setUpClass
     raise value.with_traceback(trace)
   File "/opt/stack/tempest/tempest/test.py", line 170, in setUpClass
@@ -27,4 +27,4 @@
     raise exceptions.InvalidCredentials(message)
 tempest.lib.exceptions.InvalidCredentials: Invalid Credentials
 Details: Credentials are: {'domain_id': None, 'domain_name': 'Default', 'username': None, 'project_domain_id': None, 'project_domain_name': 'Default', 'project_id': None, 'project_name': None, 'tenant_id': None, 'tenant_name': None, 'user_domain_id': None, 'user_domain_name': 'Default', 'user_id': None, 'system': None} Password is not defined.
-]´‡$³+†@fhè$äà#È@IsetUpClass (tempest.api.volume.test_volumes_negative.VolumesNegativeTest)worker-0?àž}
+¯ÄI³+†@fhè.ÒÝ=R0@IsetUpClass (tempest.api.volume.test_volumes_negative.VolumesNegativeTest)worker-0Çê
