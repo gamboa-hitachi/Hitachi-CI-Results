@@ -1,1 +1,30 @@
-No repository found in /opt/stack/tempest. Create one by running "stestr init".
+³+@\hè$äà#È@IsetUpClass (tempest.api.volume.test_volumes_negative.VolumesNegativeTest)G|¿î³+pI hè$äà#È@IsetUpClass (tempest.api.volume.test_volumes_negative.VolumesNegativeTest)-text/x-traceback;charset=utf8,language=python	tracebackHŠTraceback (most recent call last):
+  File "/opt/stack/tempest/tempest/test.py", line 185, in setUpClass
+    raise value.with_traceback(trace)
+  File "/opt/stack/tempest/tempest/test.py", line 170, in setUpClass
+    cls.setup_credentials()
+  File "/opt/stack/tempest/tempest/api/volume/base.py", line 62, in setup_credentials
+    super(BaseVolumeTest, cls).setup_credentials()
+  File "/opt/stack/tempest/tempest/test.py", line 398, in setup_credentials
+    manager = cls.get_client_manager(
+  File "/opt/stack/tempest/tempest/test.py", line 727, in get_client_manager
+    cred_provider = cls._get_credentials_provider()
+  File "/opt/stack/tempest/tempest/test.py", line 702, in _get_credentials_provider
+    cls._creds_provider = credentials.get_credentials_provider(
+  File "/opt/stack/tempest/tempest/common/credentials_factory.py", line 141, in get_credentials_provider
+    **get_dynamic_provider_params(identity_version))
+  File "/opt/stack/tempest/tempest/common/credentials_factory.py", line 72, in get_dynamic_provider_params
+    admin_creds = admin_creds or get_configured_admin_credentials(
+  File "/opt/stack/tempest/tempest/common/credentials_factory.py", line 257, in get_configured_admin_credentials
+    credentials = get_credentials(fill_in=fill_in,
+  File "/opt/stack/tempest/tempest/common/credentials_factory.py", line 300, in get_credentials
+    return auth.get_credentials(auth_url,
+  File "/opt/stack/tempest/tempest/lib/auth.py", line 648, in get_credentials
+    auth_provider = auth_provider_class(
+  File "/opt/stack/tempest/tempest/lib/auth.py", line 264, in __init__
+    super(KeystoneAuthProvider, self).__init__(credentials, scope)
+  File "/opt/stack/tempest/tempest/lib/auth.py", line 92, in __init__
+    raise exceptions.InvalidCredentials(message)
+tempest.lib.exceptions.InvalidCredentials: Invalid Credentials
+Details: Credentials are: {'domain_id': None, 'domain_name': 'Default', 'username': None, 'project_domain_id': None, 'project_domain_name': 'Default', 'project_id': None, 'project_name': None, 'tenant_id': None, 'tenant_name': None, 'user_domain_id': None, 'user_domain_name': 'Default', 'user_id': None, 'system': None} Password is not defined.
+]´‡$³+†@fhè$äà#È@IsetUpClass (tempest.api.volume.test_volumes_negative.VolumesNegativeTest)worker-0?àž}
