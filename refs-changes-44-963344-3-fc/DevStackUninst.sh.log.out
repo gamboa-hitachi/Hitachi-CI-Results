@@ -1,0 +1,292 @@
+openstack server list --all-projects
+Server cleanup ended. remaining server count: 0
+openstack volume snapshot list --all-projects --long
+Snapshot cleanup ended. remaining snapshot count: 0
+openstack volume list --all-projects --long
+Volume cleanup ended. remaining volume count: 0
+[INFO] Deletion of existing LDEVs started.
+[ERROR] Getting REST API settings failed.
+----- DevStackCleanup ended. server count: 0 snapshot count: 0 volume count: 0 -----
+Site nova-api already disabled
+Site nova-api already disabled
+Site nova-api already disabled
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms erlang-asn1 erlang-base erlang-crypto erlang-eldap
+  erlang-ftp erlang-inets erlang-mnesia erlang-os-mon erlang-parsetools
+  erlang-public-key erlang-runtime-tools erlang-snmp erlang-ssl
+  erlang-syntax-tools erlang-tftp erlang-tools erlang-xmerl
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  rabbitmq-server*
+0 upgraded, 0 newly installed, 1 to remove and 35 not upgraded.
+After this operation, 23.0 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 279113 files and directories currently installed.)
+Removing rabbitmq-server (3.9.27-0ubuntu0.2) ...
+Processing triggers for man-db (2.10.2-1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 277431 files and directories currently installed.)
+Purging configuration files for rabbitmq-server (3.9.27-0ubuntu0.2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'erlang-base-hipe' is not installed, so not removed
+Package 'erlang-typer' is not installed, so not removed
+Package 'erlang-asciideck' is not installed, so not removed
+Package 'erlang-base64url' is not installed, so not removed
+Package 'erlang-bbmustache' is not installed, so not removed
+Package 'erlang-bear' is not installed, so not removed
+Package 'erlang-bitcask' is not installed, so not removed
+Package 'erlang-bitcask-dev' is not installed, so not removed
+Package 'erlang-cf' is not installed, so not removed
+Package 'erlang-cl' is not installed, so not removed
+Package 'erlang-cowboy' is not installed, so not removed
+Package 'erlang-cowboy-doc' is not installed, so not removed
+Package 'erlang-cowboy-examples' is not installed, so not removed
+Package 'erlang-cowlib' is not installed, so not removed
+Package 'erlang-cuttlefish' is not installed, so not removed
+Package 'erlang-erlware-commons' is not installed, so not removed
+Package 'erlang-erlware-commons-dev' is not installed, so not removed
+Package 'erlang-esdl' is not installed, so not removed
+Package 'erlang-esdl-dev' is not installed, so not removed
+Package 'erlang-esdl-doc' is not installed, so not removed
+Package 'erlang-folsom' is not installed, so not removed
+Package 'erlang-folsom-dev' is not installed, so not removed
+Package 'erlang-getopt' is not installed, so not removed
+Package 'erlang-goldrush' is not installed, so not removed
+Package 'erlang-horse' is not installed, so not removed
+Package 'erlang-idna' is not installed, so not removed
+Package 'erlang-jiffy' is not installed, so not removed
+Package 'erlang-jose' is not installed, so not removed
+Package 'erlang-lager' is not installed, so not removed
+Package 'erlang-luerl' is not installed, so not removed
+Package 'erlang-meck' is not installed, so not removed
+Package 'erlang-metrics' is not installed, so not removed
+Package 'erlang-mimerl' is not installed, so not removed
+Package 'erlang-mochiweb' is not installed, so not removed
+Package 'erlang-neotoma' is not installed, so not removed
+Package 'erlang-p1-acme' is not installed, so not removed
+Package 'erlang-p1-cache-tab' is not installed, so not removed
+Package 'erlang-p1-eimp' is not installed, so not removed
+Package 'erlang-p1-iconv' is not installed, so not removed
+Package 'erlang-p1-mqtree' is not installed, so not removed
+Package 'erlang-p1-mysql' is not installed, so not removed
+Package 'erlang-p1-oauth2' is not installed, so not removed
+Package 'erlang-p1-pam' is not installed, so not removed
+Package 'erlang-p1-pgsql' is not installed, so not removed
+Package 'erlang-p1-pkix' is not installed, so not removed
+Package 'erlang-p1-sip' is not installed, so not removed
+Package 'erlang-p1-sqlite3' is not installed, so not removed
+Package 'erlang-p1-stringprep' is not installed, so not removed
+Package 'erlang-p1-stun' is not installed, so not removed
+Package 'erlang-p1-tls' is not installed, so not removed
+Package 'erlang-p1-utils' is not installed, so not removed
+Package 'erlang-p1-xml' is not installed, so not removed
+Package 'erlang-p1-xmpp' is not installed, so not removed
+Package 'erlang-p1-yaml' is not installed, so not removed
+Package 'erlang-p1-yconf' is not installed, so not removed
+Package 'erlang-p1-zlib' is not installed, so not removed
+Package 'erlang-poolboy' is not installed, so not removed
+Package 'erlang-proper' is not installed, so not removed
+Package 'erlang-proper-dev' is not installed, so not removed
+Package 'erlang-proper-doc' is not installed, so not removed
+Package 'erlang-ranch' is not installed, so not removed
+Package 'erlang-ranch-doc' is not installed, so not removed
+Package 'erlang-redis-client' is not installed, so not removed
+Package 'erlang-unicode-util-compat' is not installed, so not removed
+Package 'erlang-uuid' is not installed, so not removed
+Package 'erlang-yapp' is not installed, so not removed
+Package 'erlang-yaws' is not installed, so not removed
+Package 'erlang-dev' is not installed, so not removed
+Package 'erlang-doc' is not installed, so not removed
+Package 'erlang-examples' is not installed, so not removed
+Package 'erlang-megaco' is not installed, so not removed
+Package 'erlang-ssh' is not installed, so not removed
+Package 'erlang' is not installed, so not removed
+Package 'erlang-common-test' is not installed, so not removed
+Package 'erlang-debugger' is not installed, so not removed
+Package 'erlang-dialyzer' is not installed, so not removed
+Package 'erlang-diameter' is not installed, so not removed
+Package 'erlang-edoc' is not installed, so not removed
+Package 'erlang-erl-docgen' is not installed, so not removed
+Package 'erlang-et' is not installed, so not removed
+Package 'erlang-eunit' is not installed, so not removed
+Package 'erlang-jinterface' is not installed, so not removed
+Package 'erlang-manpages' is not installed, so not removed
+Package 'erlang-mode' is not installed, so not removed
+Package 'erlang-nox' is not installed, so not removed
+Package 'erlang-observer' is not installed, so not removed
+Package 'erlang-odbc' is not installed, so not removed
+Package 'erlang-reltool' is not installed, so not removed
+Package 'erlang-src' is not installed, so not removed
+Package 'erlang-wx' is not installed, so not removed
+Package 'erlang-x11' is not installed, so not removed
+The following package was automatically installed and is no longer required:
+  apport-symptoms
+Use 'sudo apt autoremove' to remove it.
+The following packages will be REMOVED:
+  erlang-asn1* erlang-base* erlang-crypto* erlang-eldap* erlang-ftp*
+  erlang-inets* erlang-mnesia* erlang-os-mon* erlang-parsetools*
+  erlang-public-key* erlang-runtime-tools* erlang-snmp* erlang-ssl*
+  erlang-syntax-tools* erlang-tftp* erlang-tools* erlang-xmerl*
+0 upgraded, 0 newly installed, 17 to remove and 35 not upgraded.
+After this operation, 31.7 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 277425 files and directories currently installed.)
+Removing erlang-eldap (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-inets (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-xmerl (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-tools (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-os-mon (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-snmp (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-ftp (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-parsetools (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-syntax-tools (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-tftp (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-ssl (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-public-key (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-asn1 (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-crypto (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-runtime-tools (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-mnesia (1:24.2.1+dfsg-1ubuntu0.5) ...
+Removing erlang-base (1:24.2.1+dfsg-1ubuntu0.5) ...
+Searching for services which depend on erlang and should be stopped... none found.
+Killing epmd... it is not running.
+Processing triggers for man-db (2.10.2-1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 276326 files and directories currently installed.)
+Purging configuration files for erlang-base (1:24.2.1+dfsg-1ubuntu0.5) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'mysql-client-5.7' is not installed, so not removed
+Package 'mysql-client-core-5.7' is not installed, so not removed
+Package 'mysql-server-5.5' is not installed, so not removed
+Package 'mysql-server-5.7' is not installed, so not removed
+Package 'mysql-server-core-5.7' is not installed, so not removed
+Package 'mysql-client-core-5.5' is not installed, so not removed
+Package 'mysql-client-core-5.6' is not installed, so not removed
+Package 'mysql-client-5.5' is not installed, so not removed
+Package 'mysql-client-5.6' is not installed, so not removed
+Package 'mysql-server-core-5.5' is not installed, so not removed
+Package 'mysql-server-core-5.6' is not installed, so not removed
+Package 'mysql-server-5.6' is not installed, so not removed
+Package 'mysql-testsuite-5.5' is not installed, so not removed
+Package 'mysql-testsuite-5.6' is not installed, so not removed
+Package 'mysql-testsuite-5.7' is not installed, so not removed
+Package 'mariadb-client-10.1' is not installed, so not removed
+Package 'mariadb-client-10.3' is not installed, so not removed
+Package 'mariadb-client-core-10.1' is not installed, so not removed
+Package 'mariadb-client-core-10.3' is not installed, so not removed
+Package 'mariadb-server-5.5' is not installed, so not removed
+Package 'mariadb-server-10.1' is not installed, so not removed
+Package 'mariadb-server-10.3' is not installed, so not removed
+Package 'mariadb-server-core-10.1' is not installed, so not removed
+Package 'mariadb-server-core-10.3' is not installed, so not removed
+Package 'mariadb-galera-server-10.0' is not installed, so not removed
+Package 'mariadb-galera-server-5.5' is not installed, so not removed
+Package 'mariadb-server-10.0' is not installed, so not removed
+Package 'mariadb-server-5.1' is not installed, so not removed
+Package 'mariadb-server-5.2' is not installed, so not removed
+Package 'mariadb-server-5.3' is not installed, so not removed
+Package 'mariadb-backup-10.1' is not installed, so not removed
+Package 'mariadb-backup-10.2' is not installed, so not removed
+Package 'mariadb-backup-10.3' is not installed, so not removed
+Package 'mariadb-client-10.0' is not installed, so not removed
+Package 'mariadb-client-10.2' is not installed, so not removed
+Package 'mariadb-client-10.4' is not installed, so not removed
+Package 'mariadb-client-10.5' is not installed, so not removed
+Package 'mariadb-client-5.5' is not installed, so not removed
+Package 'mariadb-client-core-10.0' is not installed, so not removed
+Package 'mariadb-client-core-10.2' is not installed, so not removed
+Package 'mariadb-client-core-10.4' is not installed, so not removed
+Package 'mariadb-client-core-10.5' is not installed, so not removed
+Package 'mariadb-client-core-5.5' is not installed, so not removed
+Package 'mariadb-connect-engine-10.0' is not installed, so not removed
+Package 'mariadb-connect-engine-10.1' is not installed, so not removed
+Package 'mariadb-gssapi-client-10.1' is not installed, so not removed
+Package 'mariadb-gssapi-client-10.2' is not installed, so not removed
+Package 'mariadb-gssapi-server-10.1' is not installed, so not removed
+Package 'mariadb-gssapi-server-10.2' is not installed, so not removed
+Package 'mariadb-oqgraph-engine-10.0' is not installed, so not removed
+Package 'mariadb-oqgraph-engine-10.1' is not installed, so not removed
+Package 'mariadb-rocksdb-engine-10.2' is not installed, so not removed
+Package 'mariadb-rocksdb-engine-10.3' is not installed, so not removed
+Package 'mariadb-tokudb-engine-10.0' is not installed, so not removed
+Package 'mariadb-tokudb-engine-10.1' is not installed, so not removed
+Package 'mariadb-tokudb-engine-5.5' is not installed, so not removed
+Package 'mariadb-galera-server' is not installed, so not removed
+Package 'mariadb-server-10.2' is not installed, so not removed
+Package 'mariadb-server-10.4' is not installed, so not removed
+Package 'mariadb-server-10.5' is not installed, so not removed
+Package 'mariadb-server-core-10.0' is not installed, so not removed
+Package 'mariadb-server-core-10.2' is not installed, so not removed
+Package 'mariadb-server-core-10.4' is not installed, so not removed
+Package 'mariadb-server-core-10.5' is not installed, so not removed
+Package 'mariadb-server-core-5.5' is not installed, so not removed
+Package 'mariadb-test-10.0' is not installed, so not removed
+Package 'mariadb-test-10.1' is not installed, so not removed
+Package 'mariadb-test-5.5' is not installed, so not removed
+Package 'mariadb-test-data-10.0' is not installed, so not removed
+Package 'mariadb-testsuite-10.1' is not installed, so not removed
+Package 'mariadb-testsuite-10.3' is not installed, so not removed
+Package 'mysql-sandbox' is not installed, so not removed
+Package 'mysqltcl' is not installed, so not removed
+Package 'mysqltuner' is not installed, so not removed
+Package 'mysql-client' is not installed, so not removed
+Package 'mariadb-backup' is not installed, so not removed
+Package 'mariadb-client' is not installed, so not removed
+Package 'mariadb-client-10.6' is not installed, so not removed
+Package 'mariadb-client-core-10.6' is not installed, so not removed
+Package 'mariadb-common' is not installed, so not removed
+Package 'mariadb-plugin-connect' is not installed, so not removed
+Package 'mariadb-plugin-cracklib-password-check' is not installed, so not removed
+Package 'mariadb-plugin-gssapi-client' is not installed, so not removed
+Package 'mariadb-plugin-gssapi-server' is not installed, so not removed
+Package 'mariadb-plugin-mroonga' is not installed, so not removed
+Package 'mariadb-plugin-oqgraph' is not installed, so not removed
+Package 'mariadb-plugin-rocksdb' is not installed, so not removed
+Package 'mariadb-plugin-s3' is not installed, so not removed
+Package 'mariadb-plugin-spider' is not installed, so not removed
+Package 'mariadb-server' is not installed, so not removed
+Package 'mariadb-server-10.6' is not installed, so not removed
+Package 'mariadb-server-core-10.6' is not installed, so not removed
+Package 'mariadb-test' is not installed, so not removed
+Package 'mariadb-test-data' is not installed, so not removed
+Package 'mysql-router' is not installed, so not removed
+Package 'mysql-source-8.0' is not installed, so not removed
+Package 'mysql-testsuite' is not installed, so not removed
+Package 'mysql-testsuite-8.0' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  apport-symptoms libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-7
+  libevent-pthreads-2.1-7 libfcgi-bin libfcgi-perl libfcgi0ldbl
+  libhtml-template-perl libmecab2 libprotobuf-lite23 mecab-ipadic
+  mecab-ipadic-utf8 mecab-utils
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  libmysqlclient21* mysql-client-8.0* mysql-client-core-8.0* mysql-common*
+  mysql-server* mysql-server-8.0* mysql-server-core-8.0* python3-mysqldb*
+0 upgraded, 0 newly installed, 8 to remove and 35 not upgraded.
+After this operation, 192 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 276326 files and directories currently installed.)
+Removing python3-mysqldb (1.4.6-1build1) ...
+Removing libmysqlclient21:amd64 (8.0.43-0ubuntu0.22.04.2) ...
+Removing mysql-server (8.0.43-0ubuntu0.22.04.2) ...
+Removing mysql-server-8.0 (8.0.43-0ubuntu0.22.04.2) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Removing mysql-client-8.0 (8.0.43-0ubuntu0.22.04.2) ...
+Removing mysql-client-core-8.0 (8.0.43-0ubuntu0.22.04.2) ...
+Removing mysql-common (5.8+1.0.8) ...
+Removing mysql-server-core-8.0 (8.0.43-0ubuntu0.22.04.2) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.11) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 276081 files and directories currently installed.)
+Purging configuration files for mysql-server-8.0 (8.0.43-0ubuntu0.22.04.2) ...
+Purging configuration files for mysql-common (5.8+1.0.8) ...
+dpkg: warning: while removing mysql-common, directory '/etc/mysql' not empty so not removed
+ Id   Name   State
+--------------------
+
+ Id   Name   State
+--------------------
+
+----- DevStackUninst success -----
