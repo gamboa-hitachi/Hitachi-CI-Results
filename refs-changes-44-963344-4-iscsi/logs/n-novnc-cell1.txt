@@ -1,0 +1,6 @@
+Oct 10 16:42:24.650481 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@n-novnc-cell1.service.
+Oct 10 16:42:27.370051 devstack-u2204-93-55 nova-novncproxy[74933]: INFO nova.console.websocketproxy [-] WebSocket server settings:
+Oct 10 16:42:27.371183 devstack-u2204-93-55 nova-novncproxy[74933]: INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+Oct 10 16:42:27.371183 devstack-u2204-93-55 nova-novncproxy[74933]: INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+Oct 10 16:42:27.371183 devstack-u2204-93-55 nova-novncproxy[74933]: INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+Oct 10 16:42:27.372300 devstack-u2204-93-55 nova-novncproxy[74933]: INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
