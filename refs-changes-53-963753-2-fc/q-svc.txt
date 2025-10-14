@@ -1,2 +1,0 @@
-Oct 14 09:29:09.596633 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@q-svc.service.
-Oct 14 09:29:10.299534 devstack-u2204-93-55 neutron-server[520749]: This program is using eventlet and has been monkey_patched
