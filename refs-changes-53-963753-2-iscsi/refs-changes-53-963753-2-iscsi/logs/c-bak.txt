@@ -1,0 +1,1 @@
+Oct 13 18:47:57.382201 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@c-bak.service.
