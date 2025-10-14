@@ -1,0 +1,37 @@
+Oct 14 09:30:34.441736 devstack-u2204-93-55 systemd[1]: Starting Devstack devstack@n-api-meta.service...
+Oct 14 09:30:34.456283 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: [uWSGI] getting INI configuration from /etc/nova/nova-metadata-uwsgi.ini
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: *** Starting uWSGI 2.0.20-debian (64bit) on [Tue Oct 14 09:30:34 2025] ***
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: compiled with version: 11.2.0 on 21 March 2022 11:00:44
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: os: Linux-6.8.0-85-generic #85~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 16:18:59 UTC 2
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: nodename: devstack-u2204-93-55
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: machine: x86_64
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: clock source: unix
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: pcre jit disabled
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: detected number of CPU cores: 8
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: current working directory: /
+Oct 14 09:30:34.459985 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: detected binary path: /usr/bin/uwsgi-core
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: your processes number limit is 95421
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: your memory page size is 4096 bytes
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: detected max file descriptor number: 2048
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: lock engine: pthread robust mutexes
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: thunder lock: enabled
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: uWSGI http bound on 0.0.0.0:8775 fd 5
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: uwsgi socket 0 bound to TCP address 127.0.0.1:41103 (port auto-assigned) fd 4
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: Python version: 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0]
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: PEP 405 virtualenv detected: /opt/stack/data/venv
+Oct 14 09:30:34.461814 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: Set PythonHome to /opt/stack/data/venv
+Oct 14 09:30:34.515217 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: Python main interpreter initialized at 0x5bd1f6b60800
+Oct 14 09:30:34.515217 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: python threads support enabled
+Oct 14 09:30:34.515217 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: your server socket listen backlog is limited to 100 connections
+Oct 14 09:30:34.515217 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: your mercy for graceful operations on workers is 80 seconds
+Oct 14 09:30:34.516090 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: mapped 403077 bytes (393 KB) for 2 cores
+Oct 14 09:30:34.516090 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: *** Operational MODE: preforking ***
+Oct 14 09:30:34.516090 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: *** uWSGI is running in multiple interpreter mode ***
+Oct 14 09:30:34.516090 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: spawned uWSGI master process (pid: 526336)
+Oct 14 09:30:34.516341 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@n-api-meta.service.
+Oct 14 09:30:34.516892 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: spawned uWSGI worker 1 (pid: 526337, cores: 1)
+Oct 14 09:30:34.517243 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: spawned uWSGI worker 2 (pid: 526338, cores: 1)
+Oct 14 09:30:34.517848 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: spawned uWSGI http 1 (pid: 526339)
+Oct 14 09:30:34.517848 devstack-u2204-93-55 devstack@n-api-meta.service[526336]: running "unix_signal:15 gracefully_kill_them_all" (master-start)...
+Oct 14 09:30:38.374028 devstack-u2204-93-55 devstack@n-api-meta.service[526337]: WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x5bd1f6b60800 pid: 526337 (default app)
+Oct 14 09:30:38.472382 devstack-u2204-93-55 devstack@n-api-meta.service[526338]: WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x5bd1f6b60800 pid: 526338 (default app)
