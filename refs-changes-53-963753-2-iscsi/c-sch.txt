@@ -1,1 +1,1 @@
-Oct 14 09:31:06.150962 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@c-sch.service.
+Oct 13 18:47:53.973062 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@c-sch.service.
