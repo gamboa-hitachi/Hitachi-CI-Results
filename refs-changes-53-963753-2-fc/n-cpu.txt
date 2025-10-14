@@ -1,0 +1,2 @@
+Oct 14 09:30:50.679178 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@n-cpu.service.
+Oct 14 09:30:56.542023 devstack-u2204-93-55 nova-compute[529179]: libvirt:  error : internal error: could not initialize domain event timer
