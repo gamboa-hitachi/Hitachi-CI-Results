@@ -12,7 +12,7 @@ image_format_enforcement = True
 [network]
 default_network = 10.1.0.0/20
 public_router_id = 
-public_network_id = 2277ab32-7b0d-4740-bd9e-b8dfcbcf9702
+public_network_id = 9a407e1f-e07b-4a1f-bab4-6521f72405f2
 project_networks_reachable = false
 project_network_cidr = 10.1.0.0/20
 
@@ -30,8 +30,8 @@ build_interval = 1
 max_microversion = 2.100
 flavor_ref_alt = 84
 flavor_ref = 42
-image_ref_alt = f271c14d-b153-47c7-8a6c-19116feb77fa
-image_ref = f271c14d-b153-47c7-8a6c-19116feb77fa
+image_ref_alt = 1a62b599-582f-46db-83a8-fdde5d7487b5
+image_ref = 1a62b599-582f-46db-83a8-fdde5d7487b5
 build_timeout = 1800
 
 [volume]
