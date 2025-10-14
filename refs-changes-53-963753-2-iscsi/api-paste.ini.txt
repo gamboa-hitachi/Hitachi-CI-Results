@@ -1,68 +1,101 @@
+############
+# Metadata #
+############
+[composite:metadata]
+use = egg:Paste#urlmap
+/: meta
+
+[pipeline:meta]
+pipeline = cors http_proxy_to_wsgi metaapp
+
+[app:metaapp]
+paste.app_factory = nova.api.metadata.handler:MetadataRequestHandler.factory
+
 #############
 # OpenStack #
 #############
 
-[composite:osapi_volume]
-use = call:cinder.api:root_app_factory
-/: apiversions
-/healthcheck: healthcheck
-/v3: openstack_volume_api_v3
+[composite:osapi_compute]
+use = call:nova.api.openstack.urlmap:urlmap_factory
+/: oscomputeversions
+/v2: oscomputeversion_legacy_v2
+/v2.1: oscomputeversion_v2
+# v21 is an exactly feature match for v2, except it has more stringent
+# input validation on the wsgi surface (prevents fuzzing early on the
+# API). It also provides new features via API microversions which are
+# opt into for clients. Unaware clients will receive the same frozen
+# v2 API feature set, but with some relaxed validation
+/v2/+: openstack_compute_api_v21_legacy_v2_compatible
+/v2.1/+: openstack_compute_api_v21
 
-[composite:openstack_volume_api_v3]
-use = call:cinder.api.middleware.auth:pipeline_factory
-noauth = request_id cors http_proxy_to_wsgi faultwrap sizelimit osprofiler noauth apiv3
-noauth_include_project_id = request_id cors http_proxy_to_wsgi faultwrap sizelimit osprofiler noauth_include_project_id apiv3
-keystone = request_id cors http_proxy_to_wsgi faultwrap sizelimit osprofiler authtoken keystonecontext apiv3
-keystone_nolimit = request_id cors http_proxy_to_wsgi faultwrap sizelimit osprofiler authtoken keystonecontext apiv3
+[composite:openstack_compute_api_v21]
+use = call:nova.api.auth:pipeline_factory_v21
+keystone = cors http_proxy_to_wsgi compute_req_id faultwrap request_log sizelimit osprofiler authtoken keystonecontext osapi_compute_app_v21
+# DEPRECATED: The [api]auth_strategy conf option is deprecated and will be
+# removed in a subsequent release, whereupon this pipeline will be unreachable.
+noauth2 = cors http_proxy_to_wsgi compute_req_id faultwrap request_log sizelimit osprofiler noauth2 osapi_compute_app_v21
+
+[composite:openstack_compute_api_v21_legacy_v2_compatible]
+use = call:nova.api.auth:pipeline_factory_v21
+keystone = cors http_proxy_to_wsgi compute_req_id faultwrap request_log sizelimit osprofiler authtoken keystonecontext legacy_v2_compatible osapi_compute_app_v21
+# DEPRECATED: The [api]auth_strategy conf option is deprecated and will be
+# removed in a subsequent release, whereupon this pipeline will be unreachable.
+noauth2 = cors http_proxy_to_wsgi compute_req_id faultwrap request_log sizelimit osprofiler noauth2 legacy_v2_compatible osapi_compute_app_v21
+
+[filter:request_log]
+paste.filter_factory = nova.api.openstack.requestlog:RequestLog.factory
+
+[filter:compute_req_id]
+paste.filter_factory = nova.api.compute_req_id:ComputeReqIdMiddleware.factory
+
+[filter:faultwrap]
+paste.filter_factory = nova.api.openstack:FaultWrapper.factory
+
+# DEPRECATED: NoAuthMiddleware will be removed in a subsequent release,
+# whereupon this filter will cease to function.
+[filter:noauth2]
+paste.filter_factory = nova.api.openstack.auth:NoAuthMiddleware.factory
+
+[filter:osprofiler]
+paste.filter_factory = nova.profiler:WsgiMiddleware.factory
+
+[filter:sizelimit]
+paste.filter_factory = oslo_middleware:RequestBodySizeLimiter.factory
 
 [filter:http_proxy_to_wsgi]
 paste.filter_factory = oslo_middleware.http_proxy_to_wsgi:HTTPProxyToWSGI.factory
 
-[filter:cors]
-paste.filter_factory = oslo_middleware.cors:filter_factory
-oslo_config_project = cinder
+[filter:legacy_v2_compatible]
+paste.filter_factory = nova.api.openstack:LegacyV2CompatibleWrapper.factory
 
-[filter:faultwrap]
-paste.filter_factory = cinder.api.middleware.fault:FaultWrapper.factory
+[app:osapi_compute_app_v21]
+paste.app_factory = nova.api.openstack.compute:APIRouterV21.factory
 
-[filter:osprofiler]
-paste.filter_factory = osprofiler.web:WsgiMiddleware.factory
+[pipeline:oscomputeversions]
+pipeline = cors faultwrap request_log http_proxy_to_wsgi oscomputeversionapp
 
-[filter:noauth]
-paste.filter_factory = cinder.api.middleware.auth:NoAuthMiddleware.factory
+[pipeline:oscomputeversion_v2]
+pipeline = cors compute_req_id faultwrap request_log http_proxy_to_wsgi oscomputeversionapp_v2
 
-[filter:noauth_include_project_id]
-paste.filter_factory = cinder.api.middleware.auth:NoAuthMiddlewareIncludeProjectID.factory
+[pipeline:oscomputeversion_legacy_v2]
+pipeline = cors compute_req_id faultwrap request_log http_proxy_to_wsgi legacy_v2_compatible oscomputeversionapp_v2
 
-[filter:sizelimit]
-paste.filter_factory = oslo_middleware.sizelimit:RequestBodySizeLimiter.factory
+[app:oscomputeversionapp]
+paste.app_factory = nova.api.openstack.compute.versions:Versions.factory
 
-[app:apiv3]
-paste.app_factory = cinder.api.v3.router:APIRouter.factory
-
-[pipeline:apiversions]
-pipeline = request_id cors http_proxy_to_wsgi faultwrap osvolumeversionapp
-
-[app:osvolumeversionapp]
-paste.app_factory = cinder.api.versions:Versions.factory
-
-[pipeline:healthcheck]
-pipeline = request_id healthcheckapp
-
-[app:healthcheckapp]
-paste.app_factory = oslo_middleware:Healthcheck.app_factory
-backends = disable_by_file
-disable_by_file_path = /etc/cinder/healthcheck_disable
+[app:oscomputeversionapp_v2]
+paste.app_factory = nova.api.openstack.compute.versions:VersionsV2.factory
 
 ##########
 # Shared #
 ##########
 
+[filter:cors]
+paste.filter_factory = oslo_middleware.cors:filter_factory
+oslo_config_project = nova
+
 [filter:keystonecontext]
-paste.filter_factory = cinder.api.middleware.auth:CinderKeystoneContext.factory
+paste.filter_factory = nova.api.auth:NovaKeystoneContext.factory
 
 [filter:authtoken]
 paste.filter_factory = keystonemiddleware.auth_token:filter_factory
-
-[filter:request_id]
-paste.filter_factory = cinder.api.middleware.request_id:RequestId.factory
