@@ -1,6 +1,6 @@
-Oct 14 09:30:38.079120 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@n-novnc-cell1.service.
-Oct 14 09:30:40.722894 devstack-u2204-93-55 nova-novncproxy[526937]: INFO nova.console.websocketproxy [-] WebSocket server settings:
-Oct 14 09:30:40.724366 devstack-u2204-93-55 nova-novncproxy[526937]: INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
-Oct 14 09:30:40.724366 devstack-u2204-93-55 nova-novncproxy[526937]: INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
-Oct 14 09:30:40.724366 devstack-u2204-93-55 nova-novncproxy[526937]: INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
-Oct 14 09:30:40.724366 devstack-u2204-93-55 nova-novncproxy[526937]: INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
+Oct 13 18:47:25.287115 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@n-novnc-cell1.service.
+Oct 13 18:47:28.063357 devstack-u2204-93-55 nova-novncproxy[192723]: INFO nova.console.websocketproxy [-] WebSocket server settings:
+Oct 13 18:47:28.064239 devstack-u2204-93-55 nova-novncproxy[192723]: INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+Oct 13 18:47:28.064239 devstack-u2204-93-55 nova-novncproxy[192723]: INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+Oct 13 18:47:28.064239 devstack-u2204-93-55 nova-novncproxy[192723]: INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+Oct 13 18:47:28.064780 devstack-u2204-93-55 nova-novncproxy[192723]: INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
