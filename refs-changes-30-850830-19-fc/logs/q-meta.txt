@@ -1,0 +1,1 @@
+Oct 14 17:53:32.321072 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@q-meta.service.
