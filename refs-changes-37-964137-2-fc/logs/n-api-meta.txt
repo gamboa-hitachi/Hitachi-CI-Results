@@ -1,0 +1,53 @@
+Oct 14 23:20:33.022548 devstack-u2204-93-55 systemd[1]: Starting Devstack devstack@n-api-meta.service...
+Oct 14 23:20:33.033123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: [uWSGI] getting INI configuration from /etc/nova/nova-metadata-uwsgi.ini
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: *** Starting uWSGI 2.0.20-debian (64bit) on [Tue Oct 14 23:20:33 2025] ***
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: compiled with version: 11.2.0 on 21 March 2022 11:00:44
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: os: Linux-6.8.0-85-generic #85~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 16:18:59 UTC 2
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: nodename: devstack-u2204-93-55
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: machine: x86_64
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: clock source: unix
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: pcre jit disabled
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: detected number of CPU cores: 8
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: current working directory: /
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: detected binary path: /usr/bin/uwsgi-core
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: your processes number limit is 95421
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: your memory page size is 4096 bytes
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: detected max file descriptor number: 2048
+Oct 14 23:20:33.036123 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: lock engine: pthread robust mutexes
+Oct 14 23:20:33.037331 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: thunder lock: enabled
+Oct 14 23:20:33.037331 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: uWSGI http bound on 0.0.0.0:8775 fd 5
+Oct 14 23:20:33.037331 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: uwsgi socket 0 bound to TCP address 127.0.0.1:33709 (port auto-assigned) fd 4
+Oct 14 23:20:33.037331 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: Python version: 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0]
+Oct 14 23:20:33.037331 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: PEP 405 virtualenv detected: /opt/stack/data/venv
+Oct 14 23:20:33.037331 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: Set PythonHome to /opt/stack/data/venv
+Oct 14 23:20:33.100336 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: Python main interpreter initialized at 0x58c12bc55810
+Oct 14 23:20:33.100336 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: python threads support enabled
+Oct 14 23:20:33.100336 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: your server socket listen backlog is limited to 100 connections
+Oct 14 23:20:33.100336 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: your mercy for graceful operations on workers is 80 seconds
+Oct 14 23:20:33.100875 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: mapped 403077 bytes (393 KB) for 2 cores
+Oct 14 23:20:33.101063 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: *** Operational MODE: preforking ***
+Oct 14 23:20:33.101483 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: *** uWSGI is running in multiple interpreter mode ***
+Oct 14 23:20:33.101483 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: spawned uWSGI master process (pid: 1318449)
+Oct 14 23:20:33.101822 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@n-api-meta.service.
+Oct 14 23:20:33.102263 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: spawned uWSGI worker 1 (pid: 1318450, cores: 1)
+Oct 14 23:20:33.102890 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: spawned uWSGI worker 2 (pid: 1318451, cores: 1)
+Oct 14 23:20:33.103873 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: spawned uWSGI http 1 (pid: 1318452)
+Oct 14 23:20:33.103873 devstack-u2204-93-55 devstack@n-api-meta.service[1318449]: running "unix_signal:15 gracefully_kill_them_all" (master-start)...
+Oct 14 23:20:37.649999 devstack-u2204-93-55 devstack@n-api-meta.service[1318450]: WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x58c12bc55810 pid: 1318450 (default app)
+Oct 14 23:20:37.780892 devstack-u2204-93-55 devstack@n-api-meta.service[1318451]: WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x58c12bc55810 pid: 1318451 (default app)
+Oct 14 23:27:10.819336 devstack-u2204-93-55 devstack@n-api-meta.service[1318450]: [pid: 1318450|app: 0|req: 1/1] 172.25.93.55 () {40 vars in 694 bytes} [Tue Oct 14 23:27:09 2025] GET /2009-04-04/meta-data/instance-id => generated 10 bytes in 882 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+Oct 14 23:27:12.155204 devstack-u2204-93-55 devstack@n-api-meta.service[1318451]: [pid: 1318451|app: 0|req: 1/2] 172.25.93.55 () {40 vars in 694 bytes} [Tue Oct 14 23:27:12 2025] GET /2009-04-04/meta-data/public-keys => generated 28 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+Oct 14 23:27:13.391194 devstack-u2204-93-55 devstack@n-api-meta.service[1318450]: [pid: 1318450|app: 0|req: 2/3] 172.25.93.55 () {40 vars in 722 bytes} [Tue Oct 14 23:27:13 2025] GET /2009-04-04/meta-data/public-keys/0/openssh-key => generated 204 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+Oct 14 23:27:14.679265 devstack-u2204-93-55 devstack@n-api-meta.service[1318451]: [pid: 1318451|app: 0|req: 2/4] 172.25.93.55 () {40 vars in 694 bytes} [Tue Oct 14 23:27:14 2025] GET /2009-04-04/meta-data/instance-id => generated 10 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+Oct 14 23:27:15.977212 devstack-u2204-93-55 devstack@n-api-meta.service[1318450]: [pid: 1318450|app: 0|req: 3/5] 172.25.93.55 () {40 vars in 704 bytes} [Tue Oct 14 23:27:15 2025] GET /2009-04-04/meta-data/ami-launch-index => generated 1 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 98 bytes (1 switches on core 0)
+Oct 14 23:27:17.263759 devstack-u2204-93-55 devstack@n-api-meta.service[1318451]: [pid: 1318451|app: 0|req: 3/6] 172.25.93.55 () {40 vars in 698 bytes} [Tue Oct 14 23:27:17 2025] GET /2009-04-04/meta-data/instance-type => generated 7 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 98 bytes (1 switches on core 0)
+Oct 14 23:27:18.549826 devstack-u2204-93-55 devstack@n-api-meta.service[1318450]: [pid: 1318450|app: 0|req: 4/7] 172.25.93.55 () {40 vars in 692 bytes} [Tue Oct 14 23:27:18 2025] GET /2009-04-04/meta-data/local-ipv4 => generated 8 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 98 bytes (1 switches on core 0)
+Oct 14 23:27:19.860372 devstack-u2204-93-55 devstack@n-api-meta.service[1318451]: [pid: 1318451|app: 0|req: 4/8] 172.25.93.55 () {40 vars in 694 bytes} [Tue Oct 14 23:27:19 2025] GET /2009-04-04/meta-data/public-ipv4 => generated 12 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+Oct 14 23:27:21.149708 devstack-u2204-93-55 devstack@n-api-meta.service[1318450]: [pid: 1318450|app: 0|req: 5/9] 172.25.93.55 () {40 vars in 688 bytes} [Tue Oct 14 23:27:21 2025] GET /2009-04-04/meta-data/hostname => generated 73 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+Oct 14 23:27:22.464810 devstack-u2204-93-55 devstack@n-api-meta.service[1318451]: [pid: 1318451|app: 0|req: 5/10] 172.25.93.55 () {40 vars in 700 bytes} [Tue Oct 14 23:27:22 2025] GET /2009-04-04/meta-data/local-hostname => generated 73 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+Oct 14 23:27:23.748749 devstack-u2204-93-55 devstack@n-api-meta.service[1318450]: [pid: 1318450|app: 0|req: 6/11] 172.25.93.55 () {40 vars in 670 bytes} [Tue Oct 14 23:27:23 2025] GET /2009-04-04/user-data => generated 95 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+Oct 14 23:27:25.048011 devstack-u2204-93-55 devstack@n-api-meta.service[1318451]: [pid: 1318451|app: 0|req: 6/12] 172.25.93.55 () {40 vars in 712 bytes} [Tue Oct 14 23:27:25 2025] GET /2009-04-04/meta-data/block-device-mapping => generated 8 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 98 bytes (1 switches on core 0)
+Oct 14 23:27:26.478023 devstack-u2204-93-55 devstack@n-api-meta.service[1318450]: [pid: 1318450|app: 0|req: 7/13] 172.25.93.55 () {40 vars in 720 bytes} [Tue Oct 14 23:27:26 2025] GET /2009-04-04/meta-data/block-device-mapping/ami => generated 3 bytes in 188 msecs (HTTP/1.1 200) 3 headers in 98 bytes (1 switches on core 0)
+Oct 14 23:27:27.698110 devstack-u2204-93-55 devstack@n-api-meta.service[1318451]: [pid: 1318451|app: 0|req: 7/14] 172.25.93.55 () {40 vars in 722 bytes} [Tue Oct 14 23:27:27 2025] GET /2009-04-04/meta-data/block-device-mapping/root => generated 8 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 98 bytes (1 switches on core 0)
+Oct 14 23:27:28.958491 devstack-u2204-93-55 devstack@n-api-meta.service[1318450]: [pid: 1318450|app: 0|req: 8/15] 172.25.93.55 () {40 vars in 702 bytes} [Tue Oct 14 23:27:28 2025] GET /2009-04-04/meta-data/public-hostname => generated 73 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+Oct 14 23:27:30.245816 devstack-u2204-93-55 devstack@n-api-meta.service[1318451]: [pid: 1318451|app: 0|req: 8/16] 172.25.93.55 () {40 vars in 726 bytes} [Tue Oct 14 23:27:30 2025] GET /2009-04-04/meta-data/placement/availability-zone => generated 4 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 98 bytes (1 switches on core 0)
