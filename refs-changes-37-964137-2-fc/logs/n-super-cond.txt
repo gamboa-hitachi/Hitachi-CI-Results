@@ -1,0 +1,1 @@
+Oct 14 23:20:40.903339 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@n-super-cond.service.
