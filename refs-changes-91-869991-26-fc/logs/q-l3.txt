@@ -1,0 +1,13 @@
+Oct 14 17:02:20.600083 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@q-l3.service.
+Oct 14 17:02:21.265461 devstack-u2204-93-55 neutron-l3-agent[800964]: This program is using eventlet and has been monkey_patched
+Oct 14 17:02:25.658041 devstack-u2204-93-55 sudo[801796]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/l3_agent.ini --privsep_context neutron.privileged.namespace_cmd --privsep_sock_path /tmp/tmpjvfv1p3g/privsep.sock
+Oct 14 17:02:25.659935 devstack-u2204-93-55 sudo[801796]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 17:02:26.900434 devstack-u2204-93-55 sudo[801796]: pam_unix(sudo:session): session closed for user root
+Oct 14 17:03:04.746675 devstack-u2204-93-55 sudo[802683]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/l3_agent.ini --privsep_context neutron.privileged.default --privsep_sock_path /tmp/tmpv4r1boyk/privsep.sock
+Oct 14 17:03:04.748327 devstack-u2204-93-55 sudo[802683]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 17:03:06.100822 devstack-u2204-93-55 sudo[802683]: pam_unix(sudo:session): session closed for user root
+Oct 14 17:03:07.839749 devstack-u2204-93-55 sudo[802788]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/l3_agent.ini --privsep_context neutron.privileged.link_cmd --privsep_sock_path /tmp/tmpofpofn1q/privsep.sock
+Oct 14 17:03:07.841212 devstack-u2204-93-55 sudo[802788]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 17:03:09.176133 devstack-u2204-93-55 sudo[802788]: pam_unix(sudo:session): session closed for user root
+Oct 14 17:03:12.340418 devstack-u2204-93-55 sudo[803042]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Oct 14 17:03:12.341935 devstack-u2204-93-55 sudo[803042]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
