@@ -1,0 +1,4 @@
+Oct 14 22:21:26.282827 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@q-svc.service.
+Oct 14 22:21:26.984858 devstack-u2204-93-55 neutron-server[1211026]: This program is using eventlet and has been monkey_patched
+Oct 14 22:28:06.404793 devstack-u2204-93-55 neutron-server[1211141]: /opt/stack/data/venv/lib/python3.10/site-packages/neutron_lib/db/model_query.py:373: SAWarning: DELETE statement on table 'ml2_port_bindings' expected to delete 1 row(s); 0 were matched.  Please set confirm_deleted_rows=False within the mapper configuration to prevent this warning. (This warning originated from the Session 'autoflush' process, which was invoked automatically in response to a user-initiated operation. Consider using ``no_autoflush`` context manager if this warning happended while initializing objects.)
+Oct 14 22:28:06.404793 devstack-u2204-93-55 neutron-server[1211141]:   items = [
