@@ -1,0 +1,4 @@
+Oct 14 20:07:45.522535 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@c-vol.service.
+Oct 14 20:07:57.523175 devstack-u2204-93-55 sudo[1113719]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf privsep-helper --config-file /etc/cinder/cinder.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmp35lceioq/privsep.sock
+Oct 14 20:07:57.524585 devstack-u2204-93-55 sudo[1113719]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 20:07:58.786968 devstack-u2204-93-55 sudo[1113719]: pam_unix(sudo:session): session closed for user root
