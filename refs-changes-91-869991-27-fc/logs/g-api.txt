@@ -1,0 +1,48 @@
+Oct 14 19:02:47.109150 devstack-u2204-93-55 systemd[1]: Starting Devstack devstack@g-api.service...
+Oct 14 19:02:47.125900 devstack-u2204-93-55 devstack@g-api.service[1010566]: [uWSGI] getting INI configuration from /etc/glance/glance-uwsgi.ini
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: *** Starting uWSGI 2.0.20-debian (64bit) on [Tue Oct 14 19:02:47 2025] ***
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: compiled with version: 11.2.0 on 21 March 2022 11:00:44
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: os: Linux-6.8.0-85-generic #85~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 16:18:59 UTC 2
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: nodename: devstack-u2204-93-55
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: machine: x86_64
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: clock source: unix
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: pcre jit disabled
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: detected number of CPU cores: 8
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: current working directory: /
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: detected binary path: /usr/bin/uwsgi-core
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: your processes number limit is 95421
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: your memory page size is 4096 bytes
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: detected max file descriptor number: 2048
+Oct 14 19:02:47.130135 devstack-u2204-93-55 devstack@g-api.service[1010566]: lock engine: pthread robust mutexes
+Oct 14 19:02:47.131826 devstack-u2204-93-55 devstack@g-api.service[1010566]: thunder lock: enabled
+Oct 14 19:02:47.131826 devstack-u2204-93-55 devstack@g-api.service[1010566]: uwsgi socket 0 bound to TCP address 127.0.0.1:60999 fd 4
+Oct 14 19:02:47.131826 devstack-u2204-93-55 devstack@g-api.service[1010566]: Python version: 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0]
+Oct 14 19:02:47.131826 devstack-u2204-93-55 devstack@g-api.service[1010566]: PEP 405 virtualenv detected: /opt/stack/data/venv
+Oct 14 19:02:47.131826 devstack-u2204-93-55 devstack@g-api.service[1010566]: Set PythonHome to /opt/stack/data/venv
+Oct 14 19:02:47.194401 devstack-u2204-93-55 devstack@g-api.service[1010566]: Python main interpreter initialized at 0x5f7ebce73840
+Oct 14 19:02:47.194401 devstack-u2204-93-55 devstack@g-api.service[1010566]: python threads support enabled
+Oct 14 19:02:47.194401 devstack-u2204-93-55 devstack@g-api.service[1010566]: your server socket listen backlog is limited to 100 connections
+Oct 14 19:02:47.194401 devstack-u2204-93-55 devstack@g-api.service[1010566]: your mercy for graceful operations on workers is 80 seconds
+Oct 14 19:02:47.194401 devstack-u2204-93-55 devstack@g-api.service[1010566]: mapped 403077 bytes (393 KB) for 2 cores
+Oct 14 19:02:47.194401 devstack-u2204-93-55 devstack@g-api.service[1010566]: *** Operational MODE: preforking ***
+Oct 14 19:02:47.194401 devstack-u2204-93-55 devstack@g-api.service[1010566]: *** uWSGI is running in multiple interpreter mode ***
+Oct 14 19:02:47.194401 devstack-u2204-93-55 devstack@g-api.service[1010566]: spawned uWSGI master process (pid: 1010566)
+Oct 14 19:02:47.194401 devstack-u2204-93-55 devstack@g-api.service[1010566]: spawned uWSGI worker 1 (pid: 1010567, cores: 1)
+Oct 14 19:02:47.195286 devstack-u2204-93-55 devstack@g-api.service[1010566]: spawned uWSGI worker 2 (pid: 1010568, cores: 1)
+Oct 14 19:02:47.195286 devstack-u2204-93-55 devstack@g-api.service[1010566]: running "unix_signal:15 gracefully_kill_them_all" (master-start)...
+Oct 14 19:02:47.194799 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@g-api.service.
+Oct 14 19:02:51.033716 devstack-u2204-93-55 devstack@g-api.service[1010568]: WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x5f7ebce73840 pid: 1010568 (default app)
+Oct 14 19:02:51.036443 devstack-u2204-93-55 devstack@g-api.service[1010568]: [pid: 1010568|app: 0|req: 1/1] 127.0.0.1 () {32 vars in 402 bytes} [Tue Oct 14 19:02:51 2025] GET / => generated 1420 bytes in 2 msecs (HTTP/1.1 300) 3 headers in 106 bytes (1 switches on core 0)
+Oct 14 19:02:51.091048 devstack-u2204-93-55 devstack@g-api.service[1010567]: WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x5f7ebce73840 pid: 1010567 (default app)
+Oct 14 19:02:53.964155 devstack-u2204-93-55 devstack@g-api.service[1010568]: [pid: 1010568|app: 0|req: 2/2] 127.0.0.1 () {34 vars in 519 bytes} [Tue Oct 14 19:02:53 2025] GET / => generated 1420 bytes in 5 msecs (HTTP/1.1 300) 3 headers in 106 bytes (1 switches on core 0)
+Oct 14 19:02:56.243431 devstack-u2204-93-55 devstack@g-api.service[1010567]: [pid: 1010567|app: 0|req: 1/3] 127.0.0.1 () {40 vars in 782 bytes} [Tue Oct 14 19:02:53 2025] POST /v2/images => generated 805 bytes in 2255 msecs (HTTP/1.1 201) 6 headers in 314 bytes (1 switches on core 0)
+Oct 14 19:03:02.364236 devstack-u2204-93-55 devstack@g-api.service[1010568]: [pid: 1010568|app: 0|req: 3/4] 127.0.0.1 () {40 vars in 876 bytes} [Tue Oct 14 19:02:56 2025] PUT /v2/images/982be5a1-b03a-42ec-a01c-e0a051868113/file => generated 0 bytes in 6101 msecs (HTTP/1.1 204) 4 headers in 171 bytes (1 switches on core 0)
+Oct 14 19:03:02.408274 devstack-u2204-93-55 devstack@g-api.service[1010567]: [pid: 1010567|app: 0|req: 2/5] 127.0.0.1 () {36 vars in 802 bytes} [Tue Oct 14 19:03:02 2025] GET /v2/images/982be5a1-b03a-42ec-a01c-e0a051868113 => generated 975 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 157 bytes (1 switches on core 0)
+Oct 14 19:03:46.515529 devstack-u2204-93-55 devstack@g-api.service[1010568]: [pid: 1010568|app: 0|req: 4/6] 127.0.0.1 () {34 vars in 519 bytes} [Tue Oct 14 19:03:46 2025] GET / => generated 1420 bytes in 6 msecs (HTTP/1.1 300) 3 headers in 106 bytes (1 switches on core 0)
+Oct 14 19:03:47.113333 devstack-u2204-93-55 devstack@g-api.service[1010567]: [pid: 1010567|app: 0|req: 3/7] 127.0.0.1 () {36 vars in 741 bytes} [Tue Oct 14 19:03:46 2025] GET /v2/images => generated 1044 bytes in 588 msecs (HTTP/1.1 200) 4 headers in 158 bytes (1 switches on core 0)
+Oct 14 19:03:55.587358 devstack-u2204-93-55 devstack@g-api.service[1010568]: [pid: 1010568|app: 0|req: 5/8] 127.0.0.1 () {34 vars in 519 bytes} [Tue Oct 14 19:03:55 2025] GET / => generated 1420 bytes in 4 msecs (HTTP/1.1 300) 3 headers in 106 bytes (1 switches on core 0)
+Oct 14 19:03:56.117805 devstack-u2204-93-55 devstack@g-api.service[1010567]: [pid: 1010567|app: 0|req: 4/9] 127.0.0.1 () {36 vars in 802 bytes} [Tue Oct 14 19:03:55 2025] GET /v2/images/982be5a1-b03a-42ec-a01c-e0a051868113 => generated 975 bytes in 517 msecs (HTTP/1.1 200) 4 headers in 157 bytes (1 switches on core 0)
+Oct 14 19:04:01.748703 devstack-u2204-93-55 devstack@g-api.service[1010568]: [pid: 1010568|app: 0|req: 6/10] 127.0.0.1 () {34 vars in 519 bytes} [Tue Oct 14 19:04:01 2025] GET / => generated 1420 bytes in 4 msecs (HTTP/1.1 300) 3 headers in 106 bytes (1 switches on core 0)
+Oct 14 19:04:02.377313 devstack-u2204-93-55 devstack@g-api.service[1010567]: [pid: 1010567|app: 0|req: 5/11] 127.0.0.1 () {36 vars in 802 bytes} [Tue Oct 14 19:04:01 2025] GET /v2/images/982be5a1-b03a-42ec-a01c-e0a051868113 => generated 975 bytes in 603 msecs (HTTP/1.1 200) 4 headers in 157 bytes (1 switches on core 0)
+Oct 14 19:05:32.368641 devstack-u2204-93-55 devstack@g-api.service[1010568]: [pid: 1010568|app: 0|req: 7/12] 127.0.0.1 () {36 vars in 490 bytes} [Tue Oct 14 19:05:32 2025] GET / => generated 1420 bytes in 3 msecs (HTTP/1.1 300) 3 headers in 106 bytes (1 switches on core 0)
+Oct 14 19:06:03.491389 devstack-u2204-93-55 devstack@g-api.service[1010567]: [pid: 1010567|app: 0|req: 6/13] 127.0.0.1 () {34 vars in 519 bytes} [Tue Oct 14 19:06:03 2025] GET / => generated 1420 bytes in 6 msecs (HTTP/1.1 300) 3 headers in 106 bytes (1 switches on core 0)
