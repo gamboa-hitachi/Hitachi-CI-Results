@@ -1,0 +1,11 @@
+Oct 14 19:02:12.704462 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@n-cpu.service.
+Oct 14 19:02:18.677472 devstack-u2204-93-55 nova-compute[1007357]: libvirt:  error : internal error: could not initialize domain event timer
+Oct 14 19:15:19.690997 devstack-u2204-93-55 sudo[1025267]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context nova.privsep.sys_admin_pctxt --privsep_sock_path /tmp/tmpqglhqo3r/privsep.sock
+Oct 14 19:15:19.692835 devstack-u2204-93-55 sudo[1025267]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 19:15:20.898359 devstack-u2204-93-55 sudo[1025267]: pam_unix(sudo:session): session closed for user root
+Oct 14 19:15:22.868006 devstack-u2204-93-55 sudo[1025291]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context vif_plug_ovs.privsep.vif_plug --privsep_sock_path /tmp/tmpvwvakpq3/privsep.sock
+Oct 14 19:15:22.869761 devstack-u2204-93-55 sudo[1025291]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 19:15:24.156166 devstack-u2204-93-55 sudo[1025291]: pam_unix(sudo:session): session closed for user root
+Oct 14 19:17:02.091240 devstack-u2204-93-55 sudo[1025807]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmpvghu48ac/privsep.sock
+Oct 14 19:17:02.092581 devstack-u2204-93-55 sudo[1025807]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 19:17:03.328185 devstack-u2204-93-55 sudo[1025807]: pam_unix(sudo:session): session closed for user root
