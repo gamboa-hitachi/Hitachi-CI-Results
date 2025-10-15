@@ -1,0 +1,7 @@
+Oct 14 19:00:01.725254 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@s-object.service.
+Oct 14 19:00:02.615600 devstack-u2204-93-55 object-server[995339]: Started child 995548 from parent 995339
+Oct 14 19:00:02.616429 devstack-u2204-93-55 swift-object-server[995339]: object-server: Started child 995548 from parent 995339
+Oct 14 19:00:02.620371 devstack-u2204-93-55 object-server[995339]: Started child 995549 from parent 995339
+Oct 14 19:00:02.620711 devstack-u2204-93-55 swift-object-server[995339]: object-server: Started child 995549 from parent 995339
+Oct 14 19:03:02.254965 devstack-u2204-93-55 object-server[995549]: 127.0.0.1 - - [15/Oct/2025:02:03:02 +0000] "PUT /sdb1/367/AUTH_fb38c37437864de7a92d9067eaf134ac/glance/982be5a1-b03a-42ec-a01c-e0a051868113" 201 - "PUT http://172.25.93.55:8080/v1/AUTH_fb38c37437864de7a92d9067eaf134ac/glance/982be5a1-b03a-42ec-a01c-e0a051868113" "tx42e95c7d4588449d8935c-0068ef00d4" "proxy-server 997345" 2.1514 "-" 995549 0
+Oct 14 19:03:02.255909 devstack-u2204-93-55 swift-object-server[995549]: object-server: 127.0.0.1 - - [15/Oct/2025:02:03:02 +0000] "PUT /sdb1/367/AUTH_fb38c37437864de7a92d9067eaf134ac/glance/982be5a1-b03a-42ec-a01c-e0a051868113" 201 - "PUT http://172.25.93.55:8080/v1/AUTH_fb38c37437864de7a92d9067eaf134ac/glance/982be5a1-b03a-42ec-a01c-e0a051868113" "tx42e95c7d4588449d8935c-0068ef00d4" "proxy-server 997345" 2.1514 "-" 995549 0
