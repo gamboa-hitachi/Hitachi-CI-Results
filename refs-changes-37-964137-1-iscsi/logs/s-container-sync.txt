@@ -1,0 +1,3 @@
+Oct 14 22:21:06.514257 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@s-container-sync.service.
+Oct 14 22:21:07.309356 devstack-u2204-93-55 container-sync[1208912]: Starting 1208912
+Oct 14 22:21:07.313011 devstack-u2204-93-55 container-sync[1208912]: Configuration option internal_client_conf_path not defined. Using default configuration, See internal-client.conf-sample for options
