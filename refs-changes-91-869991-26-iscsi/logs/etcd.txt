@@ -1,0 +1,48 @@
+Oct 14 16:56:03.022958 devstack-u2204-93-55 systemd[1]: Starting Devstack devstack@etcd.service...
+Oct 14 16:56:03.071039 devstack-u2204-93-55 etcd[772369]: WARNING: Package "github.com/golang/protobuf/protoc-gen-go/generator" is deprecated.
+Oct 14 16:56:03.071039 devstack-u2204-93-55 etcd[772369]:         A future release of golang/protobuf will delete this package,
+Oct 14 16:56:03.071039 devstack-u2204-93-55 etcd[772369]:         which has long been excluded from the compatibility promise.
+Oct 14 16:56:03.075071 devstack-u2204-93-55 etcd[772369]: [WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+Oct 14 16:56:03.075362 devstack-u2204-93-55 etcd[772369]: [WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+Oct 14 16:56:03.075107 devstack-u2204-93-55 etcd[772369]: Running http and grpc server on single port. This is not recommended for production.
+Oct 14 16:56:03.075133 devstack-u2204-93-55 etcd[772369]: etcd Version: 3.4.27
+Oct 14 16:56:03.075147 devstack-u2204-93-55 etcd[772369]: Git SHA: c92fb80f3
+Oct 14 16:56:03.075159 devstack-u2204-93-55 etcd[772369]: Go Version: go1.19.10
+Oct 14 16:56:03.075173 devstack-u2204-93-55 etcd[772369]: Go OS/Arch: linux/amd64
+Oct 14 16:56:03.075187 devstack-u2204-93-55 etcd[772369]: setting maximum number of CPUs to 8, total number of available CPUs is 8
+Oct 14 16:56:03.075363 devstack-u2204-93-55 etcd[772369]: Running http and grpc server on single port. This is not recommended for production.
+Oct 14 16:56:03.076025 devstack-u2204-93-55 etcd[772369]: name = devstack-u2204-93-55
+Oct 14 16:56:03.076043 devstack-u2204-93-55 etcd[772369]: data dir = /opt/stack/data/etcd
+Oct 14 16:56:03.076057 devstack-u2204-93-55 etcd[772369]: member dir = /opt/stack/data/etcd/member
+Oct 14 16:56:03.076070 devstack-u2204-93-55 etcd[772369]: heartbeat = 100ms
+Oct 14 16:56:03.076083 devstack-u2204-93-55 etcd[772369]: election = 1000ms
+Oct 14 16:56:03.076094 devstack-u2204-93-55 etcd[772369]: snapshot count = 100000
+Oct 14 16:56:03.076117 devstack-u2204-93-55 etcd[772369]: advertise client URLs = http://172.25.93.55:2379
+Oct 14 16:56:03.076313 devstack-u2204-93-55 etcd[772369]: check file permission: directory "/opt/stack/data/etcd" exist, but the permission is "dtrwxrwxrwx". The recommended permission is "-rwx------" to prevent possible unprivileged access to the data.
+Oct 14 16:56:03.114963 devstack-u2204-93-55 etcd[772369]: starting member 73a420500745e9d in cluster e9e9c157e0478523
+Oct 14 16:56:03.115318 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:03 INFO: 73a420500745e9d switched to configuration voters=()
+Oct 14 16:56:03.115318 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:03 INFO: 73a420500745e9d became follower at term 0
+Oct 14 16:56:03.115318 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:03 INFO: newRaft 73a420500745e9d [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+Oct 14 16:56:03.115318 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:03 INFO: 73a420500745e9d became follower at term 1
+Oct 14 16:56:03.115766 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:03 INFO: 73a420500745e9d switched to configuration voters=(520801296164609693)
+Oct 14 16:56:03.117001 devstack-u2204-93-55 etcd[772369]: simple token is not cryptographically signed
+Oct 14 16:56:03.121270 devstack-u2204-93-55 etcd[772369]: starting server... [version: 3.4.27, cluster version: to_be_decided]
+Oct 14 16:56:03.121852 devstack-u2204-93-55 etcd[772369]: 73a420500745e9d as single-node; fast-forwarding 9 ticks (election ticks 10)
+Oct 14 16:56:03.121944 devstack-u2204-93-55 etcd[772369]: started to purge file, dir: /opt/stack/data/etcd/member/snap, suffix: snap.db, max: 5, interval: 30s
+Oct 14 16:56:03.121974 devstack-u2204-93-55 etcd[772369]: started to purge file, dir: /opt/stack/data/etcd/member/snap, suffix: snap, max: 5, interval: 30s
+Oct 14 16:56:03.122271 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:03 INFO: 73a420500745e9d switched to configuration voters=(520801296164609693)
+Oct 14 16:56:03.121997 devstack-u2204-93-55 etcd[772369]: started to purge file, dir: /opt/stack/data/etcd/member/wal, suffix: wal, max: 5, interval: 30s
+Oct 14 16:56:03.122381 devstack-u2204-93-55 etcd[772369]: added member 73a420500745e9d [http://172.25.93.55:2380] to cluster e9e9c157e0478523
+Oct 14 16:56:03.126883 devstack-u2204-93-55 etcd[772369]: listening for peers on [::]:2380
+Oct 14 16:56:04.016918 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:04 INFO: 73a420500745e9d is starting a new election at term 1
+Oct 14 16:56:04.016918 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:04 INFO: 73a420500745e9d became candidate at term 2
+Oct 14 16:56:04.017602 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:04 INFO: 73a420500745e9d received MsgVoteResp from 73a420500745e9d at term 2
+Oct 14 16:56:04.017602 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:04 INFO: 73a420500745e9d became leader at term 2
+Oct 14 16:56:04.017602 devstack-u2204-93-55 etcd[772369]: raft2025/10/14 16:56:04 INFO: raft.node: 73a420500745e9d elected leader 73a420500745e9d at term 2
+Oct 14 16:56:04.017904 devstack-u2204-93-55 etcd[772369]: ready to serve client requests
+Oct 14 16:56:04.018179 devstack-u2204-93-55 etcd[772369]: published {Name:devstack-u2204-93-55 ClientURLs:[http://172.25.93.55:2379]} to cluster e9e9c157e0478523
+Oct 14 16:56:04.018267 devstack-u2204-93-55 etcd[772369]: setting up the initial cluster version to 3.4
+Oct 14 16:56:04.018473 devstack-u2204-93-55 etcd[772369]: set the initial cluster version to 3.4
+Oct 14 16:56:04.018664 devstack-u2204-93-55 etcd[772369]: enabled capabilities for version 3.4
+Oct 14 16:56:04.018917 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@etcd.service.
+Oct 14 16:56:04.019599 devstack-u2204-93-55 etcd[772369]: serving insecure client requests on 172.25.93.55:2379, this is strongly discouraged!
