@@ -1,0 +1,108 @@
+Oct 14 23:21:13.146079 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@c-vol.service.
+Oct 14 23:21:26.532838 devstack-u2204-93-55 sudo[1324425]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf privsep-helper --config-file /etc/cinder/cinder.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmpsr5a01ej/privsep.sock
+Oct 14 23:21:26.534404 devstack-u2204-93-55 sudo[1324425]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:21:27.959205 devstack-u2204-93-55 sudo[1324425]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:33:44.459786 devstack-u2204-93-55 systemd[1]: Stopping Devstack devstack@c-vol.service...
+Oct 14 23:33:47.424554 devstack-u2204-93-55 systemd[1]: devstack@c-vol.service: Deactivated successfully.
+Oct 14 23:33:47.424693 devstack-u2204-93-55 systemd[1]: devstack@c-vol.service: Unit process 1324436 (privsep-helper) remains running after unit stopped.
+Oct 14 23:33:47.425696 devstack-u2204-93-55 systemd[1]: Stopped Devstack devstack@c-vol.service.
+Oct 14 23:33:47.425894 devstack-u2204-93-55 systemd[1]: devstack@c-vol.service: Consumed 25.947s CPU time.
+Oct 14 23:33:47.426915 devstack-u2204-93-55 systemd[1]: devstack@c-vol.service: Found left-over process 1324436 (privsep-helper) in control group while starting unit. Ignoring.
+Oct 14 23:33:47.426946 devstack-u2204-93-55 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Oct 14 23:33:47.440100 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@c-vol.service.
+Oct 14 23:34:02.161962 devstack-u2204-93-55 sudo[1338668]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf privsep-helper --config-file /etc/cinder/cinder.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmptua5zrak/privsep.sock
+Oct 14 23:34:02.163772 devstack-u2204-93-55 sudo[1338668]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:34:03.435367 devstack-u2204-93-55 sudo[1338668]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:03.673914 devstack-u2204-93-55 sudo[1341379]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf privsep-helper --config-file /etc/cinder/cinder.conf --privsep_context cinder.privsep.sys_admin_pctxt --privsep_sock_path /tmp/tmp4l_84xlj/privsep.sock
+Oct 14 23:36:03.675893 devstack-u2204-93-55 sudo[1341379]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:04.926782 devstack-u2204-93-55 sudo[1341379]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:05.056799 devstack-u2204-93-55 sudo[1341430]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_5c660e90-b2b7-47b4-9e5c-35722303a8a2_vaa2k553devstack-u2204-93-55@hitachi
+Oct 14 23:36:05.057683 devstack-u2204-93-55 sudo[1341430]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:05.528576 devstack-u2204-93-55 sudo[1341430]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:05.635785 devstack-u2204-93-55 sudo[1341437]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_5c660e90-b2b7-47b4-9e5c-35722303a8a2_vaa2k553devstack-u2204-93-55@hitachi
+Oct 14 23:36:05.636799 devstack-u2204-93-55 sudo[1341437]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:06.112638 devstack-u2204-93-55 sudo[1341437]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:06.294668 devstack-u2204-93-55 sudo[1341453]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_5c660e90-b2b7-47b4-9e5c-35722303a8a2_vaa2k553devstack-u2204-93-55@hitachi
+Oct 14 23:36:06.295555 devstack-u2204-93-55 sudo[1341453]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:06.767923 devstack-u2204-93-55 sudo[1341453]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:06.860902 devstack-u2204-93-55 sudo[1341516]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_5c660e90-b2b7-47b4-9e5c-35722303a8a2_vaa2k553devstack-u2204-93-55@hitachi
+Oct 14 23:36:06.861752 devstack-u2204-93-55 sudo[1341516]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:07.360210 devstack-u2204-93-55 sudo[1341516]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:22.361723 devstack-u2204-93-55 sudo[1342112]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_5c660e90-b2b7-47b4-9e5c-35722303a8a2_zyjtpmj1
+Oct 14 23:36:22.362871 devstack-u2204-93-55 sudo[1342112]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:22.857116 devstack-u2204-93-55 sudo[1342112]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:22.968871 devstack-u2204-93-55 sudo[1342119]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_5c660e90-b2b7-47b4-9e5c-35722303a8a2_zyjtpmj1
+Oct 14 23:36:22.969821 devstack-u2204-93-55 sudo[1342119]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:23.471735 devstack-u2204-93-55 sudo[1342119]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:23.570052 devstack-u2204-93-55 sudo[1342123]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_5c660e90-b2b7-47b4-9e5c-35722303a8a2_vaa2k553devstack-u2204-93-55@hitachi
+Oct 14 23:36:23.570936 devstack-u2204-93-55 sudo[1342123]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:24.066108 devstack-u2204-93-55 sudo[1342123]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:24.175242 devstack-u2204-93-55 sudo[1342129]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_5c660e90-b2b7-47b4-9e5c-35722303a8a2_vaa2k553devstack-u2204-93-55@hitachi
+Oct 14 23:36:24.176184 devstack-u2204-93-55 sudo[1342129]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:24.663377 devstack-u2204-93-55 sudo[1342129]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:24.712148 devstack-u2204-93-55 sudo[1342135]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_5c660e90-b2b7-47b4-9e5c-35722303a8a2_vaa2k553devstack-u2204-93-55@hitachi of=/dev/sdb oflag=direct
+Oct 14 23:36:24.713454 devstack-u2204-93-55 sudo[1342135]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:25.186093 devstack-u2204-93-55 sudo[1342135]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:36:25.238930 devstack-u2204-93-55 sudo[1342139]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_5c660e90-b2b7-47b4-9e5c-35722303a8a2_vaa2k553devstack-u2204-93-55@hitachi /dev/sdb
+Oct 14 23:36:25.240099 devstack-u2204-93-55 sudo[1342139]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:36:25.708462 devstack-u2204-93-55 sudo[1342139]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:13.082549 devstack-u2204-93-55 sudo[1342727]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_cb183553-5e6d-411f-89f4-fb0fa2176732_53tlq3medevstack-u2204-93-55@hitachi
+Oct 14 23:37:13.083611 devstack-u2204-93-55 sudo[1342727]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:13.585004 devstack-u2204-93-55 sudo[1342727]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:13.706929 devstack-u2204-93-55 sudo[1342731]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_cb183553-5e6d-411f-89f4-fb0fa2176732_53tlq3medevstack-u2204-93-55@hitachi
+Oct 14 23:37:13.707992 devstack-u2204-93-55 sudo[1342731]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:14.196269 devstack-u2204-93-55 sudo[1342731]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:14.393221 devstack-u2204-93-55 sudo[1342736]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_cb183553-5e6d-411f-89f4-fb0fa2176732_53tlq3medevstack-u2204-93-55@hitachi
+Oct 14 23:37:14.394934 devstack-u2204-93-55 sudo[1342736]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:14.876751 devstack-u2204-93-55 sudo[1342736]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:14.996734 devstack-u2204-93-55 sudo[1342740]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_cb183553-5e6d-411f-89f4-fb0fa2176732_53tlq3medevstack-u2204-93-55@hitachi
+Oct 14 23:37:14.997796 devstack-u2204-93-55 sudo[1342740]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:15.486070 devstack-u2204-93-55 sudo[1342740]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:33.967390 devstack-u2204-93-55 sudo[1343248]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_cb183553-5e6d-411f-89f4-fb0fa2176732_732s2iq3
+Oct 14 23:37:33.969201 devstack-u2204-93-55 sudo[1343248]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:34.498583 devstack-u2204-93-55 sudo[1343248]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:34.613421 devstack-u2204-93-55 sudo[1343254]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_cb183553-5e6d-411f-89f4-fb0fa2176732_732s2iq3
+Oct 14 23:37:34.614298 devstack-u2204-93-55 sudo[1343254]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:35.084558 devstack-u2204-93-55 sudo[1343254]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:35.213300 devstack-u2204-93-55 sudo[1343262]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_cb183553-5e6d-411f-89f4-fb0fa2176732_53tlq3medevstack-u2204-93-55@hitachi
+Oct 14 23:37:35.214534 devstack-u2204-93-55 sudo[1343262]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:35.713321 devstack-u2204-93-55 sudo[1343262]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:35.824039 devstack-u2204-93-55 sudo[1343266]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_cb183553-5e6d-411f-89f4-fb0fa2176732_53tlq3medevstack-u2204-93-55@hitachi
+Oct 14 23:37:35.824986 devstack-u2204-93-55 sudo[1343266]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:36.275300 devstack-u2204-93-55 sudo[1343266]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:36.328833 devstack-u2204-93-55 sudo[1343273]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_cb183553-5e6d-411f-89f4-fb0fa2176732_53tlq3medevstack-u2204-93-55@hitachi of=/dev/sdb oflag=direct
+Oct 14 23:37:36.329934 devstack-u2204-93-55 sudo[1343273]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:36.805478 devstack-u2204-93-55 sudo[1343273]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:37:36.855270 devstack-u2204-93-55 sudo[1343280]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_cb183553-5e6d-411f-89f4-fb0fa2176732_53tlq3medevstack-u2204-93-55@hitachi /dev/sdb
+Oct 14 23:37:36.856437 devstack-u2204-93-55 sudo[1343280]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:37:37.371702 devstack-u2204-93-55 sudo[1343280]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:35.067872 devstack-u2204-93-55 sudo[1343527]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_81c0d897-8adc-4483-a355-8ce2b4880556_biu4w_q1devstack-u2204-93-55@hitachi
+Oct 14 23:38:35.069047 devstack-u2204-93-55 sudo[1343527]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:35.564699 devstack-u2204-93-55 sudo[1343527]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:35.672152 devstack-u2204-93-55 sudo[1343531]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_81c0d897-8adc-4483-a355-8ce2b4880556_biu4w_q1devstack-u2204-93-55@hitachi
+Oct 14 23:38:35.672996 devstack-u2204-93-55 sudo[1343531]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:36.172969 devstack-u2204-93-55 sudo[1343531]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:36.354309 devstack-u2204-93-55 sudo[1343537]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_81c0d897-8adc-4483-a355-8ce2b4880556_biu4w_q1devstack-u2204-93-55@hitachi
+Oct 14 23:38:36.355227 devstack-u2204-93-55 sudo[1343537]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:36.826195 devstack-u2204-93-55 sudo[1343537]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:36.935054 devstack-u2204-93-55 sudo[1343541]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_81c0d897-8adc-4483-a355-8ce2b4880556_biu4w_q1devstack-u2204-93-55@hitachi
+Oct 14 23:38:36.935912 devstack-u2204-93-55 sudo[1343541]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:37.444302 devstack-u2204-93-55 sudo[1343541]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:54.769449 devstack-u2204-93-55 sudo[1343617]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_81c0d897-8adc-4483-a355-8ce2b4880556_86_fh8os
+Oct 14 23:38:54.771411 devstack-u2204-93-55 sudo[1343617]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:55.320766 devstack-u2204-93-55 sudo[1343617]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:55.438432 devstack-u2204-93-55 sudo[1343621]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_81c0d897-8adc-4483-a355-8ce2b4880556_86_fh8os
+Oct 14 23:38:55.439278 devstack-u2204-93-55 sudo[1343621]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:55.961571 devstack-u2204-93-55 sudo[1343621]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:56.090758 devstack-u2204-93-55 sudo[1343631]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_81c0d897-8adc-4483-a355-8ce2b4880556_biu4w_q1devstack-u2204-93-55@hitachi
+Oct 14 23:38:56.091851 devstack-u2204-93-55 sudo[1343631]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:56.604096 devstack-u2204-93-55 sudo[1343631]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:56.745143 devstack-u2204-93-55 sudo[1343635]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_81c0d897-8adc-4483-a355-8ce2b4880556_biu4w_q1devstack-u2204-93-55@hitachi
+Oct 14 23:38:56.745996 devstack-u2204-93-55 sudo[1343635]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:57.249534 devstack-u2204-93-55 sudo[1343635]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:57.305097 devstack-u2204-93-55 sudo[1343680]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_81c0d897-8adc-4483-a355-8ce2b4880556_biu4w_q1devstack-u2204-93-55@hitachi of=/dev/sdb oflag=direct
+Oct 14 23:38:57.306170 devstack-u2204-93-55 sudo[1343680]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:57.770390 devstack-u2204-93-55 sudo[1343680]: pam_unix(sudo:session): session closed for user root
+Oct 14 23:38:57.824661 devstack-u2204-93-55 sudo[1343688]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_81c0d897-8adc-4483-a355-8ce2b4880556_biu4w_q1devstack-u2204-93-55@hitachi /dev/sdb
+Oct 14 23:38:57.825731 devstack-u2204-93-55 sudo[1343688]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 14 23:38:58.333978 devstack-u2204-93-55 sudo[1343688]: pam_unix(sudo:session): session closed for user root
