@@ -1,0 +1,10 @@
+Oct 15 04:39:51.181269 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@q-agt.service.
+Oct 15 04:39:51.860024 devstack-u2204-93-55 neutron-openvswitch-agent[1431605]: This program is using eventlet and has been monkey_patched
+Oct 15 04:39:54.805299 devstack-u2204-93-55 sudo[1432159]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/ml2_conf.ini --privsep_context neutron.privileged.default --privsep_sock_path /tmp/tmpfkeeivde/privsep.sock
+Oct 15 04:39:54.806943 devstack-u2204-93-55 sudo[1432159]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 15 04:39:56.156754 devstack-u2204-93-55 sudo[1432159]: pam_unix(sudo:session): session closed for user root
+Oct 15 04:40:03.765741 devstack-u2204-93-55 sudo[1433475]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/ml2_conf.ini --privsep_context neutron.privileged.ovs_vsctl_cmd --privsep_sock_path /tmp/tmp46qrxshi/privsep.sock
+Oct 15 04:40:03.767493 devstack-u2204-93-55 sudo[1433475]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 15 04:40:05.000909 devstack-u2204-93-55 sudo[1433475]: pam_unix(sudo:session): session closed for user root
+Oct 15 04:40:05.253183 devstack-u2204-93-55 ovs-vsctl[1433578]: ovs|00001|vsctl|INFO|Called as ovs-vsctl --timeout=10 --id=@manager -- create Manager "target=\"ptcp:6640:127.0.0.1\"" -- add Open_vSwitch . manager_options @manager -- set Manager ptcp:6640:127.0.0.1 inactivity_probe=10000
+Oct 15 04:40:05.256822 devstack-u2204-93-55 ovs-vsctl[1433578]: ovs|00002|db_ctl_base|ERR|multiple rows in Manager match "ptcp:6640:127.0.0.1"
