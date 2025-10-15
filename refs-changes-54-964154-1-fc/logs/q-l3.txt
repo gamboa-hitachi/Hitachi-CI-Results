@@ -1,0 +1,78 @@
+Oct 15 04:39:57.752971 devstack-u2204-93-55 systemd[1]: Started Devstack devstack@q-l3.service.
+Oct 15 04:39:58.493712 devstack-u2204-93-55 neutron-l3-agent[1432547]: This program is using eventlet and has been monkey_patched
+Oct 15 04:40:06.970749 devstack-u2204-93-55 sudo[1433585]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/l3_agent.ini --privsep_context neutron.privileged.namespace_cmd --privsep_sock_path /tmp/tmppq9vlq3y/privsep.sock
+Oct 15 04:40:06.972210 devstack-u2204-93-55 sudo[1433585]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 15 04:40:08.241346 devstack-u2204-93-55 sudo[1433585]: pam_unix(sudo:session): session closed for user root
+Oct 15 04:40:41.925882 devstack-u2204-93-55 sudo[1434173]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/l3_agent.ini --privsep_context neutron.privileged.default --privsep_sock_path /tmp/tmpamv4k61g/privsep.sock
+Oct 15 04:40:41.927489 devstack-u2204-93-55 sudo[1434173]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 15 04:40:43.226251 devstack-u2204-93-55 sudo[1434173]: pam_unix(sudo:session): session closed for user root
+Oct 15 04:40:44.994082 devstack-u2204-93-55 sudo[1434271]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/l3_agent.ini --privsep_context neutron.privileged.link_cmd --privsep_sock_path /tmp/tmpvaf3_hgl/privsep.sock
+Oct 15 04:40:44.995974 devstack-u2204-93-55 sudo[1434271]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 15 04:40:46.301019 devstack-u2204-93-55 sudo[1434271]: pam_unix(sudo:session): session closed for user root
+Oct 15 04:40:49.623382 devstack-u2204-93-55 sudo[1434495]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Oct 15 04:40:49.624483 devstack-u2204-93-55 sudo[1434495]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 15 04:46:45.396300 devstack-u2204-93-55 neutron-l3-agent[1432547]: Exception in thread Thread-118 (arping):
+Oct 15 04:46:45.396300 devstack-u2204-93-55 neutron-l3-agent[1432547]: Traceback (most recent call last):
+Oct 15 04:46:45.396300 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/neutron/neutron/agent/linux/ip_lib.py", line 1086, in _arping
+Oct 15 04:46:45.397220 devstack-u2204-93-55 neutron-l3-agent[1432547]:     ip_wrapper.netns.execute(arping_cmd,
+Oct 15 04:46:45.397220 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/neutron/neutron/agent/linux/ip_lib.py", line 776, in execute
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]:     return utils.execute(cmd, check_exit_code=check_exit_code,
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/neutron/neutron/agent/linux/utils.py", line 157, in execute
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]:     raise exceptions.ProcessExecutionError(msg,
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]: neutron_lib.exceptions.ProcessExecutionError: Exit code: 2; Cmd: ['ip', 'netns', 'exec', 'qrouter-579f841e-ce73-4f90-bd48-fd12a5d12e12', 'arping', '-U', '-I', 'qg-6d746afb-72', '-c', 1, '-w', 2, '172.24.5.86']; Stdin: ; Stdout: ARPING 172.24.5.86 from 172.24.5.86 qg-6d746afb-72
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]: Sent 1 probes (1 broadcast(s))
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]: Received 0 response(s)
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]: ; Stderr: arping: recvfrom: Network is down
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]: During handling of the above exception, another exception occurred:
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]: Traceback (most recent call last):
+Oct 15 04:46:45.397843 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Oct 15 04:46:45.399057 devstack-u2204-93-55 neutron-l3-agent[1432547]:     self.run()
+Oct 15 04:46:45.399057 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/usr/lib/python3.10/threading.py", line 953, in run
+Oct 15 04:46:45.399057 devstack-u2204-93-55 neutron-l3-agent[1432547]:     self._target(*self._args, **self._kwargs)
+Oct 15 04:46:45.399057 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/neutron/neutron/agent/linux/ip_lib.py", line 1137, in arping
+Oct 15 04:46:45.399057 devstack-u2204-93-55 neutron-l3-agent[1432547]:     _arping(ns_name, iface_name, address, count, log_exception)
+Oct 15 04:46:45.399057 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/neutron/neutron/agent/linux/ip_lib.py", line 1094, in _arping
+Oct 15 04:46:45.399057 devstack-u2204-93-55 neutron-l3-agent[1432547]:     exists = device_exists_with_ips_and_mac(iface_name,
+Oct 15 04:46:45.399057 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/neutron/neutron/agent/linux/ip_lib.py", line 816, in device_exists_with_ips_and_mac
+Oct 15 04:46:45.400648 devstack-u2204-93-55 neutron-l3-agent[1432547]:     device_ip_cidrs = {ip['cidr'] for ip in device.addr.list()}
+Oct 15 04:46:45.400648 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/neutron/neutron/agent/linux/ip_lib.py", line 600, in list
+Oct 15 04:46:45.400648 devstack-u2204-93-55 neutron-l3-agent[1432547]:     devices = get_devices_with_ip(self._parent.namespace, name=self.name,
+Oct 15 04:46:45.400648 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/neutron/neutron/agent/linux/ip_lib.py", line 1421, in get_devices_with_ip
+Oct 15 04:46:45.400952 devstack-u2204-93-55 neutron-l3-agent[1432547]:     device = get_devices_info(namespace, **link_args)
+Oct 15 04:46:45.400952 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/neutron/neutron/agent/linux/ip_lib.py", line 1445, in get_devices_info
+Oct 15 04:46:45.401255 devstack-u2204-93-55 neutron-l3-agent[1432547]:     devices = privileged.get_link_devices(namespace, **kwargs)
+Oct 15 04:46:45.401255 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/data/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 336, in wrapped_f
+Oct 15 04:46:45.401447 devstack-u2204-93-55 neutron-l3-agent[1432547]:     return copy(f, *args, **kw)
+Oct 15 04:46:45.401447 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/data/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 475, in __call__
+Oct 15 04:46:45.402027 devstack-u2204-93-55 neutron-l3-agent[1432547]:     do = self.iter(retry_state=retry_state)
+Oct 15 04:46:45.402027 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/data/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 376, in iter
+Oct 15 04:46:45.402228 devstack-u2204-93-55 neutron-l3-agent[1432547]:     result = action(retry_state)
+Oct 15 04:46:45.402228 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/data/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 398, in <lambda>
+Oct 15 04:46:45.402413 devstack-u2204-93-55 neutron-l3-agent[1432547]:     self._add_action_func(lambda rs: rs.outcome.result())
+Oct 15 04:46:45.402413 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+Oct 15 04:46:45.402635 devstack-u2204-93-55 neutron-l3-agent[1432547]:     return self.__get_result()
+Oct 15 04:46:45.402635 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+Oct 15 04:46:45.403244 devstack-u2204-93-55 neutron-l3-agent[1432547]:     raise self._exception
+Oct 15 04:46:45.403244 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/data/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 478, in __call__
+Oct 15 04:46:45.403400 devstack-u2204-93-55 neutron-l3-agent[1432547]:     result = fn(*args, **kwargs)
+Oct 15 04:46:45.403400 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/data/venv/lib/python3.10/site-packages/oslo_privsep/priv_context.py", line 263, in _wrap
+Oct 15 04:46:45.406518 devstack-u2204-93-55 neutron-l3-agent[1432547]:     return self.channel.remote_call(name, args, kwargs,
+Oct 15 04:46:45.406518 devstack-u2204-93-55 neutron-l3-agent[1432547]:   File "/opt/stack/data/venv/lib/python3.10/site-packages/oslo_privsep/daemon.py", line 219, in remote_call
+Oct 15 04:46:45.406518 devstack-u2204-93-55 neutron-l3-agent[1432547]:     raise exc_type(*result[2])
+Oct 15 04:46:45.406518 devstack-u2204-93-55 neutron-l3-agent[1432547]: OSError: [Errno 22] failed to open netns
+Oct 15 04:47:12.513847 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:49150 [15/Oct/2025:04:47:10.272] listener listener/metadata 0/0/0/2241/2241 200 97 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/instance-id HTTP/1.1"
+Oct 15 04:47:13.888281 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:49166 [15/Oct/2025:04:47:12.840] listener listener/metadata 0/0/0/1047/1047 200 115 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/public-keys HTTP/1.1"
+Oct 15 04:47:15.225531 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:49172 [15/Oct/2025:04:47:14.192] listener listener/metadata 0/0/0/1032/1032 200 292 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/public-keys/0/openssh-key HTTP/1.1"
+Oct 15 04:47:16.529713 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:49182 [15/Oct/2025:04:47:15.494] listener listener/metadata 0/0/0/1034/1034 200 97 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/instance-id HTTP/1.1"
+Oct 15 04:47:17.824398 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:54992 [15/Oct/2025:04:47:16.795] listener listener/metadata 0/0/0/1028/1028 200 87 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/ami-launch-index HTTP/1.1"
+Oct 15 04:47:19.110126 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:54998 [15/Oct/2025:04:47:18.081] listener listener/metadata 0/0/0/1027/1027 200 93 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/instance-type HTTP/1.1"
+Oct 15 04:47:20.431659 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:55006 [15/Oct/2025:04:47:19.404] listener listener/metadata 0/0/0/1026/1026 200 95 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/local-ipv4 HTTP/1.1"
+Oct 15 04:47:21.776179 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:55022 [15/Oct/2025:04:47:20.745] listener listener/metadata 0/0/0/1030/1030 200 99 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/public-ipv4 HTTP/1.1"
+Oct 15 04:47:23.114279 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:55034 [15/Oct/2025:04:47:22.079] listener listener/metadata 0/0/0/1035/1035 200 160 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/hostname HTTP/1.1"
+Oct 15 04:47:24.416057 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:55046 [15/Oct/2025:04:47:23.385] listener listener/metadata 0/0/0/1030/1030 200 160 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/local-hostname HTTP/1.1"
+Oct 15 04:47:25.745289 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:55062 [15/Oct/2025:04:47:24.717] listener listener/metadata 0/0/0/1027/1027 200 182 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/user-data HTTP/1.1"
+Oct 15 04:47:27.054811 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:54898 [15/Oct/2025:04:47:26.020] listener listener/metadata 0/0/0/1033/1033 200 94 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/block-device-mapping HTTP/1.1"
+Oct 15 04:47:28.488488 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:54902 [15/Oct/2025:04:47:27.279] listener listener/metadata 0/0/0/1208/1208 200 89 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/block-device-mapping/ami HTTP/1.1"
+Oct 15 04:47:29.722485 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:54910 [15/Oct/2025:04:47:28.694] listener listener/metadata 0/0/0/1027/1027 200 94 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/block-device-mapping/root HTTP/1.1"
+Oct 15 04:47:31.019163 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:54922 [15/Oct/2025:04:47:29.989] listener listener/metadata 0/0/0/1030/1030 200 160 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/public-hostname HTTP/1.1"
+Oct 15 04:47:32.328587 devstack-u2204-93-55 haproxy-metadata-proxy-373145e2-3293-4727-9e97-f7017811e345[1450006]: ::ffff:10.1.0.14:54930 [15/Oct/2025:04:47:31.299] listener listener/metadata 0/0/0/1028/1028 200 90 - - ---- 1/1/0/0/0 0/0 "GET /2009-04-04/meta-data/placement/availability-zone HTTP/1.1"
