@@ -1,0 +1,271 @@
+Oct 16 16:52:34.432552 podb-esxi207 systemd[1]: Started Devstack devstack@q-dhcp.service.
+Oct 16 16:52:34.865041 podb-esxi207 neutron-dhcp-agent[801951]: This program is using eventlet and has been monkey_patched
+Oct 16 16:52:51.623576 podb-esxi207 sudo[803737]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/dhcp_agent.ini --privsep_context neutron.privileged.default --privsep_sock_path /tmp/tmp4kkdk70e/privsep.sock
+Oct 16 16:52:51.624715 podb-esxi207 sudo[803737]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 16 16:52:52.397277 podb-esxi207 sudo[803737]: pam_unix(sudo:session): session closed for user root
+Oct 16 16:52:53.438044 podb-esxi207 sudo[803779]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/dhcp_agent.ini --privsep_context neutron.privileged.namespace_cmd --privsep_sock_path /tmp/tmppymf2_e0/privsep.sock
+Oct 16 16:52:53.439034 podb-esxi207 sudo[803779]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 16 16:52:54.258126 podb-esxi207 sudo[803779]: pam_unix(sudo:session): session closed for user root
+Oct 16 16:52:55.368442 podb-esxi207 sudo[803822]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/dhcp_agent.ini --privsep_context neutron.privileged.link_cmd --privsep_sock_path /tmp/tmp1m4h6azz/privsep.sock
+Oct 16 16:52:55.369582 podb-esxi207 sudo[803822]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 16 16:52:56.146630 podb-esxi207 sudo[803822]: pam_unix(sudo:session): session closed for user root
+Oct 16 16:52:58.701741 podb-esxi207 sudo[803967]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf
+Oct 16 16:52:58.702888 podb-esxi207 sudo[803967]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 16 16:52:58.987713 podb-esxi207 dnsmasq[803981]: started, version 2.90 cachesize 150
+Oct 16 16:52:58.987744 podb-esxi207 dnsmasq[803981]: DNS service limited to local subnets
+Oct 16 16:52:58.987758 podb-esxi207 dnsmasq[803981]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 16:52:58.987808 podb-esxi207 dnsmasq-dhcp[803981]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 16:52:58.987962 podb-esxi207 dnsmasq[803981]: reading /etc/resolv.conf
+Oct 16 16:52:58.987980 podb-esxi207 dnsmasq[803981]: using nameserver 127.0.0.53#53
+Oct 16 16:52:58.988068 podb-esxi207 dnsmasq[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/addn_hosts - 0 names
+Oct 16 16:52:58.988120 podb-esxi207 dnsmasq-dhcp[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/host
+Oct 16 16:52:58.988179 podb-esxi207 dnsmasq-dhcp[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/opts
+Oct 16 16:53:00.534077 podb-esxi207 dnsmasq[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/addn_hosts - 0 names
+Oct 16 16:53:00.534141 podb-esxi207 dnsmasq-dhcp[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/host
+Oct 16 16:53:00.534223 podb-esxi207 dnsmasq-dhcp[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/opts
+Oct 16 16:53:03.634934 podb-esxi207 dnsmasq[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/addn_hosts - 2 names
+Oct 16 16:53:03.635039 podb-esxi207 dnsmasq-dhcp[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/host
+Oct 16 16:53:03.635144 podb-esxi207 dnsmasq-dhcp[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/opts
+Oct 16 16:53:04.879009 podb-esxi207 dnsmasq[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/addn_hosts - 2 names
+Oct 16 16:53:04.879124 podb-esxi207 dnsmasq-dhcp[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/host
+Oct 16 16:53:04.879241 podb-esxi207 dnsmasq-dhcp[803981]: read /opt/stack/data/neutron/dhcp/b7ba8352-f1f0-4f82-a842-3d59fe581bf6/opts
+Oct 16 16:54:56.752112 podb-esxi207 dnsmasq[816673]: started, version 2.90 cachesize 150
+Oct 16 16:54:56.752142 podb-esxi207 dnsmasq[816673]: DNS service limited to local subnets
+Oct 16 16:54:56.752157 podb-esxi207 dnsmasq[816673]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 16:54:56.752200 podb-esxi207 dnsmasq-dhcp[816673]: DHCP, static leases only on 192.168.233.0, lease time 1d
+Oct 16 16:54:56.752356 podb-esxi207 dnsmasq[816673]: reading /etc/resolv.conf
+Oct 16 16:54:56.752373 podb-esxi207 dnsmasq[816673]: using nameserver 127.0.0.53#53
+Oct 16 16:54:56.752462 podb-esxi207 dnsmasq[816673]: read /opt/stack/data/neutron/dhcp/08268a13-9914-45b9-b68b-6d06437ded35/addn_hosts - 0 names
+Oct 16 16:54:56.752512 podb-esxi207 dnsmasq-dhcp[816673]: read /opt/stack/data/neutron/dhcp/08268a13-9914-45b9-b68b-6d06437ded35/host
+Oct 16 16:54:56.752570 podb-esxi207 dnsmasq-dhcp[816673]: read /opt/stack/data/neutron/dhcp/08268a13-9914-45b9-b68b-6d06437ded35/opts
+Oct 16 16:54:58.296852 podb-esxi207 dnsmasq[816673]: read /opt/stack/data/neutron/dhcp/08268a13-9914-45b9-b68b-6d06437ded35/addn_hosts - 0 names
+Oct 16 16:54:58.296918 podb-esxi207 dnsmasq-dhcp[816673]: read /opt/stack/data/neutron/dhcp/08268a13-9914-45b9-b68b-6d06437ded35/host
+Oct 16 16:54:58.296986 podb-esxi207 dnsmasq-dhcp[816673]: read /opt/stack/data/neutron/dhcp/08268a13-9914-45b9-b68b-6d06437ded35/opts
+Oct 16 17:01:36.005236 podb-esxi207 dnsmasq[823782]: started, version 2.90 cachesize 150
+Oct 16 17:01:36.005265 podb-esxi207 dnsmasq[823782]: DNS service limited to local subnets
+Oct 16 17:01:36.005282 podb-esxi207 dnsmasq[823782]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:01:36.005317 podb-esxi207 dnsmasq-dhcp[823782]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:01:36.005480 podb-esxi207 dnsmasq[823782]: reading /etc/resolv.conf
+Oct 16 17:01:36.005497 podb-esxi207 dnsmasq[823782]: using nameserver 127.0.0.53#53
+Oct 16 17:01:36.005577 podb-esxi207 dnsmasq[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/addn_hosts - 0 names
+Oct 16 17:01:36.005628 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/host
+Oct 16 17:01:36.005694 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/opts
+Oct 16 17:01:39.144202 podb-esxi207 dnsmasq[824234]: started, version 2.90 cachesize 150
+Oct 16 17:01:39.144227 podb-esxi207 dnsmasq[824234]: DNS service limited to local subnets
+Oct 16 17:01:39.144242 podb-esxi207 dnsmasq[824234]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:01:39.144279 podb-esxi207 dnsmasq-dhcp[824234]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:01:39.144458 podb-esxi207 dnsmasq[824234]: reading /etc/resolv.conf
+Oct 16 17:01:39.144475 podb-esxi207 dnsmasq[824234]: using nameserver 127.0.0.53#53
+Oct 16 17:01:39.144611 podb-esxi207 dnsmasq[824234]: read /opt/stack/data/neutron/dhcp/2fcaf1dc-46e7-42d9-b0ce-3a7d03b7cfdc/addn_hosts - 2 names
+Oct 16 17:01:39.144670 podb-esxi207 dnsmasq-dhcp[824234]: read /opt/stack/data/neutron/dhcp/2fcaf1dc-46e7-42d9-b0ce-3a7d03b7cfdc/host
+Oct 16 17:01:39.144739 podb-esxi207 dnsmasq-dhcp[824234]: read /opt/stack/data/neutron/dhcp/2fcaf1dc-46e7-42d9-b0ce-3a7d03b7cfdc/opts
+Oct 16 17:01:42.406143 podb-esxi207 dnsmasq[824655]: started, version 2.90 cachesize 150
+Oct 16 17:01:42.406170 podb-esxi207 dnsmasq[824655]: DNS service limited to local subnets
+Oct 16 17:01:42.406184 podb-esxi207 dnsmasq[824655]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:01:42.406221 podb-esxi207 dnsmasq-dhcp[824655]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:01:42.406378 podb-esxi207 dnsmasq[824655]: reading /etc/resolv.conf
+Oct 16 17:01:42.406395 podb-esxi207 dnsmasq[824655]: using nameserver 127.0.0.53#53
+Oct 16 17:01:42.406506 podb-esxi207 dnsmasq[824655]: read /opt/stack/data/neutron/dhcp/ced6322f-30bb-4d20-9e95-1a0cafed2520/addn_hosts - 2 names
+Oct 16 17:01:42.406599 podb-esxi207 dnsmasq-dhcp[824655]: read /opt/stack/data/neutron/dhcp/ced6322f-30bb-4d20-9e95-1a0cafed2520/host
+Oct 16 17:01:42.406666 podb-esxi207 dnsmasq-dhcp[824655]: read /opt/stack/data/neutron/dhcp/ced6322f-30bb-4d20-9e95-1a0cafed2520/opts
+Oct 16 17:01:43.447692 podb-esxi207 dnsmasq[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/addn_hosts - 2 names
+Oct 16 17:01:43.447783 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/host
+Oct 16 17:01:43.447896 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/opts
+Oct 16 17:01:46.858483 podb-esxi207 dnsmasq[825389]: started, version 2.90 cachesize 150
+Oct 16 17:01:46.858511 podb-esxi207 dnsmasq[825389]: DNS service limited to local subnets
+Oct 16 17:01:46.858551 podb-esxi207 dnsmasq[825389]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:01:46.858595 podb-esxi207 dnsmasq-dhcp[825389]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:01:46.858752 podb-esxi207 dnsmasq[825389]: reading /etc/resolv.conf
+Oct 16 17:01:46.858768 podb-esxi207 dnsmasq[825389]: using nameserver 127.0.0.53#53
+Oct 16 17:01:46.858881 podb-esxi207 dnsmasq[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/addn_hosts - 2 names
+Oct 16 17:01:46.858937 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/host
+Oct 16 17:01:46.859004 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/opts
+Oct 16 17:01:50.971892 podb-esxi207 dnsmasq[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/addn_hosts - 2 names
+Oct 16 17:01:50.972012 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/host
+Oct 16 17:01:50.972132 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/opts
+Oct 16 17:01:52.224768 podb-esxi207 dnsmasq[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/addn_hosts - 2 names
+Oct 16 17:01:52.224894 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/host
+Oct 16 17:01:52.224995 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/opts
+Oct 16 17:01:53.988707 podb-esxi207 dnsmasq[824234]: read /opt/stack/data/neutron/dhcp/2fcaf1dc-46e7-42d9-b0ce-3a7d03b7cfdc/addn_hosts - 2 names
+Oct 16 17:01:53.988824 podb-esxi207 dnsmasq-dhcp[824234]: read /opt/stack/data/neutron/dhcp/2fcaf1dc-46e7-42d9-b0ce-3a7d03b7cfdc/host
+Oct 16 17:01:53.988940 podb-esxi207 dnsmasq-dhcp[824234]: read /opt/stack/data/neutron/dhcp/2fcaf1dc-46e7-42d9-b0ce-3a7d03b7cfdc/opts
+Oct 16 17:01:55.778833 podb-esxi207 dnsmasq[824655]: read /opt/stack/data/neutron/dhcp/ced6322f-30bb-4d20-9e95-1a0cafed2520/addn_hosts - 2 names
+Oct 16 17:01:55.778930 podb-esxi207 dnsmasq-dhcp[824655]: read /opt/stack/data/neutron/dhcp/ced6322f-30bb-4d20-9e95-1a0cafed2520/host
+Oct 16 17:01:55.779029 podb-esxi207 dnsmasq-dhcp[824655]: read /opt/stack/data/neutron/dhcp/ced6322f-30bb-4d20-9e95-1a0cafed2520/opts
+Oct 16 17:01:56.531662 podb-esxi207 dnsmasq[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/addn_hosts - 2 names
+Oct 16 17:01:56.531757 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/host
+Oct 16 17:01:56.531844 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/opts
+Oct 16 17:01:57.278583 podb-esxi207 dnsmasq[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/addn_hosts - 2 names
+Oct 16 17:01:57.278709 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/host
+Oct 16 17:01:57.278845 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/opts
+Oct 16 17:01:58.029085 podb-esxi207 dnsmasq[824234]: read /opt/stack/data/neutron/dhcp/2fcaf1dc-46e7-42d9-b0ce-3a7d03b7cfdc/addn_hosts - 2 names
+Oct 16 17:01:58.029196 podb-esxi207 dnsmasq-dhcp[824234]: read /opt/stack/data/neutron/dhcp/2fcaf1dc-46e7-42d9-b0ce-3a7d03b7cfdc/host
+Oct 16 17:01:58.029315 podb-esxi207 dnsmasq-dhcp[824234]: read /opt/stack/data/neutron/dhcp/2fcaf1dc-46e7-42d9-b0ce-3a7d03b7cfdc/opts
+Oct 16 17:01:59.787766 podb-esxi207 dnsmasq[824655]: read /opt/stack/data/neutron/dhcp/ced6322f-30bb-4d20-9e95-1a0cafed2520/addn_hosts - 2 names
+Oct 16 17:01:59.787862 podb-esxi207 dnsmasq-dhcp[824655]: read /opt/stack/data/neutron/dhcp/ced6322f-30bb-4d20-9e95-1a0cafed2520/host
+Oct 16 17:01:59.787951 podb-esxi207 dnsmasq-dhcp[824655]: read /opt/stack/data/neutron/dhcp/ced6322f-30bb-4d20-9e95-1a0cafed2520/opts
+Oct 16 17:02:02.671334 podb-esxi207 dnsmasq[826624]: started, version 2.90 cachesize 150
+Oct 16 17:02:02.671362 podb-esxi207 dnsmasq[826624]: DNS service limited to local subnets
+Oct 16 17:02:02.671377 podb-esxi207 dnsmasq[826624]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:02:02.671419 podb-esxi207 dnsmasq-dhcp[826624]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:02:02.671576 podb-esxi207 dnsmasq[826624]: reading /etc/resolv.conf
+Oct 16 17:02:02.671593 podb-esxi207 dnsmasq[826624]: using nameserver 127.0.0.53#53
+Oct 16 17:02:02.671715 podb-esxi207 dnsmasq[826624]: read /opt/stack/data/neutron/dhcp/2557c74a-78d3-4abd-b63d-5773eea10abe/addn_hosts - 2 names
+Oct 16 17:02:02.671779 podb-esxi207 dnsmasq-dhcp[826624]: read /opt/stack/data/neutron/dhcp/2557c74a-78d3-4abd-b63d-5773eea10abe/host
+Oct 16 17:02:02.671844 podb-esxi207 dnsmasq-dhcp[826624]: read /opt/stack/data/neutron/dhcp/2557c74a-78d3-4abd-b63d-5773eea10abe/opts
+Oct 16 17:02:03.205690 podb-esxi207 dnsmasq[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/addn_hosts - 2 names
+Oct 16 17:02:03.205814 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/host
+Oct 16 17:02:03.205922 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/opts
+Oct 16 17:02:07.518461 podb-esxi207 dnsmasq[824655]: exiting on receipt of SIGTERM
+Oct 16 17:02:08.114975 podb-esxi207 dnsmasq[824234]: exiting on receipt of SIGTERM
+Oct 16 17:02:09.261432 podb-esxi207 dnsmasq[826624]: exiting on receipt of SIGTERM
+Oct 16 17:02:14.480503 podb-esxi207 dnsmasq[827066]: started, version 2.90 cachesize 150
+Oct 16 17:02:14.480524 podb-esxi207 dnsmasq[827066]: DNS service limited to local subnets
+Oct 16 17:02:14.480538 podb-esxi207 dnsmasq[827066]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:02:14.480580 podb-esxi207 dnsmasq-dhcp[827066]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:02:14.480741 podb-esxi207 dnsmasq[827066]: reading /etc/resolv.conf
+Oct 16 17:02:14.480757 podb-esxi207 dnsmasq[827066]: using nameserver 127.0.0.53#53
+Oct 16 17:02:14.480871 podb-esxi207 dnsmasq[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/addn_hosts - 2 names
+Oct 16 17:02:14.480927 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/host
+Oct 16 17:02:14.481007 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/opts
+Oct 16 17:02:17.039012 podb-esxi207 dnsmasq[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/addn_hosts - 2 names
+Oct 16 17:02:17.039085 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/host
+Oct 16 17:02:17.039170 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/opts
+Oct 16 17:02:18.271677 podb-esxi207 dnsmasq[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/addn_hosts - 4 names
+Oct 16 17:02:18.271771 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/host
+Oct 16 17:02:18.271840 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/opts
+Oct 16 17:02:19.512724 podb-esxi207 dnsmasq[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/addn_hosts - 2 names
+Oct 16 17:02:19.512838 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/host
+Oct 16 17:02:19.512938 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/opts
+Oct 16 17:02:20.526083 podb-esxi207 dnsmasq-dhcp[823782]: DHCPDISCOVER(tapc241ae94-8b) fa:16:3e:0b:84:00
+Oct 16 17:02:20.526114 podb-esxi207 dnsmasq-dhcp[823782]: DHCPOFFER(tapc241ae94-8b) 10.1.0.7 fa:16:3e:0b:84:00
+Oct 16 17:02:20.537144 podb-esxi207 dnsmasq-dhcp[823782]: DHCPREQUEST(tapc241ae94-8b) 10.1.0.7 fa:16:3e:0b:84:00
+Oct 16 17:02:20.537181 podb-esxi207 dnsmasq-dhcp[823782]: DHCPACK(tapc241ae94-8b) 10.1.0.7 fa:16:3e:0b:84:00 host-10-1-0-7
+Oct 16 17:02:20.765599 podb-esxi207 dnsmasq[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/addn_hosts - 2 names
+Oct 16 17:02:20.765728 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/host
+Oct 16 17:02:20.765838 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/opts
+Oct 16 17:02:21.635445 podb-esxi207 sudo[827216]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/dhcp_agent.ini --privsep_context neutron.privileged.dhcp_release_cmd --privsep_sock_path /tmp/tmpud_vnz0z/privsep.sock
+Oct 16 17:02:21.636570 podb-esxi207 sudo[827216]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 16 17:02:22.422312 podb-esxi207 sudo[827216]: pam_unix(sudo:session): session closed for user root
+Oct 16 17:02:22.667744 podb-esxi207 dnsmasq-dhcp[827066]: DHCPRELEASE(tap9f236504-cf) 10.1.0.1 fa:16:3e:14:a1:da
+Oct 16 17:02:23.490225 podb-esxi207 dnsmasq[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/addn_hosts - 0 names
+Oct 16 17:02:23.490301 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/host
+Oct 16 17:02:23.490376 podb-esxi207 dnsmasq-dhcp[827066]: read /opt/stack/data/neutron/dhcp/4106a4ac-6d57-4502-8898-a182070ca38b/opts
+Oct 16 17:02:23.725379 podb-esxi207 dnsmasq[827066]: exiting on receipt of SIGTERM
+Oct 16 17:02:27.263858 podb-esxi207 dnsmasq[827331]: started, version 2.90 cachesize 150
+Oct 16 17:02:27.263883 podb-esxi207 dnsmasq[827331]: DNS service limited to local subnets
+Oct 16 17:02:27.263898 podb-esxi207 dnsmasq[827331]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:02:27.263941 podb-esxi207 dnsmasq-dhcp[827331]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:02:27.264097 podb-esxi207 dnsmasq[827331]: reading /etc/resolv.conf
+Oct 16 17:02:27.264114 podb-esxi207 dnsmasq[827331]: using nameserver 127.0.0.53#53
+Oct 16 17:02:27.264202 podb-esxi207 dnsmasq[827331]: read /opt/stack/data/neutron/dhcp/a99bd22c-cd47-4f30-b493-4b201349efee/addn_hosts - 0 names
+Oct 16 17:02:27.264254 podb-esxi207 dnsmasq-dhcp[827331]: read /opt/stack/data/neutron/dhcp/a99bd22c-cd47-4f30-b493-4b201349efee/host
+Oct 16 17:02:27.264312 podb-esxi207 dnsmasq-dhcp[827331]: read /opt/stack/data/neutron/dhcp/a99bd22c-cd47-4f30-b493-4b201349efee/opts
+Oct 16 17:02:28.808429 podb-esxi207 dnsmasq[827331]: read /opt/stack/data/neutron/dhcp/a99bd22c-cd47-4f30-b493-4b201349efee/addn_hosts - 2 names
+Oct 16 17:02:28.808547 podb-esxi207 dnsmasq-dhcp[827331]: read /opt/stack/data/neutron/dhcp/a99bd22c-cd47-4f30-b493-4b201349efee/host
+Oct 16 17:02:28.808644 podb-esxi207 dnsmasq-dhcp[827331]: read /opt/stack/data/neutron/dhcp/a99bd22c-cd47-4f30-b493-4b201349efee/opts
+Oct 16 17:02:32.223884 podb-esxi207 dnsmasq[827659]: started, version 2.90 cachesize 150
+Oct 16 17:02:32.223914 podb-esxi207 dnsmasq[827659]: DNS service limited to local subnets
+Oct 16 17:02:32.223929 podb-esxi207 dnsmasq[827659]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:02:32.223971 podb-esxi207 dnsmasq-dhcp[827659]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:02:32.224123 podb-esxi207 dnsmasq[827659]: reading /etc/resolv.conf
+Oct 16 17:02:32.224139 podb-esxi207 dnsmasq[827659]: using nameserver 127.0.0.53#53
+Oct 16 17:02:32.224252 podb-esxi207 dnsmasq[827659]: read /opt/stack/data/neutron/dhcp/189fcf99-f0b5-46f1-887d-8d305a070a7c/addn_hosts - 2 names
+Oct 16 17:02:32.224308 podb-esxi207 dnsmasq-dhcp[827659]: read /opt/stack/data/neutron/dhcp/189fcf99-f0b5-46f1-887d-8d305a070a7c/host
+Oct 16 17:02:32.224383 podb-esxi207 dnsmasq-dhcp[827659]: read /opt/stack/data/neutron/dhcp/189fcf99-f0b5-46f1-887d-8d305a070a7c/opts
+Oct 16 17:02:32.762452 podb-esxi207 dnsmasq[827331]: read /opt/stack/data/neutron/dhcp/a99bd22c-cd47-4f30-b493-4b201349efee/addn_hosts - 2 names
+Oct 16 17:02:32.762568 podb-esxi207 dnsmasq-dhcp[827331]: read /opt/stack/data/neutron/dhcp/a99bd22c-cd47-4f30-b493-4b201349efee/host
+Oct 16 17:02:32.762647 podb-esxi207 dnsmasq-dhcp[827331]: read /opt/stack/data/neutron/dhcp/a99bd22c-cd47-4f30-b493-4b201349efee/opts
+Oct 16 17:02:34.029221 podb-esxi207 dnsmasq-dhcp[827659]: DHCPRELEASE(tapc7076077-f0) 10.1.0.1 fa:16:3e:68:49:80
+Oct 16 17:02:34.854095 podb-esxi207 dnsmasq[827659]: read /opt/stack/data/neutron/dhcp/189fcf99-f0b5-46f1-887d-8d305a070a7c/addn_hosts - 0 names
+Oct 16 17:02:34.854185 podb-esxi207 dnsmasq-dhcp[827659]: read /opt/stack/data/neutron/dhcp/189fcf99-f0b5-46f1-887d-8d305a070a7c/host
+Oct 16 17:02:34.854273 podb-esxi207 dnsmasq-dhcp[827659]: read /opt/stack/data/neutron/dhcp/189fcf99-f0b5-46f1-887d-8d305a070a7c/opts
+Oct 16 17:02:35.095861 podb-esxi207 dnsmasq[827331]: exiting on receipt of SIGTERM
+Oct 16 17:02:36.193904 podb-esxi207 dnsmasq[827659]: exiting on receipt of SIGTERM
+Oct 16 17:04:10.517152 podb-esxi207 dnsmasq-dhcp[823782]: DHCPREQUEST(tapc241ae94-8b) 10.1.0.7 fa:16:3e:0b:84:00
+Oct 16 17:04:10.517186 podb-esxi207 dnsmasq-dhcp[823782]: DHCPACK(tapc241ae94-8b) 10.1.0.7 fa:16:3e:0b:84:00 host-10-1-0-7
+Oct 16 17:05:29.353695 podb-esxi207 dnsmasq-dhcp[823782]: DHCPRELEASE(tapc241ae94-8b) 10.1.0.7 fa:16:3e:0b:84:00
+Oct 16 17:05:29.369892 podb-esxi207 dnsmasq-dhcp[823782]: DHCPRELEASE(tapc241ae94-8b) 10.1.0.7 fa:16:3e:0b:84:00 unknown lease
+Oct 16 17:05:30.195166 podb-esxi207 dnsmasq[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/addn_hosts - 2 names
+Oct 16 17:05:30.195279 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/host
+Oct 16 17:05:30.195386 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/opts
+Oct 16 17:05:44.283776 podb-esxi207 dnsmasq[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/addn_hosts - 4 names
+Oct 16 17:05:44.283944 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/host
+Oct 16 17:05:44.284080 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/opts
+Oct 16 17:06:07.321559 podb-esxi207 dnsmasq-dhcp[823782]: DHCPDISCOVER(tapc241ae94-8b) fa:16:3e:9a:a3:aa
+Oct 16 17:06:07.321586 podb-esxi207 dnsmasq-dhcp[823782]: DHCPOFFER(tapc241ae94-8b) 10.1.0.14 fa:16:3e:9a:a3:aa
+Oct 16 17:06:07.333825 podb-esxi207 dnsmasq-dhcp[823782]: DHCPREQUEST(tapc241ae94-8b) 10.1.0.14 fa:16:3e:9a:a3:aa
+Oct 16 17:06:07.333857 podb-esxi207 dnsmasq-dhcp[823782]: DHCPACK(tapc241ae94-8b) 10.1.0.14 fa:16:3e:9a:a3:aa host-10-1-0-14
+Oct 16 17:07:15.341280 podb-esxi207 dnsmasq-dhcp[823782]: DHCPREQUEST(tapc241ae94-8b) 10.1.0.14 fa:16:3e:9a:a3:aa
+Oct 16 17:07:15.341316 podb-esxi207 dnsmasq-dhcp[823782]: DHCPACK(tapc241ae94-8b) 10.1.0.14 fa:16:3e:9a:a3:aa host-10-1-0-14
+Oct 16 17:08:25.814510 podb-esxi207 dnsmasq-dhcp[823782]: DHCPRELEASE(tapc241ae94-8b) 10.1.0.14 fa:16:3e:9a:a3:aa
+Oct 16 17:08:25.832277 podb-esxi207 dnsmasq-dhcp[823782]: DHCPRELEASE(tapc241ae94-8b) 10.1.0.14 fa:16:3e:9a:a3:aa unknown lease
+Oct 16 17:08:26.655810 podb-esxi207 dnsmasq[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/addn_hosts - 2 names
+Oct 16 17:08:26.655918 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/host
+Oct 16 17:08:26.656027 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/opts
+Oct 16 17:08:31.794974 podb-esxi207 dnsmasq[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/addn_hosts - 0 names
+Oct 16 17:08:31.795072 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/host
+Oct 16 17:08:31.795164 podb-esxi207 dnsmasq-dhcp[823782]: read /opt/stack/data/neutron/dhcp/57ed9267-5757-467e-9161-f317701d5f69/opts
+Oct 16 17:08:32.757191 podb-esxi207 dnsmasq[823782]: exiting on receipt of SIGTERM
+Oct 16 17:08:33.373219 podb-esxi207 dnsmasq-dhcp[825389]: DHCPRELEASE(tap4261a0fb-87) 10.1.0.1 fa:16:3e:a2:b7:7f
+Oct 16 17:08:34.195196 podb-esxi207 dnsmasq[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/addn_hosts - 0 names
+Oct 16 17:08:34.195277 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/host
+Oct 16 17:08:34.195368 podb-esxi207 dnsmasq-dhcp[825389]: read /opt/stack/data/neutron/dhcp/af29c4f9-e8c1-431e-b99d-cd5910af15ee/opts
+Oct 16 17:08:34.601269 podb-esxi207 dnsmasq[825389]: exiting on receipt of SIGTERM
+Oct 16 17:08:39.487061 podb-esxi207 dnsmasq[831362]: started, version 2.90 cachesize 150
+Oct 16 17:08:39.487090 podb-esxi207 dnsmasq[831362]: DNS service limited to local subnets
+Oct 16 17:08:39.487106 podb-esxi207 dnsmasq[831362]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:08:39.487142 podb-esxi207 dnsmasq-dhcp[831362]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:08:39.487294 podb-esxi207 dnsmasq[831362]: reading /etc/resolv.conf
+Oct 16 17:08:39.487311 podb-esxi207 dnsmasq[831362]: using nameserver 127.0.0.53#53
+Oct 16 17:08:39.487405 podb-esxi207 dnsmasq[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/addn_hosts - 0 names
+Oct 16 17:08:39.487457 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/host
+Oct 16 17:08:39.487521 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/opts
+Oct 16 17:08:41.037034 podb-esxi207 dnsmasq[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/addn_hosts - 2 names
+Oct 16 17:08:41.037162 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/host
+Oct 16 17:08:41.037267 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/opts
+Oct 16 17:08:43.887939 podb-esxi207 dnsmasq[831665]: started, version 2.90 cachesize 150
+Oct 16 17:08:43.887959 podb-esxi207 dnsmasq[831665]: DNS service limited to local subnets
+Oct 16 17:08:43.887975 podb-esxi207 dnsmasq[831665]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset no-nftset auth cryptohash DNSSEC loop-detect inotify dumpfile
+Oct 16 17:08:43.888020 podb-esxi207 dnsmasq-dhcp[831665]: DHCP, static leases only on 10.1.0.0, lease time 1d
+Oct 16 17:08:43.888175 podb-esxi207 dnsmasq[831665]: reading /etc/resolv.conf
+Oct 16 17:08:43.888191 podb-esxi207 dnsmasq[831665]: using nameserver 127.0.0.53#53
+Oct 16 17:08:43.888305 podb-esxi207 dnsmasq[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/addn_hosts - 2 names
+Oct 16 17:08:43.888364 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/host
+Oct 16 17:08:43.888430 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/opts
+Oct 16 17:08:44.928286 podb-esxi207 dnsmasq[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/addn_hosts - 2 names
+Oct 16 17:08:44.928370 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/host
+Oct 16 17:08:44.928458 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/opts
+Oct 16 17:08:46.170440 podb-esxi207 dnsmasq[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/addn_hosts - 2 names
+Oct 16 17:08:46.170577 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/host
+Oct 16 17:08:46.170669 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/opts
+Oct 16 17:08:47.414320 podb-esxi207 dnsmasq[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/addn_hosts - 2 names
+Oct 16 17:08:47.414427 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/host
+Oct 16 17:08:47.414553 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/opts
+Oct 16 17:08:48.157828 podb-esxi207 dnsmasq[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/addn_hosts - 2 names
+Oct 16 17:08:48.157936 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/host
+Oct 16 17:08:48.158040 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/opts
+Oct 16 17:08:49.396072 podb-esxi207 dnsmasq[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/addn_hosts - 2 names
+Oct 16 17:08:49.396173 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/host
+Oct 16 17:08:49.396286 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/opts
+Oct 16 17:08:50.649565 podb-esxi207 dnsmasq[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/addn_hosts - 4 names
+Oct 16 17:08:50.649707 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/host
+Oct 16 17:08:50.649815 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/opts
+Oct 16 17:09:12.323321 podb-esxi207 dnsmasq-dhcp[831362]: DHCPDISCOVER(tap1259a86c-6a) fa:16:3e:7e:0f:ea
+Oct 16 17:09:12.323346 podb-esxi207 dnsmasq-dhcp[831362]: DHCPOFFER(tap1259a86c-6a) 10.1.0.8 fa:16:3e:7e:0f:ea
+Oct 16 17:09:12.333756 podb-esxi207 dnsmasq-dhcp[831362]: DHCPREQUEST(tap1259a86c-6a) 10.1.0.8 fa:16:3e:7e:0f:ea
+Oct 16 17:09:12.333791 podb-esxi207 dnsmasq-dhcp[831362]: DHCPACK(tap1259a86c-6a) 10.1.0.8 fa:16:3e:7e:0f:ea host-10-1-0-8
+Oct 16 17:10:38.845063 podb-esxi207 dnsmasq-dhcp[831362]: DHCPRELEASE(tap1259a86c-6a) 10.1.0.8 fa:16:3e:7e:0f:ea
+Oct 16 17:10:38.861382 podb-esxi207 dnsmasq-dhcp[831362]: DHCPRELEASE(tap1259a86c-6a) 10.1.0.8 fa:16:3e:7e:0f:ea unknown lease
+Oct 16 17:10:39.686156 podb-esxi207 dnsmasq[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/addn_hosts - 2 names
+Oct 16 17:10:39.686237 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/host
+Oct 16 17:10:39.686350 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/opts
+Oct 16 17:10:44.511759 podb-esxi207 dnsmasq[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/addn_hosts - 0 names
+Oct 16 17:10:44.511823 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/host
+Oct 16 17:10:44.511882 podb-esxi207 dnsmasq-dhcp[831362]: read /opt/stack/data/neutron/dhcp/ac42dced-00f1-4330-b4fc-870cdc0e5770/opts
+Oct 16 17:10:45.539486 podb-esxi207 dnsmasq[831362]: exiting on receipt of SIGTERM
+Oct 16 17:10:46.156967 podb-esxi207 dnsmasq-dhcp[831665]: DHCPRELEASE(tap54ed7f85-c2) 10.1.0.1 fa:16:3e:2b:05:72
+Oct 16 17:10:46.980258 podb-esxi207 dnsmasq[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/addn_hosts - 0 names
+Oct 16 17:10:46.980327 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/host
+Oct 16 17:10:46.980418 podb-esxi207 dnsmasq-dhcp[831665]: read /opt/stack/data/neutron/dhcp/b3cf0dda-694f-4cc9-b343-95f2ab12d1e4/opts
+Oct 16 17:10:47.215869 podb-esxi207 dnsmasq[831665]: exiting on receipt of SIGTERM
