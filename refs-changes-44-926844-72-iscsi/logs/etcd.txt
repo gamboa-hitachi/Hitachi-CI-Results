@@ -1,0 +1,48 @@
+Oct 17 00:31:12.052554 podb-esxi207 systemd[1]: Starting Devstack devstack@etcd.service...
+Oct 17 00:31:12.079833 podb-esxi207 etcd[1210441]: WARNING: Package "github.com/golang/protobuf/protoc-gen-go/generator" is deprecated.
+Oct 17 00:31:12.079833 podb-esxi207 etcd[1210441]:         A future release of golang/protobuf will delete this package,
+Oct 17 00:31:12.079833 podb-esxi207 etcd[1210441]:         which has long been excluded from the compatibility promise.
+Oct 17 00:31:12.082835 podb-esxi207 etcd[1210441]: [WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+Oct 17 00:31:12.082850 podb-esxi207 etcd[1210441]: Running http and grpc server on single port. This is not recommended for production.
+Oct 17 00:31:12.082862 podb-esxi207 etcd[1210441]: etcd Version: 3.4.27
+Oct 17 00:31:12.083134 podb-esxi207 etcd[1210441]: [WARNING] Deprecated '--logger=capnslog' flag is set; use '--logger=zap' flag instead
+Oct 17 00:31:12.082868 podb-esxi207 etcd[1210441]: Git SHA: c92fb80f3
+Oct 17 00:31:12.082875 podb-esxi207 etcd[1210441]: Go Version: go1.19.10
+Oct 17 00:31:12.082881 podb-esxi207 etcd[1210441]: Go OS/Arch: linux/amd64
+Oct 17 00:31:12.082889 podb-esxi207 etcd[1210441]: setting maximum number of CPUs to 152, total number of available CPUs is 152
+Oct 17 00:31:12.082963 podb-esxi207 etcd[1210441]: Running http and grpc server on single port. This is not recommended for production.
+Oct 17 00:31:12.083184 podb-esxi207 etcd[1210441]: name = podb-esxi207
+Oct 17 00:31:12.083191 podb-esxi207 etcd[1210441]: data dir = /opt/stack/data/etcd
+Oct 17 00:31:12.083197 podb-esxi207 etcd[1210441]: member dir = /opt/stack/data/etcd/member
+Oct 17 00:31:12.083207 podb-esxi207 etcd[1210441]: heartbeat = 100ms
+Oct 17 00:31:12.083213 podb-esxi207 etcd[1210441]: election = 1000ms
+Oct 17 00:31:12.083220 podb-esxi207 etcd[1210441]: snapshot count = 100000
+Oct 17 00:31:12.083231 podb-esxi207 etcd[1210441]: advertise client URLs = http://172.25.66.207:2379
+Oct 17 00:31:12.083271 podb-esxi207 etcd[1210441]: check file permission: directory "/opt/stack/data/etcd" exist, but the permission is "dtrwxrwxrwx". The recommended permission is "-rwx------" to prevent possible unprivileged access to the data.
+Oct 17 00:31:12.104057 podb-esxi207 etcd[1210441]: starting member 82847110ecd13fb9 in cluster 9ac08270446d4794
+Oct 17 00:31:12.104365 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: 82847110ecd13fb9 switched to configuration voters=()
+Oct 17 00:31:12.104460 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: 82847110ecd13fb9 became follower at term 0
+Oct 17 00:31:12.104460 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: newRaft 82847110ecd13fb9 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+Oct 17 00:31:12.104460 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: 82847110ecd13fb9 became follower at term 1
+Oct 17 00:31:12.105108 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: 82847110ecd13fb9 switched to configuration voters=(9404766239362990009)
+Oct 17 00:31:12.106048 podb-esxi207 etcd[1210441]: simple token is not cryptographically signed
+Oct 17 00:31:12.106809 podb-esxi207 etcd[1210441]: starting server... [version: 3.4.27, cluster version: to_be_decided]
+Oct 17 00:31:12.107054 podb-esxi207 etcd[1210441]: 82847110ecd13fb9 as single-node; fast-forwarding 9 ticks (election ticks 10)
+Oct 17 00:31:12.107202 podb-esxi207 etcd[1210441]: started to purge file, dir: /opt/stack/data/etcd/member/snap, suffix: snap.db, max: 5, interval: 30s
+Oct 17 00:31:12.107237 podb-esxi207 etcd[1210441]: started to purge file, dir: /opt/stack/data/etcd/member/snap, suffix: snap, max: 5, interval: 30s
+Oct 17 00:31:12.107255 podb-esxi207 etcd[1210441]: started to purge file, dir: /opt/stack/data/etcd/member/wal, suffix: wal, max: 5, interval: 30s
+Oct 17 00:31:12.107485 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: 82847110ecd13fb9 switched to configuration voters=(9404766239362990009)
+Oct 17 00:31:12.107640 podb-esxi207 etcd[1210441]: added member 82847110ecd13fb9 [http://172.25.66.207:2380] to cluster 9ac08270446d4794
+Oct 17 00:31:12.112377 podb-esxi207 etcd[1210441]: listening for peers on [::]:2380
+Oct 17 00:31:12.306513 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: 82847110ecd13fb9 is starting a new election at term 1
+Oct 17 00:31:12.306513 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: 82847110ecd13fb9 became candidate at term 2
+Oct 17 00:31:12.306513 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: 82847110ecd13fb9 received MsgVoteResp from 82847110ecd13fb9 at term 2
+Oct 17 00:31:12.306513 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: 82847110ecd13fb9 became leader at term 2
+Oct 17 00:31:12.306513 podb-esxi207 etcd[1210441]: raft2025/10/17 00:31:12 INFO: raft.node: 82847110ecd13fb9 elected leader 82847110ecd13fb9 at term 2
+Oct 17 00:31:12.306917 podb-esxi207 etcd[1210441]: ready to serve client requests
+Oct 17 00:31:12.306985 podb-esxi207 etcd[1210441]: setting up the initial cluster version to 3.4
+Oct 17 00:31:12.307098 podb-esxi207 etcd[1210441]: published {Name:podb-esxi207 ClientURLs:[http://172.25.66.207:2379]} to cluster 9ac08270446d4794
+Oct 17 00:31:12.307226 podb-esxi207 etcd[1210441]: set the initial cluster version to 3.4
+Oct 17 00:31:12.307383 podb-esxi207 etcd[1210441]: enabled capabilities for version 3.4
+Oct 17 00:31:12.307538 podb-esxi207 systemd[1]: Started Devstack devstack@etcd.service.
+Oct 17 00:31:12.308081 podb-esxi207 etcd[1210441]: serving insecure client requests on 172.25.66.207:2379, this is strongly discouraged!
