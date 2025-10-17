@@ -1,0 +1,1 @@
+Oct 16 18:17:21.009830 podb-esxi207 systemd[1]: Started Devstack devstack@c-bak.service.
