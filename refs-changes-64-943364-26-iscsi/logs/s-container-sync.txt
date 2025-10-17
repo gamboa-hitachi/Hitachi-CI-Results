@@ -1,0 +1,3 @@
+Oct 17 12:08:04.144107 podb-esxi207 systemd[1]: Started Devstack devstack@s-container-sync.service.
+Oct 17 12:08:04.639939 podb-esxi207 container-sync[2246344]: Starting 2246344
+Oct 17 12:08:04.641695 podb-esxi207 container-sync[2246344]: Configuration option internal_client_conf_path not defined. Using default configuration, See internal-client.conf-sample for options
