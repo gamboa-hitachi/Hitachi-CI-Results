@@ -1,0 +1,583 @@
+Oct 17 09:01:45.771833 podb-esxi207 systemd[1]: Started Devstack devstack@c-vol.service.
+Oct 17 09:01:55.954924 podb-esxi207 sudo[2003381]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf privsep-helper --config-file /etc/cinder/cinder.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmpjwma8mok/privsep.sock
+Oct 17 09:01:55.956005 podb-esxi207 sudo[2003381]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:01:56.673681 podb-esxi207 sudo[2003381]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:12:55.918947 podb-esxi207 sudo[2021738]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf privsep-helper --config-file /etc/cinder/cinder.conf --privsep_context cinder.privsep.sys_admin_pctxt --privsep_sock_path /tmp/tmpg8egh1xn/privsep.sock
+Oct 17 09:12:55.919912 podb-esxi207 sudo[2021738]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:12:56.737996 podb-esxi207 sudo[2021738]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:12:56.860969 podb-esxi207 sudo[2021771]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_gg0pzc7tpodb-esxi207@hitachi
+Oct 17 09:12:56.861399 podb-esxi207 sudo[2021771]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:12:57.165712 podb-esxi207 sudo[2021771]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:12:57.241583 podb-esxi207 sudo[2021804]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_gg0pzc7tpodb-esxi207@hitachi
+Oct 17 09:12:57.242011 podb-esxi207 sudo[2021804]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:12:57.540223 podb-esxi207 sudo[2021804]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:12:57.732563 podb-esxi207 sudo[2021854]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_gg0pzc7tpodb-esxi207@hitachi
+Oct 17 09:12:57.733035 podb-esxi207 sudo[2021854]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:12:58.032275 podb-esxi207 sudo[2021854]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:12:58.111533 podb-esxi207 sudo[2021881]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_gg0pzc7tpodb-esxi207@hitachi
+Oct 17 09:12:58.111952 podb-esxi207 sudo[2021881]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:12:58.420359 podb-esxi207 sudo[2021881]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:13:05.189811 podb-esxi207 sudo[2022100]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_ive7e5hh
+Oct 17 09:13:05.190249 podb-esxi207 sudo[2022100]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:13:05.508368 podb-esxi207 sudo[2022100]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:13:05.586250 podb-esxi207 sudo[2022117]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_ive7e5hh
+Oct 17 09:13:05.586691 podb-esxi207 sudo[2022117]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:13:05.920432 podb-esxi207 sudo[2022117]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:13:06.025731 podb-esxi207 sudo[2022138]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_gg0pzc7tpodb-esxi207@hitachi
+Oct 17 09:13:06.026161 podb-esxi207 sudo[2022138]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:13:06.341717 podb-esxi207 sudo[2022138]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:13:06.418095 podb-esxi207 sudo[2022143]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_gg0pzc7tpodb-esxi207@hitachi
+Oct 17 09:13:06.418534 podb-esxi207 sudo[2022143]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:13:06.714880 podb-esxi207 sudo[2022143]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:13:06.751247 podb-esxi207 sudo[2022151]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_gg0pzc7tpodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 09:13:06.751926 podb-esxi207 sudo[2022151]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:13:07.040214 podb-esxi207 sudo[2022151]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:13:07.075136 podb-esxi207 sudo[2022179]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_gg0pzc7tpodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 09:13:07.075733 podb-esxi207 sudo[2022179]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:13:07.559339 podb-esxi207 sudo[2022179]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:06.643959 podb-esxi207 sudo[2028770]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_5njzqjlipodb-esxi207@hitachi
+Oct 17 09:15:06.644378 podb-esxi207 sudo[2028770]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:06.939580 podb-esxi207 sudo[2028770]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:07.020342 podb-esxi207 sudo[2028802]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_5njzqjlipodb-esxi207@hitachi
+Oct 17 09:15:07.020814 podb-esxi207 sudo[2028802]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:07.315335 podb-esxi207 sudo[2028802]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:07.494269 podb-esxi207 sudo[2028903]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_5njzqjlipodb-esxi207@hitachi
+Oct 17 09:15:07.494723 podb-esxi207 sudo[2028903]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:07.811928 podb-esxi207 sudo[2028903]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:07.889304 podb-esxi207 sudo[2028915]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_5njzqjlipodb-esxi207@hitachi
+Oct 17 09:15:07.889743 podb-esxi207 sudo[2028915]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:08.203469 podb-esxi207 sudo[2028915]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:16.797024 podb-esxi207 sudo[2029210]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_t3nhzozi
+Oct 17 09:15:16.797458 podb-esxi207 sudo[2029210]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:17.094612 podb-esxi207 sudo[2029210]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:17.173834 podb-esxi207 sudo[2029217]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_t3nhzozi
+Oct 17 09:15:17.174267 podb-esxi207 sudo[2029217]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:17.470959 podb-esxi207 sudo[2029217]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:17.577013 podb-esxi207 sudo[2029231]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_5njzqjlipodb-esxi207@hitachi
+Oct 17 09:15:17.577466 podb-esxi207 sudo[2029231]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:17.880869 podb-esxi207 sudo[2029231]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:17.977039 podb-esxi207 sudo[2029239]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_5njzqjlipodb-esxi207@hitachi
+Oct 17 09:15:17.977502 podb-esxi207 sudo[2029239]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:18.273978 podb-esxi207 sudo[2029239]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:18.311206 podb-esxi207 sudo[2029250]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_5njzqjlipodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 09:15:18.311957 podb-esxi207 sudo[2029250]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:18.609182 podb-esxi207 sudo[2029250]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:15:18.647187 podb-esxi207 sudo[2029269]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_5njzqjlipodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 09:15:18.647867 podb-esxi207 sudo[2029269]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:15:19.140102 podb-esxi207 sudo[2029269]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:29.119658 podb-esxi207 sudo[2033080]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bcoqju3apodb-esxi207@hitachi
+Oct 17 09:17:29.120107 podb-esxi207 sudo[2033080]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:29.413228 podb-esxi207 sudo[2033080]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:29.490616 podb-esxi207 sudo[2033101]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bcoqju3apodb-esxi207@hitachi
+Oct 17 09:17:29.491052 podb-esxi207 sudo[2033101]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:29.784012 podb-esxi207 sudo[2033101]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:29.959612 podb-esxi207 sudo[2033131]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bcoqju3apodb-esxi207@hitachi
+Oct 17 09:17:29.960057 podb-esxi207 sudo[2033131]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:30.262935 podb-esxi207 sudo[2033131]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:30.339904 podb-esxi207 sudo[2033150]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bcoqju3apodb-esxi207@hitachi
+Oct 17 09:17:30.340335 podb-esxi207 sudo[2033150]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:30.633023 podb-esxi207 sudo[2033150]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:38.475581 podb-esxi207 sudo[2033421]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_k7of7x85
+Oct 17 09:17:38.476030 podb-esxi207 sudo[2033421]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:38.772475 podb-esxi207 sudo[2033421]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:38.850415 podb-esxi207 sudo[2033426]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_k7of7x85
+Oct 17 09:17:38.850859 podb-esxi207 sudo[2033426]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:39.143549 podb-esxi207 sudo[2033426]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:39.240833 podb-esxi207 sudo[2033431]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bcoqju3apodb-esxi207@hitachi
+Oct 17 09:17:39.241314 podb-esxi207 sudo[2033431]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:39.517469 podb-esxi207 sudo[2033431]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:39.590763 podb-esxi207 sudo[2033435]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bcoqju3apodb-esxi207@hitachi
+Oct 17 09:17:39.591140 podb-esxi207 sudo[2033435]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:39.857276 podb-esxi207 sudo[2033435]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:39.888187 podb-esxi207 sudo[2033441]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bcoqju3apodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 09:17:39.888922 podb-esxi207 sudo[2033441]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:40.148542 podb-esxi207 sudo[2033441]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:17:40.181030 podb-esxi207 sudo[2033459]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bcoqju3apodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 09:17:40.181779 podb-esxi207 sudo[2033459]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:17:40.629254 podb-esxi207 sudo[2033459]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:06.426199 podb-esxi207 sudo[2035061]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_8ockf7txpodb-esxi207@hitachi
+Oct 17 09:19:06.426652 podb-esxi207 sudo[2035061]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:06.718189 podb-esxi207 sudo[2035061]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:06.796930 podb-esxi207 sudo[2035065]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_8ockf7txpodb-esxi207@hitachi
+Oct 17 09:19:06.797366 podb-esxi207 sudo[2035065]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:07.092986 podb-esxi207 sudo[2035065]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:07.267586 podb-esxi207 sudo[2035070]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_8ockf7txpodb-esxi207@hitachi
+Oct 17 09:19:07.268021 podb-esxi207 sudo[2035070]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:07.565056 podb-esxi207 sudo[2035070]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:07.645147 podb-esxi207 sudo[2035080]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_8ockf7txpodb-esxi207@hitachi
+Oct 17 09:19:07.645613 podb-esxi207 sudo[2035080]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:07.690526 podb-esxi207 sudo[2035081]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_c4tcgtov
+Oct 17 09:19:07.690927 podb-esxi207 sudo[2035081]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:07.942746 podb-esxi207 sudo[2035080]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:07.981004 podb-esxi207 sudo[2035081]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:08.055184 podb-esxi207 sudo[2035089]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_c4tcgtov
+Oct 17 09:19:08.055621 podb-esxi207 sudo[2035089]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:08.346651 podb-esxi207 sudo[2035089]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:09.451345 podb-esxi207 sudo[2035093]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_c4tcgtov
+Oct 17 09:19:09.451781 podb-esxi207 sudo[2035093]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:09.752546 podb-esxi207 sudo[2035093]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:09.832249 podb-esxi207 sudo[2035097]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_c4tcgtov
+Oct 17 09:19:09.832691 podb-esxi207 sudo[2035097]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:10.149304 podb-esxi207 sudo[2035097]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:10.183166 podb-esxi207 sudo[2035102]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_c4tcgtov of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 09:19:10.183804 podb-esxi207 sudo[2035102]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:10.442116 podb-esxi207 sudo[2035102]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:10.473055 podb-esxi207 sudo[2035114]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -S 0 -f raw /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_c4tcgtov /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 09:19:10.473742 podb-esxi207 sudo[2035114]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:10.885461 podb-esxi207 sudo[2035114]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:17.589494 podb-esxi207 sudo[2035288]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9_p3svth
+Oct 17 09:19:17.589915 podb-esxi207 sudo[2035288]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:17.903110 podb-esxi207 sudo[2035288]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:17.982485 podb-esxi207 sudo[2035292]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9_p3svth
+Oct 17 09:19:17.982912 podb-esxi207 sudo[2035292]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:18.287038 podb-esxi207 sudo[2035292]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:18.382785 podb-esxi207 sudo[2035298]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_8ockf7txpodb-esxi207@hitachi
+Oct 17 09:19:18.383235 podb-esxi207 sudo[2035298]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:18.684739 podb-esxi207 sudo[2035298]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:18.748526 podb-esxi207 sudo[2035304]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_8ockf7txpodb-esxi207@hitachi
+Oct 17 09:19:18.748980 podb-esxi207 sudo[2035304]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:19.059122 podb-esxi207 sudo[2035304]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:19.096560 podb-esxi207 sudo[2035309]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_8ockf7txpodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 09:19:19.097279 podb-esxi207 sudo[2035309]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:19.373390 podb-esxi207 sudo[2035309]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:19:19.410794 podb-esxi207 sudo[2035324]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_8ockf7txpodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 09:19:19.411615 podb-esxi207 sudo[2035324]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:19:19.868788 podb-esxi207 sudo[2035324]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:34.647216 podb-esxi207 sudo[2043103]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psr7cyozpodb-esxi207@hitachi
+Oct 17 09:25:34.647660 podb-esxi207 sudo[2043103]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:34.962962 podb-esxi207 sudo[2043103]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:35.047461 podb-esxi207 sudo[2043112]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psr7cyozpodb-esxi207@hitachi
+Oct 17 09:25:35.047894 podb-esxi207 sudo[2043112]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:35.351139 podb-esxi207 sudo[2043112]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:35.554439 podb-esxi207 sudo[2043135]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psr7cyozpodb-esxi207@hitachi
+Oct 17 09:25:35.554872 podb-esxi207 sudo[2043135]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:35.830363 podb-esxi207 sudo[2043135]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:35.906285 podb-esxi207 sudo[2043154]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psr7cyozpodb-esxi207@hitachi
+Oct 17 09:25:35.906661 podb-esxi207 sudo[2043154]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:36.171731 podb-esxi207 sudo[2043154]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:44.302200 podb-esxi207 sudo[2043701]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_1kpnm7u7
+Oct 17 09:25:44.302627 podb-esxi207 sudo[2043701]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:44.602679 podb-esxi207 sudo[2043701]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:44.667558 podb-esxi207 sudo[2043710]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_1kpnm7u7
+Oct 17 09:25:44.667994 podb-esxi207 sudo[2043710]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:44.960606 podb-esxi207 sudo[2043710]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:45.065147 podb-esxi207 sudo[2043717]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psr7cyozpodb-esxi207@hitachi
+Oct 17 09:25:45.065582 podb-esxi207 sudo[2043717]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:45.379650 podb-esxi207 sudo[2043717]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:45.459167 podb-esxi207 sudo[2043729]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psr7cyozpodb-esxi207@hitachi
+Oct 17 09:25:45.459600 podb-esxi207 sudo[2043729]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:45.764023 podb-esxi207 sudo[2043729]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:45.802385 podb-esxi207 sudo[2043753]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psr7cyozpodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-1 oflag=direct
+Oct 17 09:25:45.803146 podb-esxi207 sudo[2043753]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:46.095172 podb-esxi207 sudo[2043753]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:25:46.131475 podb-esxi207 sudo[2043774]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psr7cyozpodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-1
+Oct 17 09:25:46.132064 podb-esxi207 sudo[2043774]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:25:46.640768 podb-esxi207 sudo[2043774]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:13.390462 podb-esxi207 sudo[2044128]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_nr48vi8ypodb-esxi207@hitachi
+Oct 17 09:26:13.390905 podb-esxi207 sudo[2044128]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:13.684107 podb-esxi207 sudo[2044128]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:13.761082 podb-esxi207 sudo[2044132]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_nr48vi8ypodb-esxi207@hitachi
+Oct 17 09:26:13.761524 podb-esxi207 sudo[2044132]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:14.040579 podb-esxi207 sudo[2044132]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:14.219471 podb-esxi207 sudo[2044138]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_nr48vi8ypodb-esxi207@hitachi
+Oct 17 09:26:14.219873 podb-esxi207 sudo[2044138]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:14.513520 podb-esxi207 sudo[2044138]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:14.592503 podb-esxi207 sudo[2044142]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_nr48vi8ypodb-esxi207@hitachi
+Oct 17 09:26:14.592958 podb-esxi207 sudo[2044142]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:14.883066 podb-esxi207 sudo[2044142]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:21.937580 podb-esxi207 sudo[2044229]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_wqx3xmwr
+Oct 17 09:26:21.938021 podb-esxi207 sudo[2044229]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:22.229251 podb-esxi207 sudo[2044229]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:22.306035 podb-esxi207 sudo[2044235]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_wqx3xmwr
+Oct 17 09:26:22.306469 podb-esxi207 sudo[2044235]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:22.596166 podb-esxi207 sudo[2044235]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:22.697973 podb-esxi207 sudo[2044240]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_nr48vi8ypodb-esxi207@hitachi
+Oct 17 09:26:22.698417 podb-esxi207 sudo[2044240]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:22.986149 podb-esxi207 sudo[2044240]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:23.064565 podb-esxi207 sudo[2044244]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_nr48vi8ypodb-esxi207@hitachi
+Oct 17 09:26:23.065008 podb-esxi207 sudo[2044244]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:23.355797 podb-esxi207 sudo[2044244]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:23.391352 podb-esxi207 sudo[2044249]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_nr48vi8ypodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-1 oflag=direct
+Oct 17 09:26:23.391950 podb-esxi207 sudo[2044249]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:23.673591 podb-esxi207 sudo[2044249]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:26:23.709280 podb-esxi207 sudo[2044262]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_nr48vi8ypodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-1
+Oct 17 09:26:23.710073 podb-esxi207 sudo[2044262]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:26:24.179323 podb-esxi207 sudo[2044262]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:44.526397 podb-esxi207 sudo[2046473]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_40f9f547-d9d9-46cc-8733-082ee3abe48f_p568j7h8podb-esxi207@hitachi
+Oct 17 09:27:44.526819 podb-esxi207 sudo[2046473]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:44.828299 podb-esxi207 sudo[2046473]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:44.907325 podb-esxi207 sudo[2046481]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_40f9f547-d9d9-46cc-8733-082ee3abe48f_p568j7h8podb-esxi207@hitachi
+Oct 17 09:27:44.907767 podb-esxi207 sudo[2046481]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:45.210090 podb-esxi207 sudo[2046481]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:45.392665 podb-esxi207 sudo[2046510]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_40f9f547-d9d9-46cc-8733-082ee3abe48f_p568j7h8podb-esxi207@hitachi
+Oct 17 09:27:45.393107 podb-esxi207 sudo[2046510]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:45.695563 podb-esxi207 sudo[2046510]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:45.775918 podb-esxi207 sudo[2046545]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_40f9f547-d9d9-46cc-8733-082ee3abe48f_p568j7h8podb-esxi207@hitachi
+Oct 17 09:27:45.776353 podb-esxi207 sudo[2046545]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:46.072237 podb-esxi207 sudo[2046545]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:47.092655 podb-esxi207 sudo[2046625]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cvo9u9r3podb-esxi207@hitachi
+Oct 17 09:27:47.093076 podb-esxi207 sudo[2046625]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:47.392480 podb-esxi207 sudo[2046625]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:47.468414 podb-esxi207 sudo[2046643]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cvo9u9r3podb-esxi207@hitachi
+Oct 17 09:27:47.468867 podb-esxi207 sudo[2046643]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:47.762462 podb-esxi207 sudo[2046643]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:47.937519 podb-esxi207 sudo[2046714]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cvo9u9r3podb-esxi207@hitachi
+Oct 17 09:27:47.937947 podb-esxi207 sudo[2046714]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:48.235658 podb-esxi207 sudo[2046714]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:48.312524 podb-esxi207 sudo[2046718]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cvo9u9r3podb-esxi207@hitachi
+Oct 17 09:27:48.312962 podb-esxi207 sudo[2046718]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:48.609477 podb-esxi207 sudo[2046718]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:54.367753 podb-esxi207 sudo[2046878]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_40f9f547-d9d9-46cc-8733-082ee3abe48f_swnown3z
+Oct 17 09:27:54.368185 podb-esxi207 sudo[2046878]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:54.666490 podb-esxi207 sudo[2046878]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:54.743449 podb-esxi207 sudo[2046883]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_40f9f547-d9d9-46cc-8733-082ee3abe48f_swnown3z
+Oct 17 09:27:54.743879 podb-esxi207 sudo[2046883]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:55.036720 podb-esxi207 sudo[2046883]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:55.152459 podb-esxi207 sudo[2046893]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_40f9f547-d9d9-46cc-8733-082ee3abe48f_p568j7h8podb-esxi207@hitachi
+Oct 17 09:27:55.152930 podb-esxi207 sudo[2046893]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:55.448709 podb-esxi207 sudo[2046893]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:55.525952 podb-esxi207 sudo[2046934]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_40f9f547-d9d9-46cc-8733-082ee3abe48f_p568j7h8podb-esxi207@hitachi
+Oct 17 09:27:55.526386 podb-esxi207 sudo[2046934]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:55.819820 podb-esxi207 sudo[2046934]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:55.855332 podb-esxi207 sudo[2046939]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_40f9f547-d9d9-46cc-8733-082ee3abe48f_p568j7h8podb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 09:27:55.856078 podb-esxi207 sudo[2046939]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:56.144970 podb-esxi207 sudo[2046939]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:56.179943 podb-esxi207 sudo[2046951]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_40f9f547-d9d9-46cc-8733-082ee3abe48f_p568j7h8podb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 09:27:56.180694 podb-esxi207 sudo[2046951]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:56.638771 podb-esxi207 sudo[2046951]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:57.246080 podb-esxi207 sudo[2047009]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_lry2_yha
+Oct 17 09:27:57.246511 podb-esxi207 sudo[2047009]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:57.537901 podb-esxi207 sudo[2047009]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:57.614658 podb-esxi207 sudo[2047014]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_lry2_yha
+Oct 17 09:27:57.615100 podb-esxi207 sudo[2047014]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:57.913783 podb-esxi207 sudo[2047014]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:58.019689 podb-esxi207 sudo[2047019]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cvo9u9r3podb-esxi207@hitachi
+Oct 17 09:27:58.020116 podb-esxi207 sudo[2047019]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:58.307937 podb-esxi207 sudo[2047019]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:58.381981 podb-esxi207 sudo[2047023]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cvo9u9r3podb-esxi207@hitachi
+Oct 17 09:27:58.382401 podb-esxi207 sudo[2047023]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:58.677565 podb-esxi207 sudo[2047023]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:58.713793 podb-esxi207 sudo[2047029]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cvo9u9r3podb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-1 oflag=direct
+Oct 17 09:27:58.714377 podb-esxi207 sudo[2047029]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:58.992566 podb-esxi207 sudo[2047029]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:27:59.028565 podb-esxi207 sudo[2047040]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cvo9u9r3podb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-1
+Oct 17 09:27:59.029342 podb-esxi207 sudo[2047040]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:27:59.505192 podb-esxi207 sudo[2047040]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:05.351890 podb-esxi207 sudo[2051646]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_br_zp7ozpodb-esxi207@hitachi
+Oct 17 09:31:05.352339 podb-esxi207 sudo[2051646]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:05.644424 podb-esxi207 sudo[2051646]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:05.722521 podb-esxi207 sudo[2051659]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_br_zp7ozpodb-esxi207@hitachi
+Oct 17 09:31:05.722950 podb-esxi207 sudo[2051659]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:06.019597 podb-esxi207 sudo[2051659]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:06.207082 podb-esxi207 sudo[2051674]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_br_zp7ozpodb-esxi207@hitachi
+Oct 17 09:31:06.207529 podb-esxi207 sudo[2051674]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:06.499409 podb-esxi207 sudo[2051674]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:06.581102 podb-esxi207 sudo[2051691]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_br_zp7ozpodb-esxi207@hitachi
+Oct 17 09:31:06.581544 podb-esxi207 sudo[2051691]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:06.878187 podb-esxi207 sudo[2051691]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:17.142091 podb-esxi207 sudo[2051949]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_2vkdesce
+Oct 17 09:31:17.142542 podb-esxi207 sudo[2051949]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:17.462825 podb-esxi207 sudo[2051949]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:17.540966 podb-esxi207 sudo[2051953]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_2vkdesce
+Oct 17 09:31:17.541411 podb-esxi207 sudo[2051953]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:17.851426 podb-esxi207 sudo[2051953]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:17.958398 podb-esxi207 sudo[2051970]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_br_zp7ozpodb-esxi207@hitachi
+Oct 17 09:31:17.958863 podb-esxi207 sudo[2051970]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:18.246634 podb-esxi207 sudo[2051970]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:18.322321 podb-esxi207 sudo[2051983]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_br_zp7ozpodb-esxi207@hitachi
+Oct 17 09:31:18.322710 podb-esxi207 sudo[2051983]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:18.601634 podb-esxi207 sudo[2051983]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:18.629971 podb-esxi207 sudo[2051990]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_br_zp7ozpodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-2 oflag=direct
+Oct 17 09:31:18.630412 podb-esxi207 sudo[2051990]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:18.950541 podb-esxi207 sudo[2051990]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:31:18.989655 podb-esxi207 sudo[2052004]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_br_zp7ozpodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-2
+Oct 17 09:31:18.990410 podb-esxi207 sudo[2052004]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:31:19.445574 podb-esxi207 sudo[2052004]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:33:21.956723 podb-esxi207 sudo[2054153]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf chown 1001 /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-3
+Oct 17 09:33:21.957297 podb-esxi207 sudo[2054153]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:33:22.234864 podb-esxi207 sudo[2054153]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:33:33.648143 podb-esxi207 sudo[2054165]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf chown 0 /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-3
+Oct 17 09:33:33.648905 podb-esxi207 sudo[2054165]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:33:33.924601 podb-esxi207 sudo[2054165]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:33:41.721676 podb-esxi207 sudo[2054253]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-3
+Oct 17 09:33:41.722111 podb-esxi207 sudo[2054253]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:33:42.014104 podb-esxi207 sudo[2054253]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:33:42.092179 podb-esxi207 sudo[2054258]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-3
+Oct 17 09:33:42.092620 podb-esxi207 sudo[2054258]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:33:42.383053 podb-esxi207 sudo[2054258]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:33:42.419855 podb-esxi207 sudo[2054264]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O qcow2 -c /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-3 /opt/stack/data/cinder/conversion/vol_upload_mf4li4ux
+Oct 17 09:33:42.420449 podb-esxi207 sudo[2054264]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:33:43.545718 podb-esxi207 sudo[2054264]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:33:43.627847 podb-esxi207 sudo[2054288]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f qcow2 --output=json /opt/stack/data/cinder/conversion/vol_upload_mf4li4ux
+Oct 17 09:33:43.628280 podb-esxi207 sudo[2054288]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:33:43.919385 podb-esxi207 sudo[2054288]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:07.164283 podb-esxi207 sudo[2056690]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9kx7vyiupodb-esxi207@hitachi
+Oct 17 09:36:07.164744 podb-esxi207 sudo[2056690]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:07.456425 podb-esxi207 sudo[2056690]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:07.533040 podb-esxi207 sudo[2056694]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9kx7vyiupodb-esxi207@hitachi
+Oct 17 09:36:07.533467 podb-esxi207 sudo[2056694]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:07.821825 podb-esxi207 sudo[2056694]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:08.005768 podb-esxi207 sudo[2056699]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9kx7vyiupodb-esxi207@hitachi
+Oct 17 09:36:08.006214 podb-esxi207 sudo[2056699]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:08.293986 podb-esxi207 sudo[2056699]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:08.371084 podb-esxi207 sudo[2056703]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9kx7vyiupodb-esxi207@hitachi
+Oct 17 09:36:08.371513 podb-esxi207 sudo[2056703]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:08.666031 podb-esxi207 sudo[2056703]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:22.316330 podb-esxi207 sudo[2056780]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psh3sahk
+Oct 17 09:36:22.316790 podb-esxi207 sudo[2056780]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:22.631063 podb-esxi207 sudo[2056780]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:22.705539 podb-esxi207 sudo[2056785]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_psh3sahk
+Oct 17 09:36:22.705964 podb-esxi207 sudo[2056785]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:22.999505 podb-esxi207 sudo[2056785]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:23.101210 podb-esxi207 sudo[2056789]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9kx7vyiupodb-esxi207@hitachi
+Oct 17 09:36:23.101644 podb-esxi207 sudo[2056789]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:23.394896 podb-esxi207 sudo[2056789]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:23.470485 podb-esxi207 sudo[2056793]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9kx7vyiupodb-esxi207@hitachi
+Oct 17 09:36:23.470928 podb-esxi207 sudo[2056793]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:23.774511 podb-esxi207 sudo[2056793]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:23.809042 podb-esxi207 sudo[2056798]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9kx7vyiupodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 09:36:23.809653 podb-esxi207 sudo[2056798]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:24.103328 podb-esxi207 sudo[2056798]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:36:24.137965 podb-esxi207 sudo[2056809]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_9kx7vyiupodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 09:36:24.138559 podb-esxi207 sudo[2056809]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:36:24.598395 podb-esxi207 sudo[2056809]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:12.286877 podb-esxi207 sudo[2059495]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_53e50a02-0e8f-414d-8ff4-b827cd1d05db_udwgxwhepodb-esxi207@hitachi
+Oct 17 09:40:12.287301 podb-esxi207 sudo[2059495]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:12.580238 podb-esxi207 sudo[2059495]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:12.656826 podb-esxi207 sudo[2059500]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_53e50a02-0e8f-414d-8ff4-b827cd1d05db_udwgxwhepodb-esxi207@hitachi
+Oct 17 09:40:12.657247 podb-esxi207 sudo[2059500]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:12.946316 podb-esxi207 sudo[2059500]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:13.108045 podb-esxi207 sudo[2059505]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_53e50a02-0e8f-414d-8ff4-b827cd1d05db_udwgxwhepodb-esxi207@hitachi
+Oct 17 09:40:13.108470 podb-esxi207 sudo[2059505]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:13.396482 podb-esxi207 sudo[2059505]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:13.471063 podb-esxi207 sudo[2059509]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_53e50a02-0e8f-414d-8ff4-b827cd1d05db_udwgxwhepodb-esxi207@hitachi
+Oct 17 09:40:13.471489 podb-esxi207 sudo[2059509]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:13.760154 podb-esxi207 sudo[2059509]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:45.690037 podb-esxi207 sudo[2059613]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_53e50a02-0e8f-414d-8ff4-b827cd1d05db_oe_jmin6
+Oct 17 09:40:45.690470 podb-esxi207 sudo[2059613]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:45.990803 podb-esxi207 sudo[2059613]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:46.068809 podb-esxi207 sudo[2059617]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_53e50a02-0e8f-414d-8ff4-b827cd1d05db_oe_jmin6
+Oct 17 09:40:46.069236 podb-esxi207 sudo[2059617]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:46.390183 podb-esxi207 sudo[2059617]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:46.470200 podb-esxi207 sudo[2059629]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_53e50a02-0e8f-414d-8ff4-b827cd1d05db_udwgxwhepodb-esxi207@hitachi
+Oct 17 09:40:46.470641 podb-esxi207 sudo[2059629]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:46.763961 podb-esxi207 sudo[2059629]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:46.828592 podb-esxi207 sudo[2059636]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_53e50a02-0e8f-414d-8ff4-b827cd1d05db_udwgxwhepodb-esxi207@hitachi
+Oct 17 09:40:46.829047 podb-esxi207 sudo[2059636]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:47.130469 podb-esxi207 sudo[2059636]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:47.169264 podb-esxi207 sudo[2059666]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_53e50a02-0e8f-414d-8ff4-b827cd1d05db_udwgxwhepodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 09:40:47.169856 podb-esxi207 sudo[2059666]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:47.462648 podb-esxi207 sudo[2059666]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:40:47.500691 podb-esxi207 sudo[2059700]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_53e50a02-0e8f-414d-8ff4-b827cd1d05db_udwgxwhepodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 09:40:47.501441 podb-esxi207 sudo[2059700]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:40:47.815449 podb-esxi207 sudo[2059700]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:42:50.891226 podb-esxi207 sudo[2061854]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cepk0b_upodb-esxi207@hitachi
+Oct 17 09:42:50.891648 podb-esxi207 sudo[2061854]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:42:51.214024 podb-esxi207 sudo[2061854]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:42:51.283991 podb-esxi207 sudo[2061859]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cepk0b_upodb-esxi207@hitachi
+Oct 17 09:42:51.284430 podb-esxi207 sudo[2061859]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:42:51.578283 podb-esxi207 sudo[2061859]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:42:52.007563 podb-esxi207 sudo[2061864]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cepk0b_upodb-esxi207@hitachi
+Oct 17 09:42:52.008007 podb-esxi207 sudo[2061864]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:42:52.051072 podb-esxi207 sudo[2061865]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_7mxnxg61podb-esxi207@hitachi
+Oct 17 09:42:52.051494 podb-esxi207 sudo[2061865]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:42:52.310795 podb-esxi207 sudo[2061864]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:42:52.345347 podb-esxi207 sudo[2061865]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:42:52.389286 podb-esxi207 sudo[2061872]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cepk0b_upodb-esxi207@hitachi
+Oct 17 09:42:52.389736 podb-esxi207 sudo[2061872]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:42:52.419016 podb-esxi207 sudo[2061873]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_7mxnxg61podb-esxi207@hitachi
+Oct 17 09:42:52.419426 podb-esxi207 sudo[2061873]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:42:52.689740 podb-esxi207 sudo[2061872]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:42:52.742357 podb-esxi207 sudo[2061873]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:42:52.913243 podb-esxi207 sudo[2061883]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_7mxnxg61podb-esxi207@hitachi
+Oct 17 09:42:52.913674 podb-esxi207 sudo[2061883]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:42:53.262838 podb-esxi207 sudo[2061883]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:42:53.342674 podb-esxi207 sudo[2061887]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_7mxnxg61podb-esxi207@hitachi
+Oct 17 09:42:53.343119 podb-esxi207 sudo[2061887]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:42:53.661645 podb-esxi207 sudo[2061887]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:00.325894 podb-esxi207 sudo[2062321]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_rs0rsqmu
+Oct 17 09:43:00.326335 podb-esxi207 sudo[2062321]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:00.620044 podb-esxi207 sudo[2062321]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:00.696316 podb-esxi207 sudo[2062367]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_rs0rsqmu
+Oct 17 09:43:00.696769 podb-esxi207 sudo[2062367]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:01.014771 podb-esxi207 sudo[2062367]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:01.120827 podb-esxi207 sudo[2062445]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cepk0b_upodb-esxi207@hitachi
+Oct 17 09:43:01.121264 podb-esxi207 sudo[2062445]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:01.440500 podb-esxi207 sudo[2062445]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:01.520158 podb-esxi207 sudo[2062454]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cepk0b_upodb-esxi207@hitachi
+Oct 17 09:43:01.520594 podb-esxi207 sudo[2062454]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:01.812451 podb-esxi207 sudo[2062454]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:01.840440 podb-esxi207 sudo[2062467]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cepk0b_upodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-1 oflag=direct
+Oct 17 09:43:01.840866 podb-esxi207 sudo[2062467]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:02.131709 podb-esxi207 sudo[2062467]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:02.168739 podb-esxi207 sudo[2062494]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_cepk0b_upodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-1
+Oct 17 09:43:02.169332 podb-esxi207 sudo[2062494]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:02.370648 podb-esxi207 sudo[2062507]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bgrc12kq
+Oct 17 09:43:02.371124 podb-esxi207 sudo[2062507]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:02.670034 podb-esxi207 sudo[2062507]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:02.683159 podb-esxi207 sudo[2062494]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:02.748367 podb-esxi207 sudo[2062551]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_bgrc12kq
+Oct 17 09:43:02.748837 podb-esxi207 sudo[2062551]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:03.042393 podb-esxi207 sudo[2062551]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:03.145961 podb-esxi207 sudo[2062597]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_7mxnxg61podb-esxi207@hitachi
+Oct 17 09:43:03.146419 podb-esxi207 sudo[2062597]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:03.492952 podb-esxi207 sudo[2062597]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:03.590412 podb-esxi207 sudo[2062618]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_7mxnxg61podb-esxi207@hitachi
+Oct 17 09:43:03.590917 podb-esxi207 sudo[2062618]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:03.890085 podb-esxi207 sudo[2062618]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:03.926179 podb-esxi207 sudo[2062629]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_7mxnxg61podb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-2 oflag=direct
+Oct 17 09:43:03.926953 podb-esxi207 sudo[2062629]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:04.223654 podb-esxi207 sudo[2062629]: pam_unix(sudo:session): session closed for user root
+Oct 17 09:43:04.250381 podb-esxi207 sudo[2062652]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_7mxnxg61podb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-2
+Oct 17 09:43:04.250817 podb-esxi207 sudo[2062652]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 09:43:04.745181 podb-esxi207 sudo[2062652]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:38.727410 podb-esxi207 sudo[2075372]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_uzis90i6podb-esxi207@hitachi
+Oct 17 10:03:38.727852 podb-esxi207 sudo[2075372]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:39.042786 podb-esxi207 sudo[2075372]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:39.142195 podb-esxi207 sudo[2075395]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_uzis90i6podb-esxi207@hitachi
+Oct 17 10:03:39.142646 podb-esxi207 sudo[2075395]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:39.445186 podb-esxi207 sudo[2075395]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:39.646683 podb-esxi207 sudo[2075467]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_uzis90i6podb-esxi207@hitachi
+Oct 17 10:03:39.647122 podb-esxi207 sudo[2075467]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:39.940595 podb-esxi207 sudo[2075467]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:40.006000 podb-esxi207 sudo[2075474]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_uzis90i6podb-esxi207@hitachi
+Oct 17 10:03:40.006415 podb-esxi207 sudo[2075474]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:40.298941 podb-esxi207 sudo[2075474]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:47.190923 podb-esxi207 sudo[2075644]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_tzvhp8bf
+Oct 17 10:03:47.191375 podb-esxi207 sudo[2075644]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:47.486151 podb-esxi207 sudo[2075644]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:47.564261 podb-esxi207 sudo[2075652]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_tzvhp8bf
+Oct 17 10:03:47.564745 podb-esxi207 sudo[2075652]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:47.853797 podb-esxi207 sudo[2075652]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:47.957211 podb-esxi207 sudo[2075657]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_uzis90i6podb-esxi207@hitachi
+Oct 17 10:03:47.957669 podb-esxi207 sudo[2075657]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:48.247177 podb-esxi207 sudo[2075657]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:48.325889 podb-esxi207 sudo[2075661]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_uzis90i6podb-esxi207@hitachi
+Oct 17 10:03:48.326331 podb-esxi207 sudo[2075661]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:48.619370 podb-esxi207 sudo[2075661]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:48.657930 podb-esxi207 sudo[2075666]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_uzis90i6podb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 10:03:48.658685 podb-esxi207 sudo[2075666]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:48.932664 podb-esxi207 sudo[2075666]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:03:48.968680 podb-esxi207 sudo[2075677]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_uzis90i6podb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 10:03:48.969473 podb-esxi207 sudo[2075677]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:03:49.430857 podb-esxi207 sudo[2075677]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:08.813820 podb-esxi207 sudo[2078017]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_o521uy56podb-esxi207@hitachi
+Oct 17 10:08:08.814255 podb-esxi207 sudo[2078017]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:09.105776 podb-esxi207 sudo[2078017]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:09.182221 podb-esxi207 sudo[2078021]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_o521uy56podb-esxi207@hitachi
+Oct 17 10:08:09.182652 podb-esxi207 sudo[2078021]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:09.470334 podb-esxi207 sudo[2078021]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:09.630988 podb-esxi207 sudo[2078026]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_o521uy56podb-esxi207@hitachi
+Oct 17 10:08:09.631427 podb-esxi207 sudo[2078026]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:09.932832 podb-esxi207 sudo[2078026]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:10.009584 podb-esxi207 sudo[2078030]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_o521uy56podb-esxi207@hitachi
+Oct 17 10:08:10.010027 podb-esxi207 sudo[2078030]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:10.299781 podb-esxi207 sudo[2078030]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:17.952267 podb-esxi207 sudo[2078097]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_wsrgcbfr
+Oct 17 10:08:17.952711 podb-esxi207 sudo[2078097]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:18.246361 podb-esxi207 sudo[2078097]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:18.325547 podb-esxi207 sudo[2078101]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_wsrgcbfr
+Oct 17 10:08:18.325985 podb-esxi207 sudo[2078101]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:18.616731 podb-esxi207 sudo[2078101]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:18.726902 podb-esxi207 sudo[2078105]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_o521uy56podb-esxi207@hitachi
+Oct 17 10:08:18.727337 podb-esxi207 sudo[2078105]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:19.025020 podb-esxi207 sudo[2078105]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:19.101457 podb-esxi207 sudo[2078109]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_o521uy56podb-esxi207@hitachi
+Oct 17 10:08:19.101880 podb-esxi207 sudo[2078109]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:19.394708 podb-esxi207 sudo[2078109]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:19.434115 podb-esxi207 sudo[2078114]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_o521uy56podb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 10:08:19.434777 podb-esxi207 sudo[2078114]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:19.721025 podb-esxi207 sudo[2078114]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:08:19.746665 podb-esxi207 sudo[2078125]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_b5240fd6-3d0c-43cc-aca6-f53589bcc04a_o521uy56podb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 10:08:19.747156 podb-esxi207 sudo[2078125]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:08:20.225266 podb-esxi207 sudo[2078125]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:11.790177 podb-esxi207 sudo[2081842]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_gpckbqcgpodb-esxi207@hitachi
+Oct 17 10:16:11.790616 podb-esxi207 sudo[2081842]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:12.081834 podb-esxi207 sudo[2081842]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:12.159773 podb-esxi207 sudo[2081846]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_gpckbqcgpodb-esxi207@hitachi
+Oct 17 10:16:12.160223 podb-esxi207 sudo[2081846]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:12.453035 podb-esxi207 sudo[2081846]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:12.606758 podb-esxi207 sudo[2081851]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_gpckbqcgpodb-esxi207@hitachi
+Oct 17 10:16:12.607200 podb-esxi207 sudo[2081851]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:12.901712 podb-esxi207 sudo[2081851]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:12.980770 podb-esxi207 sudo[2081855]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_gpckbqcgpodb-esxi207@hitachi
+Oct 17 10:16:12.981207 podb-esxi207 sudo[2081855]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:13.272727 podb-esxi207 sudo[2081855]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:19.820738 podb-esxi207 sudo[2081922]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_8db3iriv
+Oct 17 10:16:19.821182 podb-esxi207 sudo[2081922]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:20.116316 podb-esxi207 sudo[2081922]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:20.191112 podb-esxi207 sudo[2081926]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_8db3iriv
+Oct 17 10:16:20.191540 podb-esxi207 sudo[2081926]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:20.482727 podb-esxi207 sudo[2081926]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:20.565036 podb-esxi207 sudo[2081930]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_gpckbqcgpodb-esxi207@hitachi
+Oct 17 10:16:20.565469 podb-esxi207 sudo[2081930]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:20.883141 podb-esxi207 sudo[2081930]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:20.962792 podb-esxi207 sudo[2081934]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_gpckbqcgpodb-esxi207@hitachi
+Oct 17 10:16:20.963231 podb-esxi207 sudo[2081934]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:21.251548 podb-esxi207 sudo[2081934]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:21.289097 podb-esxi207 sudo[2081939]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_gpckbqcgpodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 10:16:21.289705 podb-esxi207 sudo[2081939]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:21.578190 podb-esxi207 sudo[2081939]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:21.615947 podb-esxi207 sudo[2081950]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_850d68d3-b5f2-45fa-8717-e4f3f4bea7be_gpckbqcgpodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 10:16:21.616712 podb-esxi207 sudo[2081950]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:21.918098 podb-esxi207 sudo[2081950]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:32.645826 podb-esxi207 sudo[2081986]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_adfd7627-b746-4316-a9ba-b57006c81ff2_4hzdh0cxpodb-esxi207@hitachi
+Oct 17 10:16:32.646253 podb-esxi207 sudo[2081986]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:32.934774 podb-esxi207 sudo[2081986]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:32.995629 podb-esxi207 sudo[2081990]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_adfd7627-b746-4316-a9ba-b57006c81ff2_4hzdh0cxpodb-esxi207@hitachi
+Oct 17 10:16:32.996048 podb-esxi207 sudo[2081990]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:33.281399 podb-esxi207 sudo[2081990]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:33.441897 podb-esxi207 sudo[2081995]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_adfd7627-b746-4316-a9ba-b57006c81ff2_4hzdh0cxpodb-esxi207@hitachi
+Oct 17 10:16:33.442336 podb-esxi207 sudo[2081995]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:33.742070 podb-esxi207 sudo[2081995]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:33.822584 podb-esxi207 sudo[2081999]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_adfd7627-b746-4316-a9ba-b57006c81ff2_4hzdh0cxpodb-esxi207@hitachi
+Oct 17 10:16:33.823033 podb-esxi207 sudo[2081999]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:34.112469 podb-esxi207 sudo[2081999]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:40.673207 podb-esxi207 sudo[2082066]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_adfd7627-b746-4316-a9ba-b57006c81ff2_3ljxij6k
+Oct 17 10:16:40.673653 podb-esxi207 sudo[2082066]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:40.969733 podb-esxi207 sudo[2082066]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:41.046567 podb-esxi207 sudo[2082070]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_adfd7627-b746-4316-a9ba-b57006c81ff2_3ljxij6k
+Oct 17 10:16:41.047003 podb-esxi207 sudo[2082070]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:41.341033 podb-esxi207 sudo[2082070]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:41.421914 podb-esxi207 sudo[2082074]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_adfd7627-b746-4316-a9ba-b57006c81ff2_4hzdh0cxpodb-esxi207@hitachi
+Oct 17 10:16:41.422342 podb-esxi207 sudo[2082074]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:41.709311 podb-esxi207 sudo[2082074]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:41.770837 podb-esxi207 sudo[2082078]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_adfd7627-b746-4316-a9ba-b57006c81ff2_4hzdh0cxpodb-esxi207@hitachi
+Oct 17 10:16:41.771259 podb-esxi207 sudo[2082078]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:42.064742 podb-esxi207 sudo[2082078]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:42.101050 podb-esxi207 sudo[2082083]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_adfd7627-b746-4316-a9ba-b57006c81ff2_4hzdh0cxpodb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 10:16:42.101841 podb-esxi207 sudo[2082083]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:42.382207 podb-esxi207 sudo[2082083]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:16:42.416826 podb-esxi207 sudo[2082093]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_adfd7627-b746-4316-a9ba-b57006c81ff2_4hzdh0cxpodb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 10:16:42.417630 podb-esxi207 sudo[2082093]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:16:42.715233 podb-esxi207 sudo[2082093]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:25.927643 podb-esxi207 sudo[2082469]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_f5f512a2-3dc4-4429-9e74-0e73ac510070_ag5a6nn4podb-esxi207@hitachi
+Oct 17 10:17:25.928059 podb-esxi207 sudo[2082469]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:26.218758 podb-esxi207 sudo[2082469]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:26.293746 podb-esxi207 sudo[2082473]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_f5f512a2-3dc4-4429-9e74-0e73ac510070_ag5a6nn4podb-esxi207@hitachi
+Oct 17 10:17:26.294207 podb-esxi207 sudo[2082473]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:26.585335 podb-esxi207 sudo[2082473]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:26.738282 podb-esxi207 sudo[2082478]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_f5f512a2-3dc4-4429-9e74-0e73ac510070_ag5a6nn4podb-esxi207@hitachi
+Oct 17 10:17:26.738732 podb-esxi207 sudo[2082478]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:27.033914 podb-esxi207 sudo[2082478]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:27.109317 podb-esxi207 sudo[2082482]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_f5f512a2-3dc4-4429-9e74-0e73ac510070_ag5a6nn4podb-esxi207@hitachi
+Oct 17 10:17:27.109782 podb-esxi207 sudo[2082482]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:27.400273 podb-esxi207 sudo[2082482]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:34.618830 podb-esxi207 sudo[2082550]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_download_f5f512a2-3dc4-4429-9e74-0e73ac510070_p5d3elon
+Oct 17 10:17:34.619273 podb-esxi207 sudo[2082550]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:34.920127 podb-esxi207 sudo[2082550]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:34.999640 podb-esxi207 sudo[2082554]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_download_f5f512a2-3dc4-4429-9e74-0e73ac510070_p5d3elon
+Oct 17 10:17:35.000071 podb-esxi207 sudo[2082554]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:35.291224 podb-esxi207 sudo[2082554]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:35.375429 podb-esxi207 sudo[2082558]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f raw --output=json /opt/stack/data/cinder/conversion/image_fetch_f5f512a2-3dc4-4429-9e74-0e73ac510070_ag5a6nn4podb-esxi207@hitachi
+Oct 17 10:17:35.375864 podb-esxi207 sudo[2082558]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:35.666937 podb-esxi207 sudo[2082558]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:35.747143 podb-esxi207 sudo[2082562]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C qemu-img info -f luks --output=json /opt/stack/data/cinder/conversion/image_fetch_f5f512a2-3dc4-4429-9e74-0e73ac510070_ag5a6nn4podb-esxi207@hitachi
+Oct 17 10:17:35.747584 podb-esxi207 sudo[2082562]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:36.044857 podb-esxi207 sudo[2082562]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:36.081625 podb-esxi207 sudo[2082567]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf dd count=0 if=/opt/stack/data/cinder/conversion/image_fetch_f5f512a2-3dc4-4429-9e74-0e73ac510070_ag5a6nn4podb-esxi207@hitachi of=/dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0 oflag=direct
+Oct 17 10:17:36.082358 podb-esxi207 sudo[2082567]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:36.363835 podb-esxi207 sudo[2082567]: pam_unix(sudo:session): session closed for user root
+Oct 17 10:17:36.402108 podb-esxi207 sudo[2082578]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/cinder-rootwrap /etc/cinder/rootwrap.conf qemu-img convert -O raw -t none -f raw /opt/stack/data/cinder/conversion/image_fetch_f5f512a2-3dc4-4429-9e74-0e73ac510070_ag5a6nn4podb-esxi207@hitachi /dev/disk/by-path/pci-0000:31:00.0-fc-0x50060e80089c4164-lun-0
+Oct 17 10:17:36.402847 podb-esxi207 sudo[2082578]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 17 10:17:36.695439 podb-esxi207 sudo[2082578]: pam_unix(sudo:session): session closed for user root
