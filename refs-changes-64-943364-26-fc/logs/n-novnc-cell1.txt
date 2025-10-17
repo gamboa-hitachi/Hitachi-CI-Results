@@ -1,0 +1,6 @@
+Oct 17 12:09:12.732242 podb-esxi207 systemd[1]: Started Devstack devstack@n-novnc-cell1.service.
+Oct 17 12:09:14.446781 podb-esxi207 nova-novncproxy[2255347]: INFO nova.console.websocketproxy [-] WebSocket server settings:
+Oct 17 12:09:14.446781 podb-esxi207 nova-novncproxy[2255347]: INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+Oct 17 12:09:14.447721 podb-esxi207 nova-novncproxy[2255347]: INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+Oct 17 12:09:14.447721 podb-esxi207 nova-novncproxy[2255347]: INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+Oct 17 12:09:14.447721 podb-esxi207 nova-novncproxy[2255347]: INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
