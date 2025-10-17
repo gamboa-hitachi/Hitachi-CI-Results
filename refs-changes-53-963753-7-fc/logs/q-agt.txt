@@ -1,0 +1,10 @@
+Oct 16 18:16:12.894900 podb-esxi207 systemd[1]: Started Devstack devstack@q-agt.service.
+Oct 16 18:16:13.327301 podb-esxi207 neutron-openvswitch-agent[940300]: This program is using eventlet and has been monkey_patched
+Oct 16 18:16:15.208359 podb-esxi207 sudo[940787]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/ml2_conf.ini --privsep_context neutron.privileged.default --privsep_sock_path /tmp/tmpnpp3nw8u/privsep.sock
+Oct 16 18:16:15.209518 podb-esxi207 sudo[940787]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 16 18:16:15.985273 podb-esxi207 sudo[940787]: pam_unix(sudo:session): session closed for user root
+Oct 16 18:16:22.560158 podb-esxi207 sudo[942409]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf privsep-helper --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/ml2_conf.ini --privsep_context neutron.privileged.ovs_vsctl_cmd --privsep_sock_path /tmp/tmp8t7pl2tu/privsep.sock
+Oct 16 18:16:22.561318 podb-esxi207 sudo[942409]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 16 18:16:23.355997 podb-esxi207 sudo[942409]: pam_unix(sudo:session): session closed for user root
+Oct 16 18:16:23.503445 podb-esxi207 ovs-vsctl[942418]: ovs|00001|vsctl|INFO|Called as ovs-vsctl --timeout=10 --id=@manager -- create Manager "target=\"ptcp:6640:127.0.0.1\"" -- add Open_vSwitch . manager_options @manager -- set Manager ptcp:6640:127.0.0.1 inactivity_probe=10000
+Oct 16 18:16:23.507560 podb-esxi207 ovs-vsctl[942418]: ovs|00002|db_ctl_base|ERR|multiple rows in Manager match "ptcp:6640:127.0.0.1"
