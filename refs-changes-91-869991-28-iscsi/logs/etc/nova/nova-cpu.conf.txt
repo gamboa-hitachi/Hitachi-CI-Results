@@ -14,9 +14,9 @@ compute_driver = libvirt.LibvirtDriver
 default_ephemeral_format = ext4
 pointer_model = ps2mouse
 graceful_shutdown_timeout = 5
-metadata_workers = 2
-osapi_compute_workers = 2
-transport_url = rabbit://stackrabbit:Hitachino1@172.25.93.55:5672/nova_cell1
+metadata_workers = 4
+osapi_compute_workers = 4
+transport_url = rabbit://stackrabbit:Hitachino1@172.25.66.207:5672/nova_cell1
 log_color = False
 logging_exception_prefix = ERROR %(name)s [01;35m%(instance)s[00m
 logging_default_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s
@@ -31,7 +31,7 @@ shutdown_timeout = 0
 metadata_listen = 0.0.0.0
 osapi_compute_listen = 0.0.0.0
 instance_name_template = instance-%08x
-my_ip = 172.25.93.55
+my_ip = 172.25.66.207
 rootwrap_config = /etc/nova/rootwrap.conf
 allow_resize_to_same_host = True
 debug = True
@@ -44,7 +44,7 @@ track_instance_changes = False
 enabled_filters = ComputeFilter,ComputeCapabilitiesFilter,ImagePropertiesFilter,ServerGroupAntiAffinityFilter,ServerGroupAffinityFilter,SameHostFilter,DifferentHostFilter
 
 [scheduler]
-workers = 2
+workers = 4
 
 [neutron]
 service_metadata_proxy = True
@@ -55,7 +55,7 @@ project_name = service
 user_domain_name = Default
 password = Hitachino1
 username = nova
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 auth_type = password
 default_floating_pool = public
 
@@ -84,7 +84,7 @@ project_name = service
 user_domain_name = Default
 password = Hitachino1
 username = nova
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 interface = public
 auth_type = password
 
@@ -94,7 +94,7 @@ project_name = service
 user_domain_name = Default
 password = Hitachino1
 username = nova
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 auth_type = password
 os_region_name = RegionOne
 
@@ -105,14 +105,14 @@ lock_path = /opt/stack/data/nova
 compute = auto
 
 [oslo_messaging_notifications]
-transport_url = rabbit://stackrabbit:Hitachino1@172.25.93.55:5672/
+transport_url = rabbit://stackrabbit:Hitachino1@172.25.66.207:5672/
 driver = messagingv2
 
 [notifications]
 notification_format = unversioned
 
 [conductor]
-workers = 2
+workers = 4
 
 [service_user]
 auth_strategy = keystone
@@ -121,7 +121,7 @@ project_name = service
 user_domain_name = Default
 password = Hitachino1
 username = nova
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 auth_type = password
 send_service_user_token = True
 
@@ -140,7 +140,7 @@ project_name = service
 user_domain_name = Default
 password = Hitachino1
 username = nova
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 auth_type = password
 
 [os_vif_ovs]
@@ -151,9 +151,9 @@ libvirt_disable_apic = True
 disable_group_policy_check_upcall = True
 
 [vnc]
-server_proxyclient_address = 172.25.93.55
+server_proxyclient_address = 172.25.66.207
 server_listen = 0.0.0.0
-novncproxy_base_url = http://172.25.93.55:6080/vnc_auto.html
+novncproxy_base_url = http://172.25.66.207:6080/vnc_auto.html
 
 [spice]
-html5proxy_base_url = http://172.25.93.55:6081/spice_auto.html
+html5proxy_base_url = http://172.25.66.207:6081/spice_auto.html
