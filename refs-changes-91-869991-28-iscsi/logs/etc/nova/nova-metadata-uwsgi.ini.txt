@@ -13,5 +13,5 @@ worker-reload-mercy = 80
 exit-on-reload = false
 die-on-term = true
 master = true
-processes = 2
+processes = 4
 module = nova.wsgi.metadata:application
