@@ -63,7 +63,7 @@ enforce_new_defaults = true
 enforce_scope = true
 
 [oslo_limit]
-endpoint_id = 9f5fa5c60eda44dea2eb5eb2f3a06d3b
+endpoint_id = b58c1aae5abb4be8b56ed3712ee506ae
 system_scope = all
 auth_url = http://172.25.66.207/identity
 auth_type = password
