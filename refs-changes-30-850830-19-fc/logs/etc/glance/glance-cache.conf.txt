@@ -3,7 +3,7 @@
 admin_password = Hitachino1
 admin_user = glance
 admin_tenant_name = service
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 image_cache_driver = centralized_db
 image_cache_dir = /opt/stack/data/glance/cache/
 use_syslog = False
