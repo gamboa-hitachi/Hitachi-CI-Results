@@ -9,11 +9,11 @@ logging_exception_prefix = ERROR %(name)s [01;35m%(instance)s[00m
 logging_default_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s
 logging_context_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [%(request_id)s %(user_identity)s] %(instance)s%(message)s
 logging_debug_format_suffix = [00;33m{{(pid=%(process)d) %(funcName)s %(pathname)s:%(lineno)d}}[00m
-public_endpoint = http://172.25.93.55/image
+public_endpoint = http://172.25.66.207/image
 graceful_shutdown_timeout = 5
 show_multiple_locations = False
 show_image_direct_url = False
-transport_url = rabbit://stackrabbit:Hitachino1@172.25.93.55:5672/
+transport_url = rabbit://stackrabbit:Hitachino1@172.25.66.207:5672/
 image_cache_driver = centralized_db
 image_cache_dir = /opt/stack/data/glance/cache/
 use_syslog = False
@@ -36,7 +36,7 @@ project_name = service
 user_domain_name = Default
 password = Hitachino1
 username = glance
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 interface = public
 auth_type = password
 
@@ -56,16 +56,16 @@ default_store = swift
 filesystem_store_datadir = /opt/stack/data/glance/images/
 
 [cors]
-allowed_origin = http://172.25.93.55
+allowed_origin = http://172.25.66.207
 
 [oslo_policy]
 enforce_new_defaults = true
 enforce_scope = true
 
 [oslo_limit]
-endpoint_id = 10a2161ffd354bafb5a812e569debb51
+endpoint_id = 9d100332c3a4403eb892642e3c635f01
 system_scope = all
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 auth_type = password
 username = glance
 password = Hitachino1
