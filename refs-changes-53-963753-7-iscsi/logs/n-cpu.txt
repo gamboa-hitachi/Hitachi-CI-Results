@@ -1,11 +1,11 @@
-Oct 18 09:07:03.440856 podb-esxi207 systemd[1]: Started Devstack devstack@n-cpu.service.
-Oct 18 09:07:07.806026 podb-esxi207 nova-compute[3568265]: libvirt:  error : internal error: could not initialize domain event timer
-Oct 18 09:15:29.695545 podb-esxi207 sudo[3585145]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context nova.privsep.sys_admin_pctxt --privsep_sock_path /tmp/tmp106wszkz/privsep.sock
-Oct 18 09:15:29.696687 podb-esxi207 sudo[3585145]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
-Oct 18 09:15:30.477399 podb-esxi207 sudo[3585145]: pam_unix(sudo:session): session closed for user root
-Oct 18 09:15:32.861934 podb-esxi207 sudo[3585270]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context vif_plug_ovs.privsep.vif_plug --privsep_sock_path /tmp/tmpzhj5s8om/privsep.sock
-Oct 18 09:15:32.863064 podb-esxi207 sudo[3585270]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
-Oct 18 09:15:33.644452 podb-esxi207 sudo[3585270]: pam_unix(sudo:session): session closed for user root
-Oct 18 09:16:10.757572 podb-esxi207 sudo[3586290]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmpm_e4s03l/privsep.sock
-Oct 18 09:16:10.758153 podb-esxi207 sudo[3586290]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
-Oct 18 09:16:11.470668 podb-esxi207 sudo[3586290]: pam_unix(sudo:session): session closed for user root
+Oct 18 12:13:30.010405 podb-esxi207 systemd[1]: Started Devstack devstack@n-cpu.service.
+Oct 18 12:13:34.352527 podb-esxi207 nova-compute[3825991]: libvirt:  error : internal error: could not initialize domain event timer
+Oct 18 12:22:00.603042 podb-esxi207 sudo[3843018]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context nova.privsep.sys_admin_pctxt --privsep_sock_path /tmp/tmpjk_3rqh7/privsep.sock
+Oct 18 12:22:00.603589 podb-esxi207 sudo[3843018]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 18 12:22:01.384661 podb-esxi207 sudo[3843018]: pam_unix(sudo:session): session closed for user root
+Oct 18 12:22:04.100795 podb-esxi207 sudo[3843241]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context vif_plug_ovs.privsep.vif_plug --privsep_sock_path /tmp/tmpm1gt8r_q/privsep.sock
+Oct 18 12:22:04.101913 podb-esxi207 sudo[3843241]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 18 12:22:04.887837 podb-esxi207 sudo[3843241]: pam_unix(sudo:session): session closed for user root
+Oct 18 12:22:31.813125 podb-esxi207 sudo[3844109]:    stack : PWD=/ ; USER=root ; COMMAND=/opt/stack/data/venv/bin/nova-rootwrap /etc/nova/rootwrap.conf privsep-helper --config-file /etc/nova/nova-cpu.conf --privsep_context os_brick.privileged.default --privsep_sock_path /tmp/tmpolphvoqt/privsep.sock
+Oct 18 12:22:31.814192 podb-esxi207 sudo[3844109]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 18 12:22:32.528236 podb-esxi207 sudo[3844109]: pam_unix(sudo:session): session closed for user root
