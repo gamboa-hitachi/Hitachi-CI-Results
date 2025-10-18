@@ -7,7 +7,7 @@ project_name = service
 user_domain_name = Default
 password = Hitachino1
 username = cinder
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 interface = public
 auth_type = password
 
@@ -15,18 +15,18 @@ auth_type = password
 log_dir = /var/log/cinder
 num_volume_device_scan_tries = 100
 periodic_interval = 3600
-cinder_internal_tenant_user_id = 62c92a60098f49b48a90bb12a894d286
-cinder_internal_tenant_project_id = 7552b3e3bc3d4f128f0fc30bca4fd6dc
+cinder_internal_tenant_user_id = 743852e586af48fcb181004bcf14489c
+cinder_internal_tenant_project_id = e66a3e11790342f9abcad260a0559ae1
 graceful_shutdown_timeout = 5
-glance_api_servers = http://172.25.93.55/image
-osapi_volume_workers = 2
+glance_api_servers = http://172.25.66.207/image
+osapi_volume_workers = 4
 log_color = False
 logging_exception_prefix = ERROR %(name)s [01;35m%(instance)s[00m
 logging_default_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s
 logging_context_format_string = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [%(request_id)s %(user_identity)s] %(instance)s%(message)s
 logging_debug_format_suffix = [00;33m{{(pid=%(process)d) %(funcName)s %(pathname)s:%(lineno)d}}[00m
-transport_url = rabbit://stackrabbit:Hitachino1@172.25.93.55:5672/
-backup_swift_url = http://172.25.93.55:8080/v1/AUTH_
+transport_url = rabbit://stackrabbit:Hitachino1@172.25.66.207:5672/
+backup_swift_url = http://172.25.66.207:8080/v1/AUTH_
 backup_driver = cinder.backup.drivers.swift.SwiftBackupDriver
 default_volume_type = hitachi
 enabled_backends = hitachi
@@ -36,7 +36,7 @@ rpc_response_timeout = 3600
 quota_snapshots = 10
 quota_backups = 10
 quota_volumes = 10
-my_ip = 172.25.93.55
+my_ip = 172.25.66.207
 state_path = /opt/stack/data/cinder
 osapi_volume_listen = 0.0.0.0
 osapi_volume_extension = cinder.api.contrib.standard_extensions
@@ -86,12 +86,12 @@ project_name = service
 user_domain_name = Default
 password = Hitachino1
 username = nova
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 interface = public
 auth_type = password
 
 [coordination]
-backend_url = etcd3+http://172.25.93.55:2379?api_version=v3
+backend_url = etcd3+http://172.25.66.207:2379?api_version=v3
 
 [oslo_policy]
 enforce_new_defaults = false
@@ -107,7 +107,7 @@ project_name = service
 user_domain_name = Default
 password = Hitachino1
 username = cinder
-auth_url = http://172.25.93.55/identity
+auth_url = http://172.25.66.207/identity
 interface = public
 auth_type = password
 
