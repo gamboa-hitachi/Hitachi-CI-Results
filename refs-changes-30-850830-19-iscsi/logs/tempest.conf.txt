@@ -12,7 +12,7 @@ image_format_enforcement = True
 [network]
 default_network = 10.1.0.0/20
 public_router_id = 
-public_network_id = b537e072-9cb1-466b-a322-28d686ad998b
+public_network_id = db61dd2d-b74e-4486-8c23-49bd52db881f
 project_networks_reachable = false
 project_network_cidr = 10.1.0.0/20
 
@@ -30,8 +30,8 @@ build_interval = 1
 max_microversion = 2.100
 flavor_ref_alt = 84
 flavor_ref = 42
-image_ref_alt = 755dffcd-e19f-4923-b459-b635fc689a5f
-image_ref = 755dffcd-e19f-4923-b459-b635fc689a5f
+image_ref_alt = 6e87bfe8-9268-4ede-ae8c-7cfd92697c6d
+image_ref = 6e87bfe8-9268-4ede-ae8c-7cfd92697c6d
 build_timeout = 1800
 
 [volume]
@@ -49,7 +49,7 @@ auth_version = v3
 user_unique_last_password_count = 2
 user_lockout_duration = 10
 user_lockout_failure_attempts = 2
-uri_v3 = http://172.25.93.55/identity/v3
+uri_v3 = http://172.25.66.207/identity/v3
 
 [auth]
 use_dynamic_credentials = True
